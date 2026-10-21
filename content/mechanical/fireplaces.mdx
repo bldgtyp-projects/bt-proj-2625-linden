@@ -1,0 +1,123 @@
+---
+kicker: "06"
+title: "Fireplaces"
+dek: "Choose a fireplace that meets the Boulder code and the Passive House safety requirements."
+---
+
+The drawings show a fireplace in the Living Room (sheets A5.2 and A7.1), noted as "code compliant fireplace," with
+the type not yet selected. While we understand the aesthetic and lifestyle benefits of a fireplace, any
+combustion appliance inside an airtight Passive House needs careful selection and coordination with the ventilation
+system. The type of fireplace chosen now sets how much of that work is needed.
+
+#### What the Boulder code allows
+
+- **Wood:** The <VarLink hrefKey="narrative.energy_code.code_base_url" target="_blank" rel="noopener noreferrer"><Var
+  k="narrative.energy_code.name" /></VarLink> permits only EPA Phase II or Colorado Phase III certified
+  wood-burning devices (R402.4.2).
+  A traditional open masonry fireplace does not meet this requirement.
+- **Air barrier and insulation:** Exterior walls behind the fireplace must be insulated to the same level as the
+  adjacent walls, with an air barrier separating the fireplace from the insulation (Table R402.4.1.1).
+
+#### Our recommendation
+
+**The simplest option is an electric fireplace.** It has no flue, no combustion air and no carbon monoxide risk,
+needs no special coordination with the ventilation system, and raises no issues for Passive House certification.
+Current electric units with water-vapor "flame" effects come much closer to the look of a real fire than earlier
+products.
+
+If a wood fire is important to the owners, use a **closed, DIBt-approved room-sealed wood stove**, never an open
+hearth. Open
+fireplaces cool the house through air leakage whether in use or not, and contribute to poor indoor air quality with a
+higher risk of unhealthy carbon monoxide, NOx and particulate levels, which can aggravate respiratory problems for
+occupants.
+
+#### Passive House requirements for wood stoves
+
+PHI's certification criteria set the following conditions for any wood-burning appliance inside a certified building.
+
+- **Room-sealed only.** The stove must draw all of its combustion air from outdoors through a dedicated, sealed duct,
+  and operate independently of the indoor air.
+- **Carbon monoxide detectors** in the room with the stove and nearby rooms.
+- **A safety device that shuts down the fans on underpressure.** A differential-pressure switch compares the stove
+  room with outdoors. If the room goes negative, it shuts down the ERV and, ideally, the range hood, so they cannot
+  pull combustion gases out of the stove and into the house.
+
+<div class="btwr-callout btwr-callout--critical">
+  <span>
+    If a wood stove is selected, plan the differential-pressure switch and its wiring during design. It is a small
+    cost while the house is under construction and very difficult to add once the finishes are in.
+  </span>
+</div>
+
+#### Use a DIBt-approved stove
+
+Many stoves and inserts sold as "outside-air ready" are not room-sealed in the sense PHI requires. The clearest proof
+that a stove is room-sealed is an approval from the German Institute for Building Technology (DIBt). DIBt tests a
+stove for room-air-independent operation: the sealed combustion chamber and a self-closing, tightly sealing door are
+pressure-tested and the leakage measured, to show the stove keeps its flue gases in when a ventilation system changes
+the pressure in the room. Approved models receive a DIBt approval number (Z-43.12-xxx), and some manufacturers mark
+them "RLU" (raumluftunabhängig, room-air independent).
+
+**We recommend selecting a DIBt-approved, room-air-independent stove.** When choosing a unit, confirm:
+
+- The DIBt approval number for the exact model and configuration, and that the approval is current. Approvals expire
+  and must be renewed by the manufacturer.
+- That the model is also EPA certified, as the Boulder code requires. Many DIBt-approved stoves are European models,
+  so check the [EPA certified wood heater database](https://cfpub.epa.gov/oarweb/woodstove/index.cfm?fuseaction=app.search)
+  and the US distributor before specifying.
+- Installation instructions showing the sealed outdoor-air connection as **mandatory**, not optional.
+
+Many popular models, including the Stûv 21, 30 and 16-H, treat the outdoor-air connection as optional and carry no
+DIBt approval.
+
+<img
+  src="/assets/mechanical/dibt-stove-morso-7443.png"
+  alt="Morsø 7443 wood-burning stove, a black cylindrical stove with side windows and a log store below."
+/>
+
+_Example of a DIBt-approved, room-air-independent stove: Morsø 7443, from the 7300/7400 series (DIBt approval
+Z-43.12-453). Image: Morsø._
+
+Use the smallest firebox that meets the design goals. Because the house needs so little heat, even the smallest unit
+available will be oversized, and occupants may find they need to open a window during use to avoid overheating the
+room.
+
+#### Coordination with the ERV
+
+The model assumes a <Var k="narrative.mechanical.erv.manufacturer_name" />
+<VarLink hrefKey="narrative.mechanical.erv.link" target="_blank" rel="noopener noreferrer"><Var
+k="narrative.mechanical.erv.type_name" /></VarLink>. If a wood stove is used:
+
+- Set parameter 1.5 "Imbalance permissible" to **No** and 1.6 "Imbalance (open fireplace)" to **0%**, so the
+  unit always runs balanced. Confirm with Brink that this also disables the frost-protection imbalance.
+- Connect the differential-pressure switch to the unit's built-in **"fire automation"** input (connector X14), which
+  stops both fans.
+- Wire the switch through a relay so that a wiring fault or a dead switch also stops the fans (fail-safe). As built,
+  the input only acts when the contact closes.
+- The unit's X19 output can drive a relay to cut the range hood at the same time.
+
+Differential-pressure switches suitable for this use are generally available with a trip point of about 20 Pa.
+The mechanical engineer should select the switch, trip point and reset method.
+
+#### Commissioning and testing
+
+At the blower-door test, have the technician also measure the pressure in the stove room with the range hood, ERV and
+all other exhaust devices at their highest settings and the fire lit. This follows the German "4 Pa test" (DVGW G 625)
+that chimney inspectors use. The room should stay within 4 Pa of outdoors with the makeup air working as designed.
+Also confirm that the pressure switch shuts down the fans at its trip point, including when the sensor is
+disconnected.
+
+#### Owner documentation
+
+Collect the stove documentation, the CO detector datasheet and location plan, the pressure-switch datasheet, wiring
+diagram and commissioning record, and photos of the combustion-air connection and rating plate into one booklet for
+the owners. The owners should sign it to confirm that the fireplace is for occasional use only and that the
+pressure switch and makeup air must never be disabled.
+
+Good operating practice for any wood fire:
+
+- Never leave a fire unattended. Extinguish it completely before leaving the room or going to bed.
+- Use only dry, seasoned wood, and keep fires small.
+- Inspect and maintain the chimney regularly.
+- Avoid running the range hood or other exhaust appliances while a fire is burning.
+- Keep the CO detectors tested and working.

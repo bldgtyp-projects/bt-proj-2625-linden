@@ -10,21 +10,23 @@ configurations (variants):
 1. **Code-Minimum:** A version which meets but does not exceed the **<VarLink
 hrefKey="narrative.energy_code.code_base_url" target="_blank" rel="noopener noreferrer"><Var
 k="narrative.energy_code.name" /> / <Var k="narrative.energy_code.zone" /></VarLink>** code minimums for assembly
-R-values, window U-values, airtightness and equipment efficiencies. This variant assumes a typical residential
-"extract-only" (bath fan) ventilation system, and that the building uses all-electric appliances and equipment for
-heating, cooling, hot-water and cooking.
+U-values, window U-values, airtightness and equipment efficiencies. This variant assumes a basic balanced ventilation
+system with heat recovery (HRV), as required by the Boulder code, and that the building uses all-electric appliances
+and equipment for heating, cooling, hot-water and cooking.
 
-2. **Improved Envelope:** This variant improves the window U-values, assembly R-values, and total airtightness of the
-building beyond the "code-minimum" levels, but not quite to full "Passive House" level. 
+2. **Drawn Insulation:** This variant uses the assembly R-values shown in the current design drawings (approximately R-34
+walls, R-64 roofs, R-25 basement floor, and R-21 basement walls) along with improved thermal-bridge detailing. Windows,
+airtightness (3.0 ACH50), and the basic HRV remain at the code-minimum levels.
 
-3. **Improved HVAC:** This variant includes a dedicated fresh-air ventilation system with heat recovery (HRV). This 
-system is assumed to be a "basic" HRV with 70% heat-recovery (unit). This variant shows a slight increase in the overall 
-site-energy, due to the increased fan-energy needed.
+3. **Airtight + ERV:** Building on the Drawn Insulation variant, this version improves the building airtightness to 1.0
+ACH50 and upgrades the ventilation to a high-performance energy recovery ventilator (ERV), at roughly 80% heat
+recovery.
 
-4. **PHI EnerPHit 'By Component' [RECOMMENDED]:** A variant which meets the stringent Passive House Institute (PHI) EnerPHit
-(Energy Retrofit) standard's prescriptive targets for envelope U-values, airtightness, windows, and equipment efficiencies.
-This variant also includes a high performance ERV system for fresh-air ventilation.
+4. **PH Windows:** Building on the Airtight + ERV variant, this version replaces the code-minimum windows with
+high-performance, Passive House-grade triple-pane windows (installed U-value of approximately 0.17 Btu/hr-ft2-F).
 
-5. **PHI EnerPHit 'By Demand' :** A version which increases assembly R-values, window U-values, and mechanical system efficiencies 
-to meet the PHI-EnerPHit 'by Demand'  energy performance certification criteria. Due to the higher level of wall insulation required
-at the existing brick masonry, this variant is not recommended in this case.
+5. **PHI Low Energy Building [RECOMMENDED]:** A version which meets the Passive House Institute (PHI) Low Energy Building
+certification criteria. Relative to the PH Windows variant, this version further improves the windows (U-value of
+approximately 0.14 Btu/hr-ft2-F), increases the basement wall and basement floor insulation to R-30, and tightens the
+airtightness target to 0.6 ACH50. This is the only variant
+which meets the PHI Low Energy Building heating demand limit of 30 kWh/m2 per year.

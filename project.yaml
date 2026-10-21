@@ -1,26 +1,26 @@
 schema_version: 0.2.0
 slug: project-2625
-project_title: 2500 Linden
+project_title: Boulder Home
 client_name: cgmodern
 building_name: Boulder Home
 phase: Design Analysis
-report_date: '2026-10-16'
+report_date: '2026-10-23'
 prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
-target_standard: TBD
-certification_program: TBD
-certification_path: TBD
-recommended_variant_id: null
+target_standard: PHI
+certification_program: Low Energy Building
+certification_path: PHI Low Energy Building
+recommended_variant_id: phi_leb
 building:
-  address: TBD
-  city: TBD
-  state: TBD
-  climate_zone: TBD
-  building_type: TBD
-  total_num_occupants: null
+  address: 2500 Linden Ave
+  city: Boulder
+  state: CO
+  climate_zone: ASHRAE 5B
+  building_type: single-family residential
+  total_num_occupants: '3.4'
 source_files:
-  phpp_path: ''
-  cad_files_received_date: null
+  phpp_path: ../07_PHPP/2625 2500 Linden.xlsx
+  cad_files_received_date: October 12, 2026
   data_dir: data
   assets_dir: public/assets
 publishing:
@@ -29,14 +29,16 @@ publishing:
   access:
     mode: public
     allowed_emails: []
-certification_pathways: null
+certification_pathways:
+  show: [phi-leb, phi-classic]
+  recommended: phi-leb
 narrative:
   certification:
-    target: null
-    ph_ach_limit: null
+    target: PHI Low Energy Building
+    ph_ach_limit: '1.0'
     phi_lcd_limit: null
-    phi_cd_limit: null
-    phi_leb_cd_limit: null
+    phi_cd_limit: '15'
+    phi_leb_cd_limit: '30'
     enph_hd_limit: null
     enph_per_limit: null
     enph_bg_limit: null
@@ -50,38 +52,38 @@ narrative:
     phius_nse_limit: null
     phius_cfm50_limit: null
   climate:
-    weather_station_name: null
-    weather_station_url: null
-    state_name: null
-    state_name_abbreviation: null
-    ashrae_location_name: null
-    ashrae_design_temps: null
-    ashrae_winter_design_temp_F: null
-    ashrae_winter_design_temp_C: null
+    weather_station_name: 'US0158a-Fort Collins :: 724769 :: PHPP (altitude corrected)'
+    weather_station_url: https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/CO/USA_CO_Fort.Collins.AWOS.724769_TMY3/USA_CO_Fort.Collins.AWOS.724769_TMY3.zip
+    state_name: Colorado
+    state_name_abbreviation: CO
+    ashrae_location_name: Zone 5(B)
+    ashrae_design_temps: "-2.4\xB0F (-19.1\xB0C)"
+    ashrae_winter_design_temp_F: '-2.4'
+    ashrae_winter_design_temp_C: '-19.1'
   energy_code:
-    name: null
-    zone: null
-    link: null
-    code_base_url: null
-    code_airtightness_url: null
-    u_val_link: null
-    ach_link: null
-    ach_limit: null
-    window_min_u_value: null
+    name: 2024 City of Boulder Energy Conservation Code
+    zone: Zone 5(B)
+    link: https://bouldercolorado.gov/2024-city-boulder-energy-code-update-frequently-asked-questions
+    code_base_url: https://bouldercolorado.gov/2024-city-boulder-energy-code-update-frequently-asked-questions
+    code_airtightness_url: https://bouldercolorado.gov/2024-city-boulder-energy-code-update-frequently-asked-questions
+    u_val_link: https://bouldercolorado.gov/media/13220/download
+    ach_link: https://bouldercolorado.gov/2024-city-boulder-energy-code-update-frequently-asked-questions
+    ach_limit: '3.0'
+    window_min_u_value: '0.27'
   co2:
-    subregion_name: null
-    epa_subgrid_name: null
-    occupancy: null
-    target_tons: null
-    taget_co2_per_person: null
+    subregion_name: WECC Rockies eGRID (2023)
+    epa_subgrid_name: WECC Rockies (RMPA)
+    occupancy: '3.4'
+    target_tons: '3.4'
+    taget_co2_per_person: '1.0'
   windows:
-    ph_window_u_value: null
-    ph_window_r_value: null
-    comfort_target_r_value: null
-    comfort_target_u_value: null
+    ph_window_u_value: '0.14'
+    ph_window_r_value: '7.4'
+    comfort_target_r_value: '6.9'
+    comfort_target_u_value: '0.15'
   mechanical:
     erv:
-      manufacturer_name: null
-      type_name: null
-      link: null
+      manufacturer_name: Brink Climate Systems
+      type_name: Flair 400 Enthalpie ERV
+      link: https://database.passivehouse.com/components/details/ventilation_small/brink-climate-systems-bv-brink-flair-400-enthalpie-1363vs03
   user_defined: {}
