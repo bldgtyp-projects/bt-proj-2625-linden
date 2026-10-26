@@ -35,7 +35,7 @@ certification_pathways:
 narrative:
   certification:
     target: PHI Low Energy Building
-    ph_ach_limit: '1.0'
+    ph_ach_limit: '0.6'
     phi_lcd_limit: null
     phi_cd_limit: '15'
     phi_leb_cd_limit: '30'

@@ -36,7 +36,16 @@ occupants.
 PHI's certification criteria set the following conditions for any wood-burning appliance inside a certified building.
 
 - **Room-sealed only.** The stove must draw all of its combustion air from outdoors through a dedicated, sealed duct,
-  and operate independently of the indoor air.
+  and operate independently of the indoor air. A DIBt-approved room-sealed (room-air-independent) stove must meet
+  the following:
+  - Self-closing, tightly sealing firebox door.
+  - Leakage of no more than **2.0 m³/h** at a 10 Pa pressure difference between the firebox and the room, tested
+    including the combustion-air and flue connections.
+  - Carbon monoxide in the flue gas of no more than 1,200 ppm (referenced to 13% O₂).
+  - Combustion-air duct sealed to ductwork air-tightness class C or D, and a flue connector without longitudinal seams,
+    tightly connected to the stove and chimney.
+  - Installed only where exhaust devices (range hood, dryer, ventilation) cannot pull the room more than **8 Pa**
+    below outdoors.
 - **Carbon monoxide detectors** in the room with the stove and nearby rooms.
 - **A safety device that shuts down the fans on underpressure.** A differential-pressure switch compares the stove
   room with outdoors. If the room goes negative, it shuts down the ERV and, ideally, the range hood, so they cannot
@@ -67,9 +76,6 @@ them "RLU" (raumluftunabhängig, room-air independent).
   and the US distributor before specifying.
 - Installation instructions showing the sealed outdoor-air connection as **mandatory**, not optional.
 
-Many popular models, including the Stûv 21, 30 and 16-H, treat the outdoor-air connection as optional and carry no
-DIBt approval.
-
 <img
   src="/assets/mechanical/dibt-stove-morso-7443.png"
   alt="Morsø 7443 wood-burning stove, a black cylindrical stove with side windows and a log store below."
@@ -84,20 +90,14 @@ room.
 
 #### Coordination with the ERV
 
-The model assumes a <Var k="narrative.mechanical.erv.manufacturer_name" />
-<VarLink hrefKey="narrative.mechanical.erv.link" target="_blank" rel="noopener noreferrer"><Var
-k="narrative.mechanical.erv.type_name" /></VarLink>. If a wood stove is used:
+If a woodstove is used, the ventilation controls should be designed so that:
 
-- Set parameter 1.5 "Imbalance permissible" to **No** and 1.6 "Imbalance (open fireplace)" to **0%**, so the
-  unit always runs balanced. Confirm with Brink that this also disables the frost-protection imbalance.
-- Connect the differential-pressure switch to the unit's built-in **"fire automation"** input (connector X14), which
-  stops both fans.
-- Wire the switch through a relay so that a wiring fault or a dead switch also stops the fans (fail-safe). As built,
-  the input only acts when the contact closes.
-- The unit's X19 output can drive a relay to cut the range hood at the same time.
+- The ERV always runs balanced. Any imbalance settings, including those used for frost protection, should be
+  disabled or confirmed with the manufacturer not to depressurize the house.
+- The differential-pressure switch stops both ERV fans when it trips.
+- The switch is wired fail-safe, so that a wiring fault or a dead switch also stops the fans.
+- The range hood is shut off at the same time.
 
-Differential-pressure switches suitable for this use are generally available with a trip point of about 20 Pa.
-The mechanical engineer should select the switch, trip point and reset method.
 
 #### Commissioning and testing
 

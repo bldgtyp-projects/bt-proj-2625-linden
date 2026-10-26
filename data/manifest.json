@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "phpp_version": "10.6",
-  "generated_at": "2026-10-21T21:30:54.421130Z",
+  "generated_at": "2026-10-26T23:15:57.989584Z",
   "generator": "btwr@0.0.1",
   "status": "ok",
   "variants": [
@@ -49,7 +49,7 @@
   "recommended_variant_id": "phi_leb",
   "source_workbook": {
     "path": "/Users/johnmitchell/Dropbox/bldgtyp/2625 2500 Linden/07_PHPP/2625 2500 Linden.xlsx",
-    "sha256": "0fc54e628b02f957398c613e2c1c282948d409a3b78a69d53e7a14b26f2123e1",
-    "size_bytes": 13190079
+    "sha256": "c0e080e4abb8044b0b83756fd14ac1b00750af86aad4f3935a70225269a4fee8",
+    "size_bytes": 13171897
   }
 }
