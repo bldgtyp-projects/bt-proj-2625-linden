@@ -29,6 +29,9 @@ publishing:
   access:
     mode: public
     allowed_emails: []
+custom_pages:
+  - slug: hot-water
+    label: Hot Water
 certification_pathways:
   show: [phi-leb, phi-classic]
   recommended: phi-leb
