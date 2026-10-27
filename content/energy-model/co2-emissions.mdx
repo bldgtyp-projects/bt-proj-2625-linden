@@ -1,10 +1,10 @@
 ---
 kicker: "04"
 title: "CO2 Emissions"
-dek: "Connect energy use to operational carbon impacts."
+dek: "Estimated operational carbon emissions for each variant."
 ---
 
-Carbon Dioxide and other types of pollution which results from energy consumption are mainly responsible for the
+Carbon dioxide and other types of pollution which result from energy consumption are mainly responsible for the
 increased warming of the earth's atmosphere and water. In order to reduce the risk of global climate change it is
 important to reduce all CO<sub>2e</sub> (CO<sub>2</sub> Equivalent) emissions related to the buildings, industry and transportation across all
 sectors. While there is much debate about the specific targets these reductions should achieve, one useful method
@@ -27,6 +27,18 @@ heat-pump systems only.
 Output Emission Rates used are from the <strong><Var k="narrative.co2.epa_subgrid_name" /></strong> Subregion. For more information on these factors see 
 the [EPA eGRID Data Explorer](https://www.epa.gov/egrid/data-explorer). Source Energy Factors for all fuel types are taken
 from the [EPA EnergyStar Portfolio Manager Technical Reference (2023)](https://www.energystar.gov/buildings/tools-and-resources/portfolio-manager-technical-reference-source-energy).
+
+The recommended PHI Low Energy Building variant is estimated at about 9.9 tons-CO<sub>2e</sub> / year, about 60% less
+than the Code-Minimum variant (about 25.9 tons-CO<sub>2e</sub> / year), but still well above the target of about
+<Var k="narrative.co2.target_tons" /> tons. Heating remains the largest source, at about 5.7 tons-CO<sub>2e</sub> / year.
+On-site solar PV, which is not included in this model, would further reduce the building's net emissions.
+
+These relatively high emissions are due in large part to Colorado's electricity grid rather than the building itself.
+The grid in this region (EPA's WECC Rockies subregion) still relies heavily on coal: in 2023, coal was its largest
+single source of generation at about 32%, roughly double the US average of 16%, and the region has no nuclear
+generation. As a result, each kWh of electricity used here emits about 35% more CO<sub>2e</sub> than the US average
+(about 1,040 vs. 770 lb-CO<sub>2e</sub> / MWh, [EPA eGRID2023](https://www.epa.gov/egrid/summary-data)). As the
+region's remaining coal plants are retired, the building's emissions will fall without any changes to the house.
 
 <div class="btwr-callout">
     While CO<sub>2e</sub> emissions are calculated within the Passive House energy modeling software (PHPP), CO<sub>2e</sub> is not one of

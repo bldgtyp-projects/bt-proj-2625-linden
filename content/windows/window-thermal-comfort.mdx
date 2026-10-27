@@ -1,12 +1,12 @@
 ---
 kicker: "01"
 title: "Window Thermal Comfort"
-dek: "Connect window package assumptions to occupant comfort near large glazed areas."
+dek: "Window performance needed for comfort near the glass in winter."
 ---
 
 In any high-performance building, both the energy and occupant comfort impacts of the glazing must be carefully
-assessed. For a building seeking any of the PHI or Phius certifications, a very stringent evaluation and quantification
-of this thermal comfort impact must be executed. This comfort evaluation looks at both the overall occupant comfort as a
+assessed. For a building seeking PHI or Phius certification, this comfort impact must be evaluated as part of the
+certification. This comfort evaluation looks at both the overall occupant comfort as a
 result of air-temperature and relative-humidity but also the localized thermal discomfort caused by cold-surfaces and
 drafts at the glazing surface.
 
@@ -16,8 +16,8 @@ perimeter heating. If the radiant temperature asymmetry exceeds a certain level,
 required in order to offset the potential discomfort. Typically, this would mean a radiator of some form, installed
 beneath the window.
 
-Many engineering reference standards suggests that ideal thermal comfort is found when there are temperature differences
-of less than 7.6°F [4.2°K] between all the surfaces around a person’s body. The windows are important in this respect,
+Many engineering reference standards suggest that ideal thermal comfort is found when there are temperature differences
+of less than 7.6°F [4.2 K] between all the surfaces around a person’s body. The windows are important in this respect,
 as this is where the coldest surface temperatures in the building will typically occur during the winter months.
 
 For <Var k="narrative.energy_code.zone" />’s winter comfort-design weather conditions [ <Var k="narrative.climate.ashrae_winter_design_temp_F"/>°F (<Var k="narrative.climate.ashrae_winter_design_temp_C"/>°C) ], Passive House certification guidelines for
@@ -25,3 +25,8 @@ this climate would recommend that as long as windows with an Installed R-Value h
 less than <Var k="narrative.windows.comfort_target_u_value" /> Btu/hr-ft2-F ] are used this will lead to surface temperatures which PHI finds acceptable for thermal
 comfort. Note, for smaller windows with a lower ‘view-factor’ (less visible to the occupants) slightly lower R-Values
 may still achieve the desired thermal comfort targets.
+
+The windows in the PH Windows variant (installed U-value of approximately 0.17 Btu/hr-ft2-F) do not meet this target.
+The best-in-class windows in the recommended PHI Low Energy Building variant (installed U-value of approximately
+<Var k="narrative.windows.ph_window_u_value" /> Btu/hr-ft2-F) do. This is one of the main reasons we recommend them:
+with lower-performing windows, heating below the larger windows may be needed to keep occupants comfortable.

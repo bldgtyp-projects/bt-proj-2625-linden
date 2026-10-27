@@ -4,7 +4,7 @@ project_title: Boulder Home
 client_name: cgmodern
 building_name: Boulder Home
 phase: Design Analysis
-report_date: '2026-10-23'
+report_date: '2026-10-27'
 prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
 target_standard: PHI
@@ -79,7 +79,7 @@ narrative:
   windows:
     ph_window_u_value: '0.14'
     ph_window_r_value: '7.4'
-    comfort_target_r_value: '6.9'
+    comfort_target_r_value: '6.7'
     comfort_target_u_value: '0.15'
   mechanical:
     erv:

@@ -65,10 +65,10 @@ envelope,envelope.party_wall,Wall,airtight_erv,Airtight + ERV,Wall,hr-ft2-F/Btu,
 envelope,envelope.party_wall,Wall,ph_windows,PH Windows,Wall,hr-ft2-F/Btu,36.2,330
 envelope,envelope.party_wall,Wall,phi_leb,PHI LEB,Wall,hr-ft2-F/Btu,36.2,330
 envelope,envelope.wall_ag,Sloped Roof,code_min,Code Min,Sloped Roof,hr-ft2-F/Btu,42,331
-envelope,envelope.wall_ag,Sloped Roof,drawn_insulation,Drawn Insulation,Sloped Roof,hr-ft2-F/Btu,55.2,331
-envelope,envelope.wall_ag,Sloped Roof,airtight_erv,Airtight + ERV,Sloped Roof,hr-ft2-F/Btu,55.2,331
-envelope,envelope.wall_ag,Sloped Roof,ph_windows,PH Windows,Sloped Roof,hr-ft2-F/Btu,55.2,331
-envelope,envelope.wall_ag,Sloped Roof,phi_leb,PHI LEB,Sloped Roof,hr-ft2-F/Btu,55.2,331
+envelope,envelope.wall_ag,Sloped Roof,drawn_insulation,Drawn Insulation,Sloped Roof,hr-ft2-F/Btu,51.7,331
+envelope,envelope.wall_ag,Sloped Roof,airtight_erv,Airtight + ERV,Sloped Roof,hr-ft2-F/Btu,51.7,331
+envelope,envelope.wall_ag,Sloped Roof,ph_windows,PH Windows,Sloped Roof,hr-ft2-F/Btu,51.7,331
+envelope,envelope.wall_ag,Sloped Roof,phi_leb,PHI LEB,Sloped Roof,hr-ft2-F/Btu,51.7,331
 envelope,envelope.roof,Flat Roof,code_min,Code Min,Flat Roof,hr-ft2-F/Btu,42,332
 envelope,envelope.roof,Flat Roof,drawn_insulation,Drawn Insulation,Flat Roof,hr-ft2-F/Btu,64.6,332
 envelope,envelope.roof,Flat Roof,airtight_erv,Airtight + ERV,Flat Roof,hr-ft2-F/Btu,64.6,332
@@ -190,40 +190,40 @@ certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Ne
 certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,ph_windows,PH Windows,PHIUS Net Source Energy Limit,kWh/m2,21.6027851257,371
 certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,phi_leb,PHI LEB,PHIUS Net Source Energy Limit,kWh/m2,21.6027851257,371
 heating_demand,heating_demand.walls_ag,Walls (AG),code_min,Code Min,Walls (AG),kWh,9476.25727987,376
-heating_demand,heating_demand.walls_ag,Walls (AG),drawn_insulation,Drawn Insulation,Walls (AG),kWh,6533.86145437,376
-heating_demand,heating_demand.walls_ag,Walls (AG),airtight_erv,Airtight + ERV,Walls (AG),kWh,6498.18795488,376
-heating_demand,heating_demand.walls_ag,Walls (AG),ph_windows,PH Windows,Walls (AG),kWh,6560.83444411,376
-heating_demand,heating_demand.walls_ag,Walls (AG),phi_leb,PHI LEB,Walls (AG),kWh,6332.1381575,376
+heating_demand,heating_demand.walls_ag,Walls (AG),drawn_insulation,Drawn Insulation,Walls (AG),kWh,6537.32602448,376
+heating_demand,heating_demand.walls_ag,Walls (AG),airtight_erv,Airtight + ERV,Walls (AG),kWh,6501.74322526,376
+heating_demand,heating_demand.walls_ag,Walls (AG),ph_windows,PH Windows,Walls (AG),kWh,6565.15945639,376
+heating_demand,heating_demand.walls_ag,Walls (AG),phi_leb,PHI LEB,Walls (AG),kWh,6336.43366073,376
 heating_demand,heating_demand.walls_bg,Walls (BG),code_min,Code Min,Walls (BG),kWh,2564.35922722,377
-heating_demand,heating_demand.walls_bg,Walls (BG),drawn_insulation,Drawn Insulation,Walls (BG),kWh,5300.33144227,377
-heating_demand,heating_demand.walls_bg,Walls (BG),airtight_erv,Airtight + ERV,Walls (BG),kWh,4771.19584832,377
-heating_demand,heating_demand.walls_bg,Walls (BG),ph_windows,PH Windows,Walls (BG),kWh,4830.56066192,377
-heating_demand,heating_demand.walls_bg,Walls (BG),phi_leb,PHI LEB,Walls (BG),kWh,3561.46068567,377
+heating_demand,heating_demand.walls_bg,Walls (BG),drawn_insulation,Drawn Insulation,Walls (BG),kWh,5299.70752369,377
+heating_demand,heating_demand.walls_bg,Walls (BG),airtight_erv,Airtight + ERV,Walls (BG),kWh,4770.61799246,377
+heating_demand,heating_demand.walls_bg,Walls (BG),ph_windows,PH Windows,Walls (BG),kWh,4829.13408117,377
+heating_demand,heating_demand.walls_bg,Walls (BG),phi_leb,PHI LEB,Walls (BG),kWh,3560.58479579,377
 heating_demand,heating_demand.roofs,Roofs,code_min,Code Min,Roofs,kWh,5479.11490381,378
-heating_demand,heating_demand.roofs,Roofs,drawn_insulation,Drawn Insulation,Roofs,kWh,4031.4695418,378
-heating_demand,heating_demand.roofs,Roofs,airtight_erv,Airtight + ERV,Roofs,kWh,4009.45857208,378
-heating_demand,heating_demand.roofs,Roofs,ph_windows,PH Windows,Roofs,kWh,4048.11219444,378
-heating_demand,heating_demand.roofs,Roofs,phi_leb,PHI LEB,Roofs,kWh,3857.61359873,378
+heating_demand,heating_demand.roofs,Roofs,drawn_insulation,Drawn Insulation,Roofs,kWh,4271.24855602,378
+heating_demand,heating_demand.roofs,Roofs,airtight_erv,Airtight + ERV,Roofs,kWh,4248.0000628,378
+heating_demand,heating_demand.roofs,Roofs,ph_windows,PH Windows,Roofs,kWh,4289.43389746,378
+heating_demand,heating_demand.roofs,Roofs,phi_leb,PHI LEB,Roofs,kWh,4092.06447818,378
 heating_demand,heating_demand.floor_slabs,Floor Slabs,code_min,Code Min,Floor Slabs,kWh,11398.2408047,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,drawn_insulation,Drawn Insulation,Floor Slabs,kWh,4163.05209343,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,airtight_erv,Airtight + ERV,Floor Slabs,kWh,3747.45184917,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,ph_windows,PH Windows,Floor Slabs,kWh,3794.07889773,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,phi_leb,PHI LEB,Floor Slabs,kWh,3002.93826837,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,drawn_insulation,Drawn Insulation,Floor Slabs,kWh,4162.56204756,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,airtight_erv,Airtight + ERV,Floor Slabs,kWh,3746.99798245,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,ph_windows,PH Windows,Floor Slabs,kWh,3792.95841497,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,phi_leb,PHI LEB,Floor Slabs,kWh,3002.19973903,379
 heating_demand,heating_demand.windows,Windows,code_min,Code Min,Windows,kWh,34823.4916799,383
-heating_demand,heating_demand.windows,Windows,drawn_insulation,Drawn Insulation,Windows,kWh,34419.3591901,383
-heating_demand,heating_demand.windows,Windows,airtight_erv,Airtight + ERV,Windows,kWh,34231.4367799,383
-heating_demand,heating_demand.windows,Windows,ph_windows,PH Windows,Windows,kWh,19887.5611512,383
-heating_demand,heating_demand.windows,Windows,phi_leb,PHI LEB,Windows,kWh,15765.0922659,383
+heating_demand,heating_demand.windows,Windows,drawn_insulation,Drawn Insulation,Windows,kWh,34437.610003,383
+heating_demand,heating_demand.windows,Windows,airtight_erv,Airtight + ERV,Windows,kWh,34250.1653877,383
+heating_demand,heating_demand.windows,Windows,ph_windows,PH Windows,Windows,kWh,19900.6713656,383
+heating_demand,heating_demand.windows,Windows,phi_leb,PHI LEB,Windows,kWh,15775.7867585,383
 heating_demand,heating_demand.exterior_door,Exterior door,code_min,Code Min,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,drawn_insulation,Drawn Insulation,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,airtight_erv,Airtight + ERV,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,ph_windows,PH Windows,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,phi_leb,PHI LEB,Exterior door,kWh,,384
 heating_demand,heating_demand.thermal_bridges,Thermal Bridges,code_min,Code Min,Thermal Bridges,kWh,14388.7025476,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,drawn_insulation,Drawn Insulation,Thermal Bridges,kWh,5344.14542435,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,airtight_erv,Airtight + ERV,Thermal Bridges,kWh,5314.96752237,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,ph_windows,PH Windows,Thermal Bridges,kWh,3898.81829347,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,phi_leb,PHI LEB,Thermal Bridges,kWh,3257.99318609,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,drawn_insulation,Drawn Insulation,Thermal Bridges,kWh,5370.74328271,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,airtight_erv,Airtight + ERV,Thermal Bridges,kWh,5341.51021721,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,ph_windows,PH Windows,Thermal Bridges,kWh,3925.25377193,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,phi_leb,PHI LEB,Thermal Bridges,kWh,3283.38669663,385
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),code_min,Code Min,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),drawn_insulation,Drawn Insulation,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),airtight_erv,Airtight + ERV,TB (Perimeter),kWh,,386
@@ -235,15 +235,15 @@ heating_demand,heating_demand.tb_bg,TB (BG),airtight_erv,Airtight + ERV,TB (BG),
 heating_demand,heating_demand.tb_bg,TB (BG),ph_windows,PH Windows,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),phi_leb,PHI LEB,TB (BG),kWh,,387
 heating_demand,heating_demand.ventilation,Ventilation,code_min,Code Min,Ventilation,kWh,17186.7298235,388
-heating_demand,heating_demand.ventilation,Ventilation,drawn_insulation,Drawn Insulation,Ventilation,kWh,16987.2749274,388
-heating_demand,heating_demand.ventilation,Ventilation,airtight_erv,Airtight + ERV,Ventilation,kWh,6445.02007376,388
-heating_demand,heating_demand.ventilation,Ventilation,ph_windows,PH Windows,Ventilation,kWh,6507.15399224,388
-heating_demand,heating_demand.ventilation,Ventilation,phi_leb,PHI LEB,Ventilation,kWh,4706.11178985,388
+heating_demand,heating_demand.ventilation,Ventilation,drawn_insulation,Drawn Insulation,Ventilation,kWh,16996.2824041,388
+heating_demand,heating_demand.ventilation,Ventilation,airtight_erv,Airtight + ERV,Ventilation,kWh,6448.54625509,388
+heating_demand,heating_demand.ventilation,Ventilation,ph_windows,PH Windows,Ventilation,kWh,6511.44361747,388
+heating_demand,heating_demand.ventilation,Ventilation,phi_leb,PHI LEB,Ventilation,kWh,4709.3042531,388
 heating_demand,heating_demand.heating_demand,Heating Demand,code_min,Code Min,Heating Demand,kWh,62337.5638911,389
-heating_demand,heating_demand.heating_demand,Heating Demand,drawn_insulation,Drawn Insulation,Heating Demand,kWh,45986.2608199,389
-heating_demand,heating_demand.heating_demand,Heating Demand,airtight_erv,Airtight + ERV,Heating Demand,kWh,36309.9341994,389
-heating_demand,heating_demand.heating_demand,Heating Demand,ph_windows,PH Windows,Heating Demand,kWh,21978.623499,389
-heating_demand,heating_demand.heating_demand,Heating Demand,phi_leb,PHI LEB,Heating Demand,kWh,15649.9484122,389
+heating_demand,heating_demand.heating_demand,Heating Demand,drawn_insulation,Drawn Insulation,Heating Demand,kWh,46227.1485437,389
+heating_demand,heating_demand.heating_demand,Heating Demand,airtight_erv,Airtight + ERV,Heating Demand,kWh,36548.1331488,389
+heating_demand,heating_demand.heating_demand,Heating Demand,ph_windows,PH Windows,Heating Demand,kWh,22207.2225315,389
+heating_demand,heating_demand.heating_demand,Heating Demand,phi_leb,PHI LEB,Heating Demand,kWh,15869.1130342,389
 heating_demand,heating_demand.north,North,code_min,Code Min,North,kWh,2141.63603097,390
 heating_demand,heating_demand.north,North,drawn_insulation,Drawn Insulation,North,kWh,2141.63603097,390
 heating_demand,heating_demand.north,North,airtight_erv,Airtight + ERV,North,kWh,1707.21164034,390
@@ -270,55 +270,55 @@ heating_demand,heating_demand.horizontal,Horizontal,airtight_erv,Airtight + ERV,
 heating_demand,heating_demand.horizontal,Horizontal,ph_windows,PH Windows,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,phi_leb,PHI LEB,Horizontal,kWh,0,394
 heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,code_min,Code Min,Sum opaque areas,kWh,5694.85479176,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,drawn_insulation,Drawn Insulation,Sum opaque areas,kWh,3411.86201488,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,airtight_erv,Airtight + ERV,Sum opaque areas,kWh,2927.37937632,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,ph_windows,PH Windows,Sum opaque areas,kWh,2622.62811504,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,phi_leb,PHI LEB,Sum opaque areas,kWh,2089.93650506,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,drawn_insulation,Drawn Insulation,Sum opaque areas,kWh,3475.70961248,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,airtight_erv,Airtight + ERV,Sum opaque areas,kWh,2980.86774085,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,ph_windows,PH Windows,Sum opaque areas,kWh,2674.85518101,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,phi_leb,PHI LEB,Sum opaque areas,kWh,2134.56409003,395
 heating_demand,heating_demand.internal_gains,Internal Gains,code_min,Code Min,Internal Gains,kWh,8707.91659034,396
 heating_demand,heating_demand.internal_gains,Internal Gains,drawn_insulation,Drawn Insulation,Internal Gains,kWh,8707.91659034,396
 heating_demand,heating_demand.internal_gains,Internal Gains,airtight_erv,Airtight + ERV,Internal Gains,kWh,7845.7466309,396
 heating_demand,heating_demand.internal_gains,Internal Gains,ph_windows,PH Windows,Internal Gains,kWh,7845.7466309,396
 heating_demand,heating_demand.internal_gains,Internal Gains,phi_leb,PHI LEB,Internal Gains,kWh,6983.57667146,396
 cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,code_min,Code Min,Cooling Demand,kWh,3999.23460325,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,drawn_insulation,Drawn Insulation,Cooling Demand,kWh,4001.07226687,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,airtight_erv,Airtight + ERV,Cooling Demand,kWh,3983.08662266,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,ph_windows,PH Windows,Cooling Demand,kWh,4394.5741856,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,phi_leb,PHI LEB,Cooling Demand,kWh,4936.79084972,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,drawn_insulation,Drawn Insulation,Cooling Demand,kWh,4012.59677679,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,airtight_erv,Airtight + ERV,Cooling Demand,kWh,3994.78367075,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,ph_windows,PH Windows,Cooling Demand,kWh,4403.26645132,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,phi_leb,PHI LEB,Cooling Demand,kWh,4940.20947903,399
 cooling_demand,cooling_demand.walls_ag,Walls (AG),code_min,Code Min,Walls (AG),kWh,13790.0195055,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),drawn_insulation,Drawn Insulation,Walls (AG),kWh,9523.92320252,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),airtight_erv,Airtight + ERV,Walls (AG),kWh,9523.92320252,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),ph_windows,PH Windows,Walls (AG),kWh,8254.91213937,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),phi_leb,PHI LEB,Walls (AG),kWh,6859.50188288,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),drawn_insulation,Drawn Insulation,Walls (AG),kWh,9528.90962931,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),airtight_erv,Airtight + ERV,Walls (AG),kWh,9528.90962931,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),ph_windows,PH Windows,Walls (AG),kWh,8260.42941645,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),phi_leb,PHI LEB,Walls (AG),kWh,6864.83481822,400
 cooling_demand,cooling_demand.walls_bg,Walls (BG),code_min,Code Min,Walls (BG),kWh,2955.50619329,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),drawn_insulation,Drawn Insulation,Walls (BG),kWh,6178.75912234,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),airtight_erv,Airtight + ERV,Walls (BG),kWh,6232.23393629,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),ph_windows,PH Windows,Walls (BG),kWh,5876.73367627,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),phi_leb,PHI LEB,Walls (BG),kWh,4309.32582471,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),drawn_insulation,Drawn Insulation,Walls (BG),kWh,6177.65724688,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),airtight_erv,Airtight + ERV,Walls (BG),kWh,6230.78830747,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),ph_windows,PH Windows,Walls (BG),kWh,5873.80711035,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),phi_leb,PHI LEB,Walls (BG),kWh,4307.73329274,401
 cooling_demand,cooling_demand.roofs,Roofs,code_min,Code Min,Roofs,kWh,7973.30625004,402
-cooling_demand,cooling_demand.roofs,Roofs,drawn_insulation,Drawn Insulation,Roofs,kWh,5876.37288877,402
-cooling_demand,cooling_demand.roofs,Roofs,airtight_erv,Airtight + ERV,Roofs,kWh,5876.37288877,402
-cooling_demand,cooling_demand.roofs,Roofs,ph_windows,PH Windows,Roofs,kWh,5093.37810306,402
-cooling_demand,cooling_demand.roofs,Roofs,phi_leb,PHI LEB,Roofs,kWh,4178.88982927,402
+cooling_demand,cooling_demand.roofs,Roofs,drawn_insulation,Drawn Insulation,Roofs,kWh,6225.83933282,402
+cooling_demand,cooling_demand.roofs,Roofs,airtight_erv,Airtight + ERV,Roofs,kWh,6225.83933282,402
+cooling_demand,cooling_demand.roofs,Roofs,ph_windows,PH Windows,Roofs,kWh,5397.06098258,402
+cooling_demand,cooling_demand.roofs,Roofs,phi_leb,PHI LEB,Roofs,kWh,4433.30558044,402
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,code_min,Code Min,Floor Slabs,kWh,13136.8378241,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,drawn_insulation,Drawn Insulation,Floor Slabs,kWh,4852.99766237,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,airtight_erv,Airtight + ERV,Floor Slabs,kWh,4894.99851431,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,ph_windows,PH Windows,Floor Slabs,kWh,4615.77708867,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,phi_leb,PHI LEB,Floor Slabs,kWh,3633.52022444,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,drawn_insulation,Drawn Insulation,Floor Slabs,kWh,4852.13221367,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,airtight_erv,Airtight + ERV,Floor Slabs,kWh,4893.86307059,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,ph_windows,PH Windows,Floor Slabs,kWh,4613.47846894,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,phi_leb,PHI LEB,Floor Slabs,kWh,3632.17743967,403
 cooling_demand,cooling_demand.windows,Windows,code_min,Code Min,Windows,kWh,50675.7694873,407
-cooling_demand,cooling_demand.windows,Windows,drawn_insulation,Drawn Insulation,Windows,kWh,50170.5363507,407
-cooling_demand,cooling_demand.windows,Windows,airtight_erv,Airtight + ERV,Windows,kWh,50170.5363507,407
-cooling_demand,cooling_demand.windows,Windows,ph_windows,PH Windows,Windows,kWh,25022.7423612,407
-cooling_demand,cooling_demand.windows,Windows,phi_leb,PHI LEB,Windows,kWh,17078.0670591,407
+cooling_demand,cooling_demand.windows,Windows,drawn_insulation,Drawn Insulation,Windows,kWh,50196.8040663,407
+cooling_demand,cooling_demand.windows,Windows,airtight_erv,Airtight + ERV,Windows,kWh,50196.8040663,407
+cooling_demand,cooling_demand.windows,Windows,ph_windows,PH Windows,Windows,kWh,25039.466634,407
+cooling_demand,cooling_demand.windows,Windows,phi_leb,PHI LEB,Windows,kWh,17091.3444412,407
 cooling_demand,cooling_demand.exterior_door,Exterior door,code_min,Code Min,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,drawn_insulation,Drawn Insulation,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,airtight_erv,Airtight + ERV,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,ph_windows,PH Windows,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,phi_leb,PHI LEB,Exterior door,kWh,,408
 cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,code_min,Code Min,Thermal Bridges,kWh,20938.6979407,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,drawn_insulation,Drawn Insulation,Thermal Bridges,kWh,7789.76275516,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,airtight_erv,Airtight + ERV,Thermal Bridges,kWh,7789.76275516,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,ph_windows,PH Windows,Thermal Bridges,kWh,4905.53491848,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,phi_leb,PHI LEB,Thermal Bridges,kWh,3529.3308261,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,drawn_insulation,Drawn Insulation,Thermal Bridges,kWh,7828.48020605,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,airtight_erv,Airtight + ERV,Thermal Bridges,kWh,7828.48020605,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,ph_windows,PH Windows,Thermal Bridges,kWh,4938.84146151,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,phi_leb,PHI LEB,Thermal Bridges,kWh,3557.19139875,409
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),code_min,Code Min,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),drawn_insulation,Drawn Insulation,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),airtight_erv,Airtight + ERV,TB (Perimeter),kWh,,410
@@ -330,10 +330,10 @@ cooling_demand,cooling_demand.tb_bg,TB (BG),airtight_erv,Airtight + ERV,TB (BG),
 cooling_demand,cooling_demand.tb_bg,TB (BG),ph_windows,PH Windows,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),phi_leb,PHI LEB,TB (BG),kWh,,411
 cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),code_min,Code Min,Ventilation (Basic),kWh,6601.39399172,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),drawn_insulation,Drawn Insulation,Ventilation (Basic),kWh,7515.11577234,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),airtight_erv,Airtight + ERV,Ventilation (Basic),kWh,7299.02073324,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),ph_windows,PH Windows,Ventilation (Basic),kWh,8198.07937647,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),phi_leb,PHI LEB,Ventilation (Basic),kWh,7357.4458129,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),drawn_insulation,Drawn Insulation,Ventilation (Basic),kWh,7502.08350023,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),airtight_erv,Airtight + ERV,Ventilation (Basic),kWh,7286.16573203,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),ph_windows,PH Windows,Ventilation (Basic),kWh,8177.33647736,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),phi_leb,PHI LEB,Ventilation (Basic),kWh,7336.30884377,412
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),code_min,Code Min,Ventilation (Addn'l),kWh,0,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),drawn_insulation,Drawn Insulation,Ventilation (Addn'l),kWh,0,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),airtight_erv,Airtight + ERV,Ventilation (Addn'l),kWh,0,413
@@ -365,30 +365,30 @@ cooling_demand,cooling_demand.horizontal,Horizontal,airtight_erv,Airtight + ERV,
 cooling_demand,cooling_demand.horizontal,Horizontal,ph_windows,PH Windows,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,phi_leb,PHI LEB,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,code_min,Code Min,Sum opaque areas,kWh,7042.14158569,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,drawn_insulation,Drawn Insulation,Sum opaque areas,kWh,4126.1700587,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,airtight_erv,Airtight + ERV,Sum opaque areas,kWh,4126.1700587,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,ph_windows,PH Windows,Sum opaque areas,kWh,3529.21820591,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,phi_leb,PHI LEB,Sum opaque areas,kWh,3094.01173227,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,drawn_insulation,Drawn Insulation,Sum opaque areas,kWh,4209.3827868,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,airtight_erv,Airtight + ERV,Sum opaque areas,kWh,4209.3827868,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,ph_windows,PH Windows,Sum opaque areas,kWh,3606.95444585,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,phi_leb,PHI LEB,Sum opaque areas,kWh,3167.35688341,419
 cooling_demand,cooling_demand.internal_gains,Internal Gains,code_min,Code Min,Internal Gains,kWh,10489.7345065,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,drawn_insulation,Drawn Insulation,Internal Gains,kWh,10489.7345065,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,airtight_erv,Airtight + ERV,Internal Gains,kWh,10489.7345065,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,ph_windows,PH Windows,Internal Gains,kWh,9598.82554842,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,phi_leb,PHI LEB,Internal Gains,kWh,8707.91659034,420
 site_energy,site_energy.heating,Heating,code_min,Code Min,Heating,kWh,41181.1107491,423
-site_energy,site_energy.heating,Heating,drawn_insulation,Drawn Insulation,Heating,kWh,30714.6209403,423
-site_energy,site_energy.heating,Heating,airtight_erv,Airtight + ERV,Heating,kWh,24040.4721812,423
-site_energy,site_energy.heating,Heating,ph_windows,PH Windows,Heating,kWh,14851.6043588,423
-site_energy,site_energy.heating,Heating,phi_leb,PHI LEB,Heating,kWh,10813.9322377,423
+site_energy,site_energy.heating,Heating,drawn_insulation,Drawn Insulation,Heating,kWh,30836.5337958,423
+site_energy,site_energy.heating,Heating,airtight_erv,Airtight + ERV,Heating,kWh,24234.2408105,423
+site_energy,site_energy.heating,Heating,ph_windows,PH Windows,Heating,kWh,14969.2578426,423
+site_energy,site_energy.heating,Heating,phi_leb,PHI LEB,Heating,kWh,10931.2243122,423
 site_energy,site_energy.cooling,Cooling,code_min,Code Min,Cooling,kWh,2692.01008741,424
-site_energy,site_energy.cooling,Cooling,drawn_insulation,Drawn Insulation,Cooling,kWh,2605.56135711,424
-site_energy,site_energy.cooling,Cooling,airtight_erv,Airtight + ERV,Cooling,kWh,2248.17937367,424
-site_energy,site_energy.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,2178.94822394,424
-site_energy,site_energy.cooling,Cooling,phi_leb,PHI LEB,Cooling,kWh,2252.65472882,424
+site_energy,site_energy.cooling,Cooling,drawn_insulation,Drawn Insulation,Cooling,kWh,2611.51623632,424
+site_energy,site_energy.cooling,Cooling,airtight_erv,Airtight + ERV,Cooling,kWh,2254.20438398,424
+site_energy,site_energy.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,2184.54207174,424
+site_energy,site_energy.cooling,Cooling,phi_leb,PHI LEB,Cooling,kWh,2257.29603088,424
 site_energy,site_energy.dhw,DHW,code_min,Code Min,DHW,kWh,3689.03898686,425
-site_energy,site_energy.dhw,DHW,drawn_insulation,Drawn Insulation,DHW,kWh,3634.53413689,425
-site_energy,site_energy.dhw,DHW,airtight_erv,Airtight + ERV,DHW,kWh,3710.51462967,425
-site_energy,site_energy.dhw,DHW,ph_windows,PH Windows,DHW,kWh,3635.1384931,425
-site_energy,site_energy.dhw,DHW,phi_leb,PHI LEB,DHW,kWh,3645.32201154,425
+site_energy,site_energy.dhw,DHW,drawn_insulation,Drawn Insulation,DHW,kWh,3635.30550246,425
+site_energy,site_energy.dhw,DHW,airtight_erv,Airtight + ERV,DHW,kWh,3711.45830305,425
+site_energy,site_energy.dhw,DHW,ph_windows,PH Windows,DHW,kWh,3636.74071278,425
+site_energy,site_energy.dhw,DHW,phi_leb,PHI LEB,DHW,kWh,3647.54625161,425
 site_energy,site_energy.dishwashing,Dishwashing,code_min,Code Min,Dishwashing,kWh,119.764936647,426
 site_energy,site_energy.dishwashing,Dishwashing,drawn_insulation,Drawn Insulation,Dishwashing,kWh,119.764936647,426
 site_energy,site_energy.dishwashing,Dishwashing,airtight_erv,Airtight + ERV,Dishwashing,kWh,119.764936647,426
@@ -455,20 +455,20 @@ site_energy,site_energy.solar_pv,Solar PV,airtight_erv,Airtight + ERV,Solar PV,k
 site_energy,site_energy.solar_pv,Solar PV,ph_windows,PH Windows,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,phi_leb,PHI LEB,Solar PV,kWh,0,438
 primary_energy,primary_energy.heating,Heating,code_min,Code Min,Heating,kWh,107070.887948,441
-primary_energy,primary_energy.heating,Heating,drawn_insulation,Drawn Insulation,Heating,kWh,79858.0144447,441
-primary_energy,primary_energy.heating,Heating,airtight_erv,Airtight + ERV,Heating,kWh,62505.2276711,441
-primary_energy,primary_energy.heating,Heating,ph_windows,PH Windows,Heating,kWh,38614.1713328,441
-primary_energy,primary_energy.heating,Heating,phi_leb,PHI LEB,Heating,kWh,28116.223818,441
+primary_energy,primary_energy.heating,Heating,drawn_insulation,Drawn Insulation,Heating,kWh,80174.987869,441
+primary_energy,primary_energy.heating,Heating,airtight_erv,Airtight + ERV,Heating,kWh,63009.0261073,441
+primary_energy,primary_energy.heating,Heating,ph_windows,PH Windows,Heating,kWh,38920.0703908,441
+primary_energy,primary_energy.heating,Heating,phi_leb,PHI LEB,Heating,kWh,28421.1832118,441
 primary_energy,primary_energy.cooling,Cooling,code_min,Code Min,Cooling,kWh,6999.22622727,442
-primary_energy,primary_energy.cooling,Cooling,drawn_insulation,Drawn Insulation,Cooling,kWh,6774.45952849,442
-primary_energy,primary_energy.cooling,Cooling,airtight_erv,Airtight + ERV,Cooling,kWh,5845.26637154,442
-primary_energy,primary_energy.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,5665.26538225,442
-primary_energy,primary_energy.cooling,Cooling,phi_leb,PHI LEB,Cooling,kWh,5856.90229494,442
+primary_energy,primary_energy.cooling,Cooling,drawn_insulation,Drawn Insulation,Cooling,kWh,6789.94221442,442
+primary_energy,primary_energy.cooling,Cooling,airtight_erv,Airtight + ERV,Cooling,kWh,5860.93139835,442
+primary_energy,primary_energy.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,5679.80938652,442
+primary_energy,primary_energy.cooling,Cooling,phi_leb,PHI LEB,Cooling,kWh,5868.96968029,442
 primary_energy,primary_energy.dhw,DHW,code_min,Code Min,DHW,kWh,9591.50136584,443
-primary_energy,primary_energy.dhw,DHW,drawn_insulation,Drawn Insulation,DHW,kWh,9449.7887559,443
-primary_energy,primary_energy.dhw,DHW,airtight_erv,Airtight + ERV,DHW,kWh,9647.33803714,443
-primary_energy,primary_energy.dhw,DHW,ph_windows,PH Windows,DHW,kWh,9451.36008207,443
-primary_energy,primary_energy.dhw,DHW,phi_leb,PHI LEB,DHW,kWh,9477.83723,443
+primary_energy,primary_energy.dhw,DHW,drawn_insulation,Drawn Insulation,DHW,kWh,9451.7943064,443
+primary_energy,primary_energy.dhw,DHW,airtight_erv,Airtight + ERV,DHW,kWh,9649.79158792,443
+primary_energy,primary_energy.dhw,DHW,ph_windows,PH Windows,DHW,kWh,9455.52585324,443
+primary_energy,primary_energy.dhw,DHW,phi_leb,PHI LEB,DHW,kWh,9483.62025418,443
 primary_energy,primary_energy.dishwashing,Dishwashing,code_min,Code Min,Dishwashing,kWh,311.388835283,444
 primary_energy,primary_energy.dishwashing,Dishwashing,drawn_insulation,Drawn Insulation,Dishwashing,kWh,311.388835283,444
 primary_energy,primary_energy.dishwashing,Dishwashing,airtight_erv,Airtight + ERV,Dishwashing,kWh,311.388835283,444
@@ -535,45 +535,45 @@ primary_energy,primary_energy.solar_pv,Solar PV,airtight_erv,Airtight + ERV,Sola
 primary_energy,primary_energy.solar_pv,Solar PV,ph_windows,PH Windows,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,phi_leb,PHI LEB,Solar PV,kWh,0,456
 certification_results,certification_results.heat_demand,Heat Demand,code_min,Code Min,Heat Demand,kWh/m2,114.085964427,459
-certification_results,certification_results.heat_demand,Heat Demand,drawn_insulation,Drawn Insulation,Heat Demand,kWh/m2,84.1609230222,459
-certification_results,certification_results.heat_demand,Heat Demand,airtight_erv,Airtight + ERV,Heat Demand,kWh/m2,66.451968971,459
-certification_results,certification_results.heat_demand,Heat Demand,ph_windows,PH Windows,Heat Demand,kWh/m2,40.2237800477,459
-certification_results,certification_results.heat_demand,Heat Demand,phi_leb,PHI LEB,Heat Demand,kWh/m2,28.6414698682,459
+certification_results,certification_results.heat_demand,Heat Demand,drawn_insulation,Drawn Insulation,Heat Demand,kWh/m2,84.6017793305,459
+certification_results,certification_results.heat_demand,Heat Demand,airtight_erv,Airtight + ERV,Heat Demand,kWh/m2,66.8879044675,459
+certification_results,certification_results.heat_demand,Heat Demand,ph_windows,PH Windows,Heat Demand,kWh/m2,40.64214643,459
+certification_results,certification_results.heat_demand,Heat Demand,phi_leb,PHI LEB,Heat Demand,kWh/m2,29.0425700349,459
 certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,code_min,Code Min,Sensible Cooling Demand,kWh/m2,7.31912683465,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,drawn_insulation,Drawn Insulation,Sensible Cooling Demand,kWh/m2,7.32249000146,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,airtight_erv,Airtight + ERV,Sensible Cooling Demand,kWh/m2,7.2895739002,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,ph_windows,PH Windows,Sensible Cooling Demand,kWh/m2,8.04265041679,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,phi_leb,PHI LEB,Sensible Cooling Demand,kWh/m2,9.0349784321,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,drawn_insulation,Drawn Insulation,Sensible Cooling Demand,kWh/m2,7.34358137473,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,airtight_erv,Airtight + ERV,Sensible Cooling Demand,kWh/m2,7.31098104109,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,ph_windows,PH Windows,Sensible Cooling Demand,kWh/m2,8.0585584096,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,phi_leb,PHI LEB,Sensible Cooling Demand,kWh/m2,9.04123497466,460
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,code_min,Code Min,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,drawn_insulation,Drawn Insulation,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,airtight_erv,Airtight + ERV,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,ph_windows,PH Windows,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,phi_leb,PHI LEB,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.total_cooling_demand,Total Cooling Demand,code_min,Code Min,Total Cooling Demand,kWh/m2,7.31912683465,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,drawn_insulation,Drawn Insulation,Total Cooling Demand,kWh/m2,7.32249000146,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,airtight_erv,Airtight + ERV,Total Cooling Demand,kWh/m2,7.2895739002,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,ph_windows,PH Windows,Total Cooling Demand,kWh/m2,8.04265041679,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,phi_leb,PHI LEB,Total Cooling Demand,kWh/m2,9.0349784321,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,drawn_insulation,Drawn Insulation,Total Cooling Demand,kWh/m2,7.34358137473,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,airtight_erv,Airtight + ERV,Total Cooling Demand,kWh/m2,7.31098104109,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,ph_windows,PH Windows,Total Cooling Demand,kWh/m2,8.0585584096,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,phi_leb,PHI LEB,Total Cooling Demand,kWh/m2,9.04123497466,462
 certification_results,certification_results.peak_heat_load,Peak Heat Load,code_min,Code Min,Peak Heat Load,W/m2,63.6183305583,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,drawn_insulation,Drawn Insulation,Peak Heat Load,W/m2,53.5790944177,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,airtight_erv,Airtight + ERV,Peak Heat Load,W/m2,38.4037824904,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,ph_windows,PH Windows,Peak Heat Load,W/m2,27.7927564,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,phi_leb,PHI LEB,Peak Heat Load,W/m2,21.8130031428,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,drawn_insulation,Drawn Insulation,Peak Heat Load,W/m2,53.7519969231,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,airtight_erv,Airtight + ERV,Peak Heat Load,W/m2,38.5767079763,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,ph_windows,PH Windows,Peak Heat Load,W/m2,27.9655600357,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,phi_leb,PHI LEB,Peak Heat Load,W/m2,21.9863367156,463
 certification_results,certification_results.peak_cooling_load,Peak Cooling Load,code_min,Code Min,Peak Cooling Load,W/m2,14.6010886768,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,drawn_insulation,Drawn Insulation,Peak Cooling Load,W/m2,13.7181187554,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,airtight_erv,Airtight + ERV,Peak Cooling Load,W/m2,13.6244744223,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,ph_windows,PH Windows,Peak Cooling Load,W/m2,12.2789142092,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,phi_leb,PHI LEB,Peak Cooling Load,W/m2,12.1430576524,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,drawn_insulation,Drawn Insulation,Peak Cooling Load,W/m2,13.7603956516,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,airtight_erv,Airtight + ERV,Peak Cooling Load,W/m2,13.6670705704,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,ph_windows,PH Windows,Peak Cooling Load,W/m2,12.3217918402,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,phi_leb,PHI LEB,Peak Cooling Load,W/m2,12.1844502671,464
 certification_results,certification_results.pe_demand,PE Demand,code_min,Code Min,PE Demand,kWh/m2,237.306338541,465
-certification_results,certification_results.pe_demand,PE Demand,drawn_insulation,Drawn Insulation,PE Demand,kWh/m2,186.832485099,465
-certification_results,certification_results.pe_demand,PE Demand,airtight_erv,Airtight + ERV,PE Demand,kWh/m2,153.735591621,465
-certification_results,certification_results.pe_demand,PE Demand,ph_windows,PH Windows,PE Demand,kWh/m2,109.323716161,465
-certification_results,certification_results.pe_demand,PE Demand,phi_leb,PHI LEB,PE Demand,kWh/m2,90.5102650001,465
+certification_results,certification_results.pe_demand,PE Demand,drawn_insulation,Drawn Insulation,PE Demand,kWh/m2,187.444594054,465
+certification_results,certification_results.pe_demand,PE Demand,airtight_erv,Airtight + ERV,PE Demand,kWh/m2,154.690768599,465
+certification_results,certification_results.pe_demand,PE Demand,ph_windows,PH Windows,PE Demand,kWh/m2,109.917793143,465
+certification_results,certification_results.pe_demand,PE Demand,phi_leb,PHI LEB,PE Demand,kWh/m2,91.1010495198,465
 certification_results,certification_results.per_demand,PER Demand,code_min,Code Min,PER Demand,kWh/m2,155.309550448,466
-certification_results,certification_results.per_demand,PER Demand,drawn_insulation,Drawn Insulation,PER Demand,kWh/m2,117.61891366,466
-certification_results,certification_results.per_demand,PER Demand,airtight_erv,Airtight + ERV,PER Demand,kWh/m2,93.0913392266,466
-certification_results,certification_results.per_demand,PER Demand,ph_windows,PH Windows,PER Demand,kWh/m2,59.9550177037,466
-certification_results,certification_results.per_demand,PER Demand,phi_leb,PHI LEB,PER Demand,kWh/m2,48.155804485,466
+certification_results,certification_results.per_demand,PER Demand,drawn_insulation,Drawn Insulation,PER Demand,kWh/m2,118.070468257,466
+certification_results,certification_results.per_demand,PER Demand,airtight_erv,Airtight + ERV,PER Demand,kWh/m2,93.7998970889,466
+certification_results,certification_results.per_demand,PER Demand,ph_windows,PH Windows,PER Demand,kWh/m2,60.3923803613,466
+certification_results,certification_results.per_demand,PER Demand,phi_leb,PHI LEB,PER Demand,kWh/m2,48.5049446206,466
 airtightness,airtightness.nv_system,"nV,system",code_min,Code Min,nV system,%,0.286687957767,470
 airtightness,airtightness.nv_system,"nV,system",drawn_insulation,Drawn Insulation,nV system,%,0.286687957767,470
 airtightness,airtightness.nv_system,"nV,system",airtight_erv,Airtight + ERV,nV system,%,0.286687957767,470
@@ -605,10 +605,10 @@ airtightness,airtightness.vv,VV,airtight_erv,Airtight + ERV,VV,m3,1366.02175833,
 airtightness,airtightness.vv,VV,ph_windows,PH Windows,VV,m3,1366.02175833,475
 airtightness,airtightness.vv,VV,phi_leb,PHI LEB,VV,m3,1366.02175833,475
 airtightness,airtightness.gt,Gt,code_min,Code Min,Gt,kFh/a,95.7692270066,476
-airtightness,airtightness.gt,Gt,drawn_insulation,Drawn Insulation,Gt,kFh/a,94.657808987,476
-airtightness,airtightness.gt,Gt,airtight_erv,Airtight + ERV,Gt,kFh/a,94.1409974011,476
-airtightness,airtightness.gt,Gt,ph_windows,PH Windows,Gt,kFh/a,95.0485739471,476
-airtightness,airtightness.gt,Gt,phi_leb,PHI LEB,Gt,kFh/a,92.3309539803,476
+airtightness,airtightness.gt,Gt,drawn_insulation,Drawn Insulation,Gt,kFh/a,94.7080011464,476
+airtightness,airtightness.gt,Gt,airtight_erv,Airtight + ERV,Gt,kFh/a,94.1925035598,476
+airtightness,airtightness.gt,Gt,ph_windows,PH Windows,Gt,kFh/a,95.1112315639,476
+airtightness,airtightness.gt,Gt,phi_leb,PHI LEB,Gt,kFh/a,92.3935881019,476
 r_values,r_values.assembly_01,01ud-C1,code_min,Code Min,01ud-C1,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-C1,drawn_insulation,Drawn Insulation,01ud-C1,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-C1,airtight_erv,Airtight + ERV,01ud-C1,m2,#DIV/0!,480
@@ -635,90 +635,90 @@ r_values,r_values.assembly_05,05ud-R2,airtight_erv,Airtight + ERV,05ud-R2,m2,#DI
 r_values,r_values.assembly_05,05ud-R2,ph_windows,PH Windows,05ud-R2,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-R2,phi_leb,PHI LEB,05ud-R2,m2,#DIV/0!,484
 r_values,r_values.gt_a,Gt-A,code_min,Code Min,Gt-A,kFh/y,95.7692270066,490
-r_values,r_values.gt_a,Gt-A,drawn_insulation,Drawn Insulation,Gt-A,kFh/y,94.657808987,490
-r_values,r_values.gt_a,Gt-A,airtight_erv,Airtight + ERV,Gt-A,kFh/y,94.1409974011,490
-r_values,r_values.gt_a,Gt-A,ph_windows,PH Windows,Gt-A,kFh/y,95.0485739471,490
-r_values,r_values.gt_a,Gt-A,phi_leb,PHI LEB,Gt-A,kFh/y,92.3309539803,490
+r_values,r_values.gt_a,Gt-A,drawn_insulation,Drawn Insulation,Gt-A,kFh/y,94.7080011464,490
+r_values,r_values.gt_a,Gt-A,airtight_erv,Airtight + ERV,Gt-A,kFh/y,94.1925035598,490
+r_values,r_values.gt_a,Gt-A,ph_windows,PH Windows,Gt-A,kFh/y,95.1112315639,490
+r_values,r_values.gt_a,Gt-A,phi_leb,PHI LEB,Gt-A,kFh/y,92.3935881019,490
 r_values,r_values.gt_b,Gt-B,code_min,Code Min,Gt-B,kFh/y,32.1438602362,491
-r_values,r_values.gt_b,Gt-B,drawn_insulation,Drawn Insulation,Gt-B,kFh/y,59.5181487001,491
-r_values,r_values.gt_b,Gt-B,airtight_erv,Airtight + ERV,Gt-B,kFh/y,53.5764125452,491
-r_values,r_values.gt_b,Gt-B,ph_windows,PH Windows,Gt-B,kFh/y,54.243028179,491
-r_values,r_values.gt_b,Gt-B,phi_leb,PHI LEB,Gt-B,kFh/y,53.0128241378,491
+r_values,r_values.gt_b,Gt-B,drawn_insulation,Drawn Insulation,Gt-B,kFh/y,59.5111426328,491
+r_values,r_values.gt_b,Gt-B,airtight_erv,Airtight + ERV,Gt-B,kFh/y,53.5699237225,491
+r_values,r_values.gt_b,Gt-B,ph_windows,PH Windows,Gt-B,kFh/y,54.2270089081,491
+r_values,r_values.gt_b,Gt-B,phi_leb,PHI LEB,Gt-B,kFh/y,52.9997863986,491
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,code_min,Code Min,Certification Compliant?,,No,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,drawn_insulation,Drawn Insulation,Certification Compliant?,,No,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,airtight_erv,Airtight + ERV,Certification Compliant?,,No,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,ph_windows,PH Windows,Certification Compliant?,,No,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,phi_leb,PHI LEB,Certification Compliant?,,Yes,493
 peak_loads,peak_loads.peak_heat_load,Peak Heat Load,code_min,Code Min,Peak Heat Load,Btuh,118611.547792,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,drawn_insulation,Drawn Insulation,Peak Heat Load,Btuh,99894.1541281,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,airtight_erv,Airtight + ERV,Peak Heat Load,Btuh,71600.9370612,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,ph_windows,PH Windows,Peak Heat Load,Btuh,51817.4844432,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,phi_leb,PHI LEB,Peak Heat Load,Btuh,40668.6884432,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,drawn_insulation,Drawn Insulation,Peak Heat Load,Btuh,100216.517724,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,airtight_erv,Airtight + ERV,Peak Heat Load,Btuh,71923.3435022,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,ph_windows,PH Windows,Peak Heat Load,Btuh,52139.6637037,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,phi_leb,PHI LEB,Peak Heat Load,Btuh,40991.8557313,497
 peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,code_min,Code Min,Peak Sensible Cooling Load,Btuh,27222.6214081,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,drawn_insulation,Drawn Insulation,Peak Sensible Cooling Load,Btuh,25576.3910196,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,airtight_erv,Airtight + ERV,Peak Sensible Cooling Load,Btuh,25401.7982694,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,ph_windows,PH Windows,Peak Sensible Cooling Load,Btuh,22893.1033992,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,phi_leb,PHI LEB,Peak Sensible Cooling Load,Btuh,22639.8091624,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,drawn_insulation,Drawn Insulation,Peak Sensible Cooling Load,Btuh,25655.2130831,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,airtight_erv,Airtight + ERV,Peak Sensible Cooling Load,Btuh,25481.2155539,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,ph_windows,PH Windows,Peak Sensible Cooling Load,Btuh,22973.0454872,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,phi_leb,PHI LEB,Peak Sensible Cooling Load,Btuh,22716.9825503,498
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,code_min,Code Min,Peak Latent Cooling Load,Btuh,0,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,drawn_insulation,Drawn Insulation,Peak Latent Cooling Load,Btuh,0,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,airtight_erv,Airtight + ERV,Peak Latent Cooling Load,Btuh,0,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,ph_windows,PH Windows,Peak Latent Cooling Load,Btuh,0,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,phi_leb,PHI LEB,Peak Latent Cooling Load,Btuh,0,499
-co2e,co2e.heating,Heating,code_min,Code Min,Heating,tonsCO2e,11.854170515,502
-co2e,co2e.heating,Heating,drawn_insulation,Drawn Insulation,Heating,tonsCO2e,8.84134369633,502
-co2e,co2e.heating,Heating,airtight_erv,Airtight + ERV,Heating,tonsCO2e,6.92015954191,502
-co2e,co2e.heating,Heating,ph_windows,PH Windows,Heating,tonsCO2e,4.27510203799,502
-co2e,co2e.heating,Heating,phi_leb,PHI LEB,Heating,tonsCO2e,3.11283970615,502
-co2e,co2e.cooling,Cooling,code_min,Code Min,Cooling,tonsCO2e,0.774907379227,503
-co2e,co2e.cooling,Cooling,drawn_insulation,Drawn Insulation,Cooling,tonsCO2e,0.750022718004,503
-co2e,co2e.cooling,Cooling,airtight_erv,Airtight + ERV,Cooling,tonsCO2e,0.647148684409,503
-co2e,co2e.cooling,Cooling,ph_windows,PH Windows,Cooling,tonsCO2e,0.627220182266,503
-co2e,co2e.cooling,Cooling,phi_leb,PHI LEB,Cooling,tonsCO2e,0.648436935798,503
-co2e,co2e.dhw,DHW,code_min,Code Min,DHW,tonsCO2e,1.06190669439,504
-co2e,co2e.dhw,DHW,drawn_insulation,Drawn Insulation,DHW,tonsCO2e,1.04621722478,504
-co2e,co2e.dhw,DHW,airtight_erv,Airtight + ERV,DHW,tonsCO2e,1.0680885561,504
-co2e,co2e.dhw,DHW,ph_windows,PH Windows,DHW,tonsCO2e,1.04639119147,504
-co2e,co2e.dhw,DHW,phi_leb,PHI LEB,DHW,tonsCO2e,1.04932256369,504
-co2e,co2e.dishwashing,Dishwashing,code_min,Code Min,Dishwashing,tonsCO2e,0.0344748831421,505
-co2e,co2e.dishwashing,Dishwashing,drawn_insulation,Drawn Insulation,Dishwashing,tonsCO2e,0.0344748831421,505
-co2e,co2e.dishwashing,Dishwashing,airtight_erv,Airtight + ERV,Dishwashing,tonsCO2e,0.0344748831421,505
-co2e,co2e.dishwashing,Dishwashing,ph_windows,PH Windows,Dishwashing,tonsCO2e,0.0344748831421,505
-co2e,co2e.dishwashing,Dishwashing,phi_leb,PHI LEB,Dishwashing,tonsCO2e,0.0344748831421,505
-co2e,co2e.clothes_washing,Clothes Washing,code_min,Code Min,Clothes Washing,tonsCO2e,0.0197412253563,506
-co2e,co2e.clothes_washing,Clothes Washing,drawn_insulation,Drawn Insulation,Clothes Washing,tonsCO2e,0.0197412253563,506
-co2e,co2e.clothes_washing,Clothes Washing,airtight_erv,Airtight + ERV,Clothes Washing,tonsCO2e,0.0197412253563,506
-co2e,co2e.clothes_washing,Clothes Washing,ph_windows,PH Windows,Clothes Washing,tonsCO2e,0.0197412253563,506
-co2e,co2e.clothes_washing,Clothes Washing,phi_leb,PHI LEB,Clothes Washing,tonsCO2e,0.0197412253563,506
-co2e,co2e.clothes_drying,Clothes Drying,code_min,Code Min,Clothes Drying,tonsCO2e,0.0939659121669,507
-co2e,co2e.clothes_drying,Clothes Drying,drawn_insulation,Drawn Insulation,Clothes Drying,tonsCO2e,0.0939659121669,507
-co2e,co2e.clothes_drying,Clothes Drying,airtight_erv,Airtight + ERV,Clothes Drying,tonsCO2e,0.0939659121669,507
-co2e,co2e.clothes_drying,Clothes Drying,ph_windows,PH Windows,Clothes Drying,tonsCO2e,0.0939659121669,507
-co2e,co2e.clothes_drying,Clothes Drying,phi_leb,PHI LEB,Clothes Drying,tonsCO2e,0.0939659121669,507
-co2e,co2e.refrigerator,Refrigerator,code_min,Code Min,Refrigerator,tonsCO2e,0.128181635568,508
-co2e,co2e.refrigerator,Refrigerator,drawn_insulation,Drawn Insulation,Refrigerator,tonsCO2e,0.128181635568,508
-co2e,co2e.refrigerator,Refrigerator,airtight_erv,Airtight + ERV,Refrigerator,tonsCO2e,0.128181635568,508
-co2e,co2e.refrigerator,Refrigerator,ph_windows,PH Windows,Refrigerator,tonsCO2e,0.128181635568,508
-co2e,co2e.refrigerator,Refrigerator,phi_leb,PHI LEB,Refrigerator,tonsCO2e,0.128181635568,508
-co2e,co2e.cooking,Cooking,code_min,Code Min,Cooking,tonsCO2e,0.12400805761,509
-co2e,co2e.cooking,Cooking,drawn_insulation,Drawn Insulation,Cooking,tonsCO2e,0.12400805761,509
-co2e,co2e.cooking,Cooking,airtight_erv,Airtight + ERV,Cooking,tonsCO2e,0.12400805761,509
-co2e,co2e.cooking,Cooking,ph_windows,PH Windows,Cooking,tonsCO2e,0.12400805761,509
-co2e,co2e.cooking,Cooking,phi_leb,PHI LEB,Cooking,tonsCO2e,0.12400805761,509
-co2e,co2e.phi_lighting,PHI Lighting,code_min,Code Min,PHI Lighting,tonsCO2e,0.0600000585939,510
-co2e,co2e.phi_lighting,PHI Lighting,drawn_insulation,Drawn Insulation,PHI Lighting,tonsCO2e,0.0600000585939,510
-co2e,co2e.phi_lighting,PHI Lighting,airtight_erv,Airtight + ERV,PHI Lighting,tonsCO2e,0.0600000585939,510
-co2e,co2e.phi_lighting,PHI Lighting,ph_windows,PH Windows,PHI Lighting,tonsCO2e,0.0600000585939,510
-co2e,co2e.phi_lighting,PHI Lighting,phi_leb,PHI LEB,PHI Lighting,tonsCO2e,0.0600000585939,510
-co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,code_min,Code Min,PHI Consumer Elec.,tonsCO2e,0.18487003452,511
-co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,drawn_insulation,Drawn Insulation,PHI Consumer Elec.,tonsCO2e,0.18487003452,511
-co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,airtight_erv,Airtight + ERV,PHI Consumer Elec.,tonsCO2e,0.18487003452,511
-co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,ph_windows,PH Windows,PHI Consumer Elec.,tonsCO2e,0.18487003452,511
-co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,phi_leb,PHI LEB,PHI Consumer Elec.,tonsCO2e,0.18487003452,511
-co2e,co2e.phi_small_appliances,PHI Small Appliances,code_min,Code Min,PHI Small Appliances,tonsCO2e,0.0195509030566,512
-co2e,co2e.phi_small_appliances,PHI Small Appliances,drawn_insulation,Drawn Insulation,PHI Small Appliances,tonsCO2e,0.0195509030566,512
-co2e,co2e.phi_small_appliances,PHI Small Appliances,airtight_erv,Airtight + ERV,PHI Small Appliances,tonsCO2e,0.0195509030566,512
-co2e,co2e.phi_small_appliances,PHI Small Appliances,ph_windows,PH Windows,PHI Small Appliances,tonsCO2e,0.0195509030566,512
-co2e,co2e.phi_small_appliances,PHI Small Appliances,phi_leb,PHI LEB,PHI Small Appliances,tonsCO2e,0.0195509030566,512
+co2e,co2e.heating,Heating,code_min,Code Min,Heating,tonsCO2e,21.3845799016,502
+co2e,co2e.heating,Heating,drawn_insulation,Drawn Insulation,Heating,tonsCO2e,16.0128347402,502
+co2e,co2e.heating,Heating,airtight_erv,Airtight + ERV,Heating,tonsCO2e,12.5843875879,502
+co2e,co2e.heating,Heating,ph_windows,PH Windows,Heating,tonsCO2e,7.77325537317,502
+co2e,co2e.heating,Heating,phi_leb,PHI LEB,Heating,tonsCO2e,5.67638015283,502
+co2e,co2e.cooling,Cooling,code_min,Code Min,Cooling,tonsCO2e,1.39791044396,503
+co2e,co2e.cooling,Cooling,drawn_insulation,Drawn Insulation,Cooling,tonsCO2e,1.35611149393,503
+co2e,co2e.cooling,Cooling,airtight_erv,Airtight + ERV,Cooling,tonsCO2e,1.1705661379,503
+co2e,co2e.cooling,Cooling,ph_windows,PH Windows,Cooling,tonsCO2e,1.13439180323,503
+co2e,co2e.cooling,Cooling,phi_leb,PHI LEB,Cooling,tonsCO2e,1.17217157225,503
+co2e,co2e.dhw,DHW,code_min,Code Min,DHW,tonsCO2e,1.91564888707,504
+co2e,co2e.dhw,DHW,drawn_insulation,Drawn Insulation,DHW,tonsCO2e,1.88774609451,504
+co2e,co2e.dhw,DHW,airtight_erv,Airtight + ERV,DHW,tonsCO2e,1.92729081827,504
+co2e,co2e.dhw,DHW,ph_windows,PH Windows,DHW,tonsCO2e,1.88849137236,504
+co2e,co2e.dhw,DHW,phi_leb,PHI LEB,DHW,tonsCO2e,1.89410248639,504
+co2e,co2e.dishwashing,Dishwashing,code_min,Code Min,Dishwashing,tonsCO2e,0.0621916896014,505
+co2e,co2e.dishwashing,Dishwashing,drawn_insulation,Drawn Insulation,Dishwashing,tonsCO2e,0.0621916896014,505
+co2e,co2e.dishwashing,Dishwashing,airtight_erv,Airtight + ERV,Dishwashing,tonsCO2e,0.0621916896014,505
+co2e,co2e.dishwashing,Dishwashing,ph_windows,PH Windows,Dishwashing,tonsCO2e,0.0621916896014,505
+co2e,co2e.dishwashing,Dishwashing,phi_leb,PHI LEB,Dishwashing,tonsCO2e,0.0621916896014,505
+co2e,co2e.clothes_washing,Clothes Washing,code_min,Code Min,Clothes Washing,tonsCO2e,0.035612598153,506
+co2e,co2e.clothes_washing,Clothes Washing,drawn_insulation,Drawn Insulation,Clothes Washing,tonsCO2e,0.035612598153,506
+co2e,co2e.clothes_washing,Clothes Washing,airtight_erv,Airtight + ERV,Clothes Washing,tonsCO2e,0.035612598153,506
+co2e,co2e.clothes_washing,Clothes Washing,ph_windows,PH Windows,Clothes Washing,tonsCO2e,0.035612598153,506
+co2e,co2e.clothes_washing,Clothes Washing,phi_leb,PHI LEB,Clothes Washing,tonsCO2e,0.035612598153,506
+co2e,co2e.clothes_drying,Clothes Drying,code_min,Code Min,Clothes Drying,tonsCO2e,0.169511781041,507
+co2e,co2e.clothes_drying,Clothes Drying,drawn_insulation,Drawn Insulation,Clothes Drying,tonsCO2e,0.169511781041,507
+co2e,co2e.clothes_drying,Clothes Drying,airtight_erv,Airtight + ERV,Clothes Drying,tonsCO2e,0.169511781041,507
+co2e,co2e.clothes_drying,Clothes Drying,ph_windows,PH Windows,Clothes Drying,tonsCO2e,0.169511781041,507
+co2e,co2e.clothes_drying,Clothes Drying,phi_leb,PHI LEB,Clothes Drying,tonsCO2e,0.169511781041,507
+co2e,co2e.refrigerator,Refrigerator,code_min,Code Min,Refrigerator,tonsCO2e,0.231235953984,508
+co2e,co2e.refrigerator,Refrigerator,drawn_insulation,Drawn Insulation,Refrigerator,tonsCO2e,0.231235953984,508
+co2e,co2e.refrigerator,Refrigerator,airtight_erv,Airtight + ERV,Refrigerator,tonsCO2e,0.231235953984,508
+co2e,co2e.refrigerator,Refrigerator,ph_windows,PH Windows,Refrigerator,tonsCO2e,0.231235953984,508
+co2e,co2e.refrigerator,Refrigerator,phi_leb,PHI LEB,Refrigerator,tonsCO2e,0.231235953984,508
+co2e,co2e.cooking,Cooking,code_min,Code Min,Cooking,tonsCO2e,0.223706940359,509
+co2e,co2e.cooking,Cooking,drawn_insulation,Drawn Insulation,Cooking,tonsCO2e,0.223706940359,509
+co2e,co2e.cooking,Cooking,airtight_erv,Airtight + ERV,Cooking,tonsCO2e,0.223706940359,509
+co2e,co2e.cooking,Cooking,ph_windows,PH Windows,Cooking,tonsCO2e,0.223706940359,509
+co2e,co2e.cooking,Cooking,phi_leb,PHI LEB,Cooking,tonsCO2e,0.223706940359,509
+co2e,co2e.phi_lighting,PHI Lighting,code_min,Code Min,PHI Lighting,tonsCO2e,0.108238366023,510
+co2e,co2e.phi_lighting,PHI Lighting,drawn_insulation,Drawn Insulation,PHI Lighting,tonsCO2e,0.108238366023,510
+co2e,co2e.phi_lighting,PHI Lighting,airtight_erv,Airtight + ERV,PHI Lighting,tonsCO2e,0.108238366023,510
+co2e,co2e.phi_lighting,PHI Lighting,ph_windows,PH Windows,PHI Lighting,tonsCO2e,0.108238366023,510
+co2e,co2e.phi_lighting,PHI Lighting,phi_leb,PHI LEB,PHI Lighting,tonsCO2e,0.108238366023,510
+co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,code_min,Code Min,PHI Consumer Elec.,tonsCO2e,0.333500182034,511
+co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,drawn_insulation,Drawn Insulation,PHI Consumer Elec.,tonsCO2e,0.333500182034,511
+co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,airtight_erv,Airtight + ERV,PHI Consumer Elec.,tonsCO2e,0.333500182034,511
+co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,ph_windows,PH Windows,PHI Consumer Elec.,tonsCO2e,0.333500182034,511
+co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,phi_leb,PHI LEB,PHI Consumer Elec.,tonsCO2e,0.333500182034,511
+co2e,co2e.phi_small_appliances,PHI Small Appliances,code_min,Code Min,PHI Small Appliances,tonsCO2e,0.0352692622426,512
+co2e,co2e.phi_small_appliances,PHI Small Appliances,drawn_insulation,Drawn Insulation,PHI Small Appliances,tonsCO2e,0.0352692622426,512
+co2e,co2e.phi_small_appliances,PHI Small Appliances,airtight_erv,Airtight + ERV,PHI Small Appliances,tonsCO2e,0.0352692622426,512
+co2e,co2e.phi_small_appliances,PHI Small Appliances,ph_windows,PH Windows,PHI Small Appliances,tonsCO2e,0.0352692622426,512
+co2e,co2e.phi_small_appliances,PHI Small Appliances,phi_leb,PHI LEB,PHI Small Appliances,tonsCO2e,0.0352692622426,512
 co2e,co2e.phius_int_lighting,Phius Int. Lighting,code_min,Code Min,Phius Int. Lighting,tonsCO2e,0,513
 co2e,co2e.phius_int_lighting,Phius Int. Lighting,drawn_insulation,Drawn Insulation,Phius Int. Lighting,tonsCO2e,0,513
 co2e,co2e.phius_int_lighting,Phius Int. Lighting,airtight_erv,Airtight + ERV,Phius Int. Lighting,tonsCO2e,0,513
@@ -745,20 +745,20 @@ co2e,co2e.ipcc_limit,IPCC Limit,airtight_erv,Airtight + ERV,IPCC Limit,tonsCO2e,
 co2e,co2e.ipcc_limit,IPCC Limit,ph_windows,PH Windows,IPCC Limit,tonsCO2e,3.44640870333,517
 co2e,co2e.ipcc_limit,IPCC Limit,phi_leb,PHI LEB,IPCC Limit,tonsCO2e,3.44640870333,517
 primary_energy_renewable,primary_energy_renewable.heating,Heating,code_min,Code Min,Heating,kWh,80303.1659607,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,drawn_insulation,Drawn Insulation,Heating,kWh,59893.5108335,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,airtight_erv,Airtight + ERV,Heating,kWh,46878.9207533,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,ph_windows,PH Windows,Heating,kWh,28960.6284996,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,phi_leb,PHI LEB,Heating,kWh,21087.1678635,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,drawn_insulation,Drawn Insulation,Heating,kWh,60131.2409018,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,airtight_erv,Airtight + ERV,Heating,kWh,47256.7695805,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,ph_windows,PH Windows,Heating,kWh,29190.0527931,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,phi_leb,PHI LEB,Heating,kWh,21315.8874089,520
 primary_energy_renewable,primary_energy_renewable.cooling,Cooling,code_min,Code Min,Cooling,kWh,3634.21361801,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,drawn_insulation,Drawn Insulation,Cooling,kWh,3517.5078321,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,airtight_erv,Airtight + ERV,Cooling,kWh,3035.04215445,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,2941.58010232,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,phi_leb,PHI LEB,Cooling,kWh,3041.08388391,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,drawn_insulation,Drawn Insulation,Cooling,kWh,3525.54691903,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,airtight_erv,Airtight + ERV,Cooling,kWh,3043.17591837,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,2949.13179685,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,phi_leb,PHI LEB,Cooling,kWh,3047.34964169,521
 primary_energy_renewable,primary_energy_renewable.dhw,DHW,code_min,Code Min,DHW,kWh,4611.29873358,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,drawn_insulation,Drawn Insulation,DHW,kWh,4543.16767111,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,airtight_erv,Airtight + ERV,DHW,kWh,4638.14328709,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,ph_windows,PH Windows,DHW,kWh,4543.92311638,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,phi_leb,PHI LEB,DHW,kWh,4556.65251442,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,drawn_insulation,Drawn Insulation,DHW,kWh,4544.13187807,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,airtight_erv,Airtight + ERV,DHW,kWh,4639.32287881,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,ph_windows,PH Windows,DHW,kWh,4545.92589098,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,phi_leb,PHI LEB,DHW,kWh,4559.43281451,522
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,code_min,Code Min,Dishwashing,kWh,143.717923977,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,drawn_insulation,Drawn Insulation,Dishwashing,kWh,143.717923977,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,airtight_erv,Airtight + ERV,Dishwashing,kWh,143.717923977,523
@@ -834,28 +834,28 @@ report_inputs,report_inputs.total_site_energy,Total Site Energy,code_min,Code Mi
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),drawn_insulation,Drawn Insulation,Envelope Air Leakage Rate (q50),cfm/ft2,0.173203674402,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),drawn_insulation,Drawn Insulation,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,drawn_insulation,Drawn Insulation,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,drawn_insulation,Drawn Insulation,Heat Demand,kWh/yr,45986.2608199,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,drawn_insulation,Drawn Insulation,Cooling Demand,kWh/yr,4001.07226687,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,drawn_insulation,Drawn Insulation,Total Primary Energy,kWh/yr,102086.895923,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,drawn_insulation,Drawn Insulation,Total Site Energy,kWh/yr,39264.1907397,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,drawn_insulation,Drawn Insulation,Heat Demand,kWh/yr,46227.1485436,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,drawn_insulation,Drawn Insulation,Cooling Demand,kWh/yr,4012.59677679,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,drawn_insulation,Drawn Insulation,Total Primary Energy,kWh/yr,102421.357584,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,drawn_insulation,Drawn Insulation,Total Site Energy,kWh/yr,39392.82984,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),airtight_erv,Airtight + ERV,Envelope Air Leakage Rate (q50),cfm/ft2,0.057734558134,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),airtight_erv,Airtight + ERV,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,airtight_erv,Airtight + ERV,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,airtight_erv,Airtight + ERV,Heat Demand,kWh/yr,36309.9341994,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,airtight_erv,Airtight + ERV,Cooling Demand,kWh/yr,3983.08662266,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,airtight_erv,Airtight + ERV,Total Primary Energy,kWh/yr,84002.4652738,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,airtight_erv,Airtight + ERV,Total Site Energy,kWh/yr,32308.6404899,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,airtight_erv,Airtight + ERV,Heat Demand,kWh/yr,36548.1331487,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,airtight_erv,Airtight + ERV,Cooling Demand,kWh/yr,3994.78367075,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,airtight_erv,Airtight + ERV,Total Primary Energy,kWh/yr,84524.3822876,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,airtight_erv,Airtight + ERV,Total Site Energy,kWh/yr,32509.3778029,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),ph_windows,PH Windows,Envelope Air Leakage Rate (q50),cfm/ft2,0.057734558134,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),ph_windows,PH Windows,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,ph_windows,PH Windows,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,ph_windows,PH Windows,Heat Demand,kWh/yr,21978.623499,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,ph_windows,PH Windows,Cooling Demand,kWh/yr,4394.5741856,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,ph_windows,PH Windows,Total Primary Energy,kWh/yr,59735.4299912,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,ph_windows,PH Windows,Total Site Energy,kWh/yr,22975.1653812,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,ph_windows,PH Windows,Heat Demand,kWh/yr,22207.2225315,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,ph_windows,PH Windows,Cooling Demand,kWh/yr,4403.26645132,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,ph_windows,PH Windows,Total Primary Energy,kWh/yr,60060.0388246,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,ph_windows,PH Windows,Total Site Energy,kWh/yr,23100.0149325,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),phi_leb,PHI LEB,Envelope Air Leakage Rate (q50),cfm/ft2,0.0346407348803,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),phi_leb,PHI LEB,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,phi_leb,PHI LEB,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,phi_leb,PHI LEB,Heat Demand,kWh/yr,15649.9484122,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,phi_leb,PHI LEB,Cooling Demand,kWh/yr,4936.79084973,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,phi_leb,PHI LEB,Total Primary Energy,kWh/yr,49455.596537,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,phi_leb,PHI LEB,Total Site Energy,kWh/yr,19021.3832835,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,phi_leb,PHI LEB,Heat Demand,kWh/yr,15869.1130342,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,phi_leb,PHI LEB,Cooling Demand,kWh/yr,4940.20947903,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,phi_leb,PHI LEB,Total Primary Energy,kWh/yr,49778.4063403,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,phi_leb,PHI LEB,Total Site Energy,kWh/yr,19145.5409001,

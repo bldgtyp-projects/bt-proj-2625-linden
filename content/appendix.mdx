@@ -1,8 +1,17 @@
 ---
 kicker: "06"
 title: "Appendix"
-dek: "Keep traceability available, but out of the primary decision narrative."
+dek: "Source files and references behind the results in this report."
 ---
 
-Appendix content should help reviewers connect report claims back to PHPP rows, source PDFs, and model assumptions
-without making the main client narrative too dense.
+The results in this report are based on the following sources:
+
+- **Energy model:** PHPP version 10.6, with five design variants as described in the [Model Variants](/energy_model/#model-variants)
+  section.
+- **Drawings:** building geometry is based on the drawings and models received on
+  <Var k="source_files.cad_files_received_date" />.
+- **Climate data:** <Var k="narrative.climate.weather_station_name" />.
+- **Assembly R-values:** effective whole-assembly values from 2D heat-flow (Flixo) models, including thermal bridging
+  through framing and fasteners. The model output for each assembly is linked in the
+  [Recommended Assemblies](/building_envelope/#recommended-assemblies) section.
+- **Carbon emissions:** <Var k="narrative.co2.subregion_name" /> emission rates.
