@@ -1,0 +1,58 @@
+---
+kicker: "04"
+title: "Phius Hot Water Requirements"
+dek: "Hot water design and documentation needed for Phius certification."
+---
+
+Phius does not prescribe a particular hot water system. Instead, the water heater's efficiency and the heat lost from
+the piping and storage tank are calculated in the energy model, and certification requires documentation showing that
+the system is built as modeled. Every fixture is also checked for how quickly it delivers hot water, so a compact
+layout matters for both energy and certification.
+
+#### Design recommendations
+
+- **Planning:** prioritize compact plumbing layouts (stacked wet areas), with the water heater located as centrally as
+  practical.
+- **Hot water delivery:** Phius uses the DOE Zero Energy Ready Home limit of no more than 0.5 gallons of water in the
+  piping between the hot water supply and each fixture, so that hot water arrives quickly without running water down
+  the drain. Long branch runs to distant fixtures are the most common reason this is not met.
+- **Branch piping:** keep branch piping as short as possible, and use the smallest pipe diameter suitable for the
+  application.
+- **Recirculation:** in a single-family home, Phius allows only demand-controlled recirculation, where the pump runs
+  briefly when someone presses a button or a sensor detects someone at the fixture. Timer-based or continuously running
+  recirculation is not permitted. See [Recirculation and Heat Recovery](#hot-water-recirculation).
+- **Pipe insulation:** insulate all hot water piping, with insulation at least as thick as the pipe diameter (2x
+  recommended), and continue the insulation through fittings, valves, and pipe hangers.
+- **Waste-water stacks:** where code allows, use air admittance valves instead of roof-vented stacks. Roof-vented
+  stacks inside the envelope lose heat through the stack effect; if they are needed, insulate the full vertical stack
+  with 2" (50 mm) of insulation.
+
+#### Phius requirements
+
+- **Water heater:** a data sheet showing the rated efficiency (Uniform Energy Factor, UEF). A heat pump water heater
+  inside the house is modeled with a reduced efficiency, because it draws heat from the house in winter. A split unit
+  with its heat pump outdoors, such as the SanCO2, is modeled with a Phius calculator specific to the climate.
+- **Storage tank:** a data sheet showing the tank's standby heat loss, or the tank size and insulation level.
+- **Piping:** the length, diameter, and material of each hot water pipe, from the water heater to each fixture, are
+  entered in the energy model and checked against the plumbing drawings.
+- **Drain-water heat recovery:** units must be rated and labeled to CSA B55.1 to be credited in the energy model.
+- **Pumps:** the power and controls of any recirculation pump.
+
+#### Required submission documentation
+
+Ensure that the plumbing plans and specifications include, at a minimum:
+
+- **Piping** (hot water distribution and any recirculation):
+  - Position and length of all piping, including the main runs, branches, and the final run to each fixture
+  - Nominal pipe diameter
+  - Pipe material (copper, PEX, etc.)
+  - Insulation type and thickness
+- **Equipment:**
+  - Locations of the water heater, tanks, and pumps on the plumbing plans
+  - Make, model, and size in the plumbing schedules
+  - Data sheets for all equipment, including the water heater's rated efficiency and the tank's heat loss
+  - Any pumps or circulators, and their controls
+- **System description:** a brief description of the hot water system with schematic diagrams.
+
+For more information, see the
+[Phius Certification Guidebook](https://www.phius.org/sites/default/files/2025-09/Phius%20Certification%20Guidebook%20v25.1.0.pdf).

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "phpp_version": "10.6",
-  "generated_at": "2026-10-27T15:44:36.567950Z",
+  "generated_at": "2026-11-12T22:46:01.014376Z",
   "generator": "btwr@0.0.1",
   "status": "ok",
   "variants": [
@@ -14,42 +14,50 @@
       "source_column": "G"
     },
     {
-      "id": "drawn_insulation",
-      "name": "Drawn Insulation",
+      "id": "insulation_airtightness_erv",
+      "name": "Insulation + Airtightness + ERV",
       "order": 1,
       "color": "auto",
       "recommended": false,
       "source_column": "H"
     },
     {
-      "id": "airtight_erv",
-      "name": "Airtight + ERV",
+      "id": "ph_windows",
+      "name": "PH Windows",
       "order": 2,
       "color": "auto",
       "recommended": false,
       "source_column": "I"
     },
     {
-      "id": "ph_windows",
-      "name": "PH Windows",
+      "id": "shading",
+      "name": "+ Shading",
       "order": 3,
       "color": "auto",
       "recommended": false,
       "source_column": "J"
     },
     {
-      "id": "phi_leb",
-      "name": "PHI LEB",
+      "id": "phius_core",
+      "name": "Phius CORE",
       "order": 4,
       "color": "auto",
-      "recommended": true,
+      "recommended": false,
       "source_column": "K"
+    },
+    {
+      "id": "phius_zero",
+      "name": "Phius ZERO",
+      "order": 5,
+      "color": "auto",
+      "recommended": true,
+      "source_column": "L"
     }
   ],
-  "recommended_variant_id": "phi_leb",
+  "recommended_variant_id": "phius_zero",
   "source_workbook": {
-    "path": "/Users/johnmitchell/Dropbox/bldgtyp/2625 2500 Linden/07_PHPP/2625 2500 Linden.xlsx",
-    "sha256": "2003958610f7f6b3331459615bde831d71b320112fe88c87fb0bee54b1902d37",
-    "size_bytes": 13172013
+    "path": "/Users/johnmitchell/Dropbox/bldgtyp/2625 2500 Linden/07_PHPP/2625 2500 Linden_Phius.xlsx",
+    "sha256": "c02a1fef312be7900db6a50db32a91c9c2f133cf3b382e1ffb1f5b5e18723070",
+    "size_bytes": 13026204
   }
 }

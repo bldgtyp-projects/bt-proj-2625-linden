@@ -4,22 +4,22 @@ project_title: Boulder Home
 client_name: cgmodern
 building_name: Boulder Home
 phase: Design Analysis
-report_date: '2026-10-27'
+report_date: '2026-11-13'
 prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
-target_standard: PHI
-certification_program: Low Energy Building
-certification_path: PHI Low Energy Building
-recommended_variant_id: phi_leb
+target_standard: Phius
+certification_program: Phius ZERO 2024
+certification_path: Phius ZERO 2024
+recommended_variant_id: phius_zero
 building:
   address: 2500 Linden Ave
   city: Boulder
   state: CO
   climate_zone: ASHRAE 5B
   building_type: single-family residential
-  total_num_occupants: '3.4'
+  total_num_occupants: '6'
 source_files:
-  phpp_path: ../07_PHPP/2625 2500 Linden.xlsx
+  phpp_path: ../07_PHPP/2625 2500 Linden_Phius.xlsx
   cad_files_received_date: October 12, 2026
   data_dir: data
   assets_dir: public/assets
@@ -30,32 +30,34 @@ publishing:
     mode: public
     allowed_emails: []
 custom_pages:
-  - slug: hot-water
-    label: Hot Water
+- slug: hot-water
+  label: Hot Water
 certification_pathways:
-  show: [phi-leb, phi-classic]
-  recommended: phi-leb
+  show:
+  - phius-core-2024
+  - phius-zero-2024
+  recommended: phius-zero-2024
 narrative:
   certification:
-    target: PHI Low Energy Building
-    ph_ach_limit: '0.6'
+    target: Phius ZERO 2024
+    ph_ach_limit: '1.04'
     phi_lcd_limit: null
-    phi_cd_limit: '15'
-    phi_leb_cd_limit: '30'
+    phi_cd_limit: null
+    phi_leb_cd_limit: null
     enph_hd_limit: null
     enph_per_limit: null
     enph_bg_limit: null
     enph_ag_ext_limit: null
     enph_ag_int_limit: null
     enph_uw_limit: null
-    phius_hd_limit: null
-    phius_cd_limit: null
-    phius_hl_limit: null
-    phius_cl_limit: null
-    phius_nse_limit: null
-    phius_cfm50_limit: null
+    phius_hd_limit: '10.9'
+    phius_cd_limit: '7.7'
+    phius_hl_limit: '9.4'
+    phius_cl_limit: '3.5'
+    phius_nse_limit: '6550'
+    phius_cfm50_limit: '0.06'
   climate:
-    weather_station_name: 'US0158a-Fort Collins :: 724769 :: PHPP (altitude corrected)'
+    weather_station_name: 'Fort Collins (AWOS) :: 724769 :: Phius climate data (WUFI Passive)'
     weather_station_url: https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/CO/USA_CO_Fort.Collins.AWOS.724769_TMY3/USA_CO_Fort.Collins.AWOS.724769_TMY3.zip
     state_name: Colorado
     state_name_abbreviation: CO
@@ -76,17 +78,17 @@ narrative:
   co2:
     subregion_name: WECC Rockies eGRID (2023)
     epa_subgrid_name: WECC Rockies (RMPA)
-    occupancy: '3.4'
-    target_tons: '3.4'
+    occupancy: '6'
+    target_tons: '6'
     taget_co2_per_person: '1.0'
   windows:
     ph_window_u_value: '0.14'
     ph_window_r_value: '7.4'
-    comfort_target_r_value: '6.7'
-    comfort_target_u_value: '0.15'
+    comfort_target_r_value: '5.3'
+    comfort_target_u_value: '0.19'
   mechanical:
     erv:
       manufacturer_name: Brink Climate Systems
-      type_name: Flair 400 Enthalpie ERV
-      link: https://database.passivehouse.com/components/details/ventilation_small/brink-climate-systems-bv-brink-flair-400-enthalpie-1363vs03
+      type_name: Flair 400 ERV
+      link: https://hvi.org/hvi-certified-products-directory/section-iii-hrv-erv-directory-listing
   user_defined: {}
