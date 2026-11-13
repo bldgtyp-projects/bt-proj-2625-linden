@@ -8,7 +8,7 @@ For this building, we recommend a high-performance balanced ERV system, which wi
 quality while minimizing energy consumption and occupant comfort issues. The energy model is based on two
 <VarLink hrefKey="narrative.mechanical.erv.link" target="_blank" rel="noopener noreferrer"><Var
 k="narrative.mechanical.erv.manufacturer_name" /> <Var k="narrative.mechanical.erv.type_name" /></VarLink> units.
-The design airflow (about 230 cfm at normal operation, 300 cfm at boost) is more than a single unit can deliver, so
+The design airflow (about 270 cfm at normal operation, 355 cfm at boost) is more than a single unit can deliver, so
 two units are needed, each carrying about half of the airflow. The units should be outfitted with high-quality air
 filtration, MERV 13 or better, which will be critical to ensuring clean and healthy indoor air. Additional filtration
 may also be desired to manage wildfire smoke.
@@ -17,6 +17,9 @@ Phius requires the energy model to use the ERV's performance as rated by the Hom
 airflow each unit will actually run at, rounded up to the next tested airflow. At that rating, each unit recovers
 about 74% of the heat and 65% of the moisture from the exhaust air. Manufacturers' own efficiency figures are often
 higher because they are measured under different conditions, so they cannot be used where HVI data exists.
+
+The energy model results show a slightly lower heat recovery, about 70%. That is the efficiency of the whole system:
+the ERV's rated 74%, less the heat lost from the ducts that run between the ERVs and the outside.
 
 The values used in this analysis are design-stage assumptions. We recommend contacting both Brink and Zehnder for
 design assistance. If a different unit is selected, its HVI-rated performance at the design airflow should be sent to
@@ -27,7 +30,7 @@ all high-performance buildings.
 #### Frost protection
 
 In very cold weather, the ERV's heat exchanger can freeze. The Flair 400 protects itself with a built-in electric
-preheater and is rated for outdoor air down to -4°F (-20°C), just below the site's ASHRAE 99.6% winter design
+preheater and is rated for outdoor air down to -4°F (-20°C), below the site's ASHRAE 99.6% winter design
 temperature of
 <Var k="narrative.climate.ashrae_winter_design_temp_F" />°F (<Var k="narrative.climate.ashrae_winter_design_temp_C" />°C).
 Below about 5°F (-15°C), however, Brink recommends an additional preheater to keep the unit running in balance: once

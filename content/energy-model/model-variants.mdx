@@ -12,12 +12,16 @@ hrefKey="narrative.energy_code.code_base_url" target="_blank" rel="noopener nore
 k="narrative.energy_code.name" /> / <Var k="narrative.energy_code.zone" /></VarLink>** code minimums for assembly
 U-values, window U-values, airtightness (3.0 ACH50) and equipment efficiencies. This variant assumes a basic balanced
 ventilation system with heat recovery, as required by the Boulder code, and that the building uses all-electric
-appliances and equipment for heating, cooling, hot water and cooking.
+appliances and equipment for heating, cooling, hot water and cooking. Like every variant, it also includes a
+room-sealed wood stove, which Phius has us model as supplying 25% of the heating at 60% efficiency (see
+[Fireplaces](/mechanical/#fireplaces)).
 
-2. **Insulation + Airtightness + ERV:** This variant uses the assembly R-values shown in the current design drawings
-(approximately R-36 walls and R-52 sloped roof), with the basement wall and floor insulation increased to approximately
-R-30 (3" exterior and 6" sub-slab graphite-enhanced EPS) and the flat roof increased to approximately R-76 (increasing
-the polyiso above the roof deck from 2" to 4"), along with improved thermal-bridge detailing. It also tightens the
+2. **Insulation + Airtightness + ERV:** This variant keeps the sloped roof as drawn (approximately R-52) and increases the
+walls from approximately R-36 to R-44 (3" of exterior mineral wool instead of 2", and an insulated 3-1/2" service
+cavity), the basement wall and floor insulation increased to approximately
+R-30 (3" exterior and 6" sub-slab graphite-enhanced EPS) and the flat roof rebuilt at approximately R-65 (the polyiso
+above the roof deck increased from 2" to 4", and the service cavity below left uninsulated, to keep the roof within
+the Phius moisture-control rule), along with improved thermal-bridge detailing. It also tightens the
 building to the Phius airtightness limit of 0.06 cfm50/ft² of envelope (about 1.0 ACH50) and replaces the basic
 ventilation unit with two high-performance energy recovery ventilators (ERVs), at about 74% heat recovery and 65%
 moisture recovery as rated by the Home Ventilation Institute (HVI). The windows remain at the code-minimum level.
@@ -30,10 +34,13 @@ heat gain. The building in this variant meets all of the Phius heating, cooling,
 Phius source energy limit.
 
 5. **Phius CORE:** The same building as the + Shading variant, with solar panels producing about 3,700 kWh/yr. This is
-enough to meet the Phius CORE source energy limit of 6,550 kWh per person per year, so this variant meets all of the
+more than the roughly 1,100 kWh/yr needed to meet the Phius CORE source energy limit of 6,550 kWh per person per year,
+so this variant meets all of the
 Phius CORE certification criteria.
 
 6. **Phius ZERO [RECOMMENDED]:** The same building again, with solar panels producing about 23,300 kWh/yr, enough to
-offset all of the building's modeled source energy and meet the Phius ZERO certification criteria. The modeled heating
-demand is about 9.9 kBtu/ft2 per year against the Phius limit of 10.9. Because this margin is modest (about 9%), design
+offset all of the building's modeled source energy and meet the Phius ZERO certification criteria. The calculated
+minimum is about 20,600 kWh/yr; the rest is margin. The modeled heating
+demand is about 9.5 kBtu/ft2 per year against the Phius limit of 10.5 (9.9 in the WUFI Passive certification model). Because
+this margin is small (about 6%), design
 changes to the windows, shading, insulation, or airtightness should be checked against the energy model.

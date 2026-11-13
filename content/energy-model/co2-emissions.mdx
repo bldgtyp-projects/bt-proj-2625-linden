@@ -21,19 +21,20 @@ Based on the modeled source energy and fuel types for the various energy uses of
 average annual CO<sub>2e</sub> emissions which will result. CO<sub>2e</sub> emission totals shown below are those which result from fuel usage
 by the building for heating, cooling, hot-water and all other plug-loads. The total amount of CO<sub>2e</sub> emitted as a result
 of each use-type depends on both the amount of fuel used as well as the type of fuel (gas, electricity, etc.). Although
-fuel-fired heating systems are permitted by Code, for this evaluation we have modeled all variants with electric-powered
-heat-pump systems only.
+fuel-fired heating systems are permitted by Code, for this evaluation we have modeled all variants with electric
+heat pumps, plus the wood stove described in [Fireplaces](/mechanical/#fireplaces).
 
 Output Emission Rates used are from the <strong><Var k="narrative.co2.epa_subgrid_name" /></strong> Subregion. For more information on these factors see 
 the [EPA eGRID Data Explorer](https://www.epa.gov/egrid/data-explorer). Source energy factors follow the Phius 2024 national values (2.014 for grid
 electricity), as set out in the [Phius Certification Guidebook](https://www.phius.org/sites/default/files/2025-09/Phius%20Certification%20Guidebook%20v25.1.0.pdf).
 
-The recommended Phius ZERO building is estimated at about 11.2 tons-CO<sub>2e</sub> / year from its energy use, about
-42% less than the Code Min variant (about 19.4 tons-CO<sub>2e</sub> / year), but still well above the target of about
-<Var k="narrative.co2.target_tons" /> tons. Heating remains the largest source, at about 3.6 tons-CO<sub>2e</sub> / year.
+The recommended Phius ZERO building is estimated at about 10.7 tons-CO<sub>2e</sub> / year from its energy use, about
+41% less than the Code Min variant (about 18.2 tons-CO<sub>2e</sub> / year), but still well above the target of about
+<Var k="narrative.co2.target_tons" /> tons. Heating remains the largest source, at about 3.1 tons-CO<sub>2e</sub> / year, of which the firewood for the wood
+stove accounts for about 0.4 tons, using the Phius emission factor for wood of about 53 g-CO<sub>2e</sub> / kWh.
 These totals do not credit the solar panels in the Phius CORE and Phius ZERO variants. At the regional grid emission
-rate, the Phius ZERO solar production of about 23,300 kWh/yr would offset roughly 12 tons-CO<sub>2e</sub> / year, about
-as much as the building emits, although the actual benefit depends on when the panels produce power relative to the
+rate, the Phius ZERO solar production of about 23,300 kWh/yr would offset roughly 12 tons-CO<sub>2e</sub> / year, more
+than the building emits, although the actual benefit depends on when the panels produce power relative to the
 grid's hourly emissions.
 
 These relatively high emissions are due in large part to Colorado's electricity grid rather than the building itself.

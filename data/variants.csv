@@ -72,11 +72,11 @@ envelope,envelope.wall_bg,Basement Wall,shading,+ Shading,Basement Wall,hr-ft2-F
 envelope,envelope.wall_bg,Basement Wall,phius_core,Phius CORE,Basement Wall,hr-ft2-F/Btu,28.5,329
 envelope,envelope.wall_bg,Basement Wall,phius_zero,Phius ZERO,Basement Wall,hr-ft2-F/Btu,28.5,329
 envelope,envelope.party_wall,Wall,code_min,Code Min,Wall,hr-ft2-F/Btu,25,330
-envelope,envelope.party_wall,Wall,insulation_airtightness_erv,Insulation + Airtightness + ERV,Wall,hr-ft2-F/Btu,36.2,330
-envelope,envelope.party_wall,Wall,ph_windows,PH Windows,Wall,hr-ft2-F/Btu,36.2,330
-envelope,envelope.party_wall,Wall,shading,+ Shading,Wall,hr-ft2-F/Btu,36.2,330
-envelope,envelope.party_wall,Wall,phius_core,Phius CORE,Wall,hr-ft2-F/Btu,36.2,330
-envelope,envelope.party_wall,Wall,phius_zero,Phius ZERO,Wall,hr-ft2-F/Btu,36.2,330
+envelope,envelope.party_wall,Wall,insulation_airtightness_erv,Insulation + Airtightness + ERV,Wall,hr-ft2-F/Btu,43.7,330
+envelope,envelope.party_wall,Wall,ph_windows,PH Windows,Wall,hr-ft2-F/Btu,43.7,330
+envelope,envelope.party_wall,Wall,shading,+ Shading,Wall,hr-ft2-F/Btu,43.7,330
+envelope,envelope.party_wall,Wall,phius_core,Phius CORE,Wall,hr-ft2-F/Btu,43.7,330
+envelope,envelope.party_wall,Wall,phius_zero,Phius ZERO,Wall,hr-ft2-F/Btu,43.7,330
 envelope,envelope.wall_ag,Sloped Roof,code_min,Code Min,Sloped Roof,hr-ft2-F/Btu,42,331
 envelope,envelope.wall_ag,Sloped Roof,insulation_airtightness_erv,Insulation + Airtightness + ERV,Sloped Roof,hr-ft2-F/Btu,51.7,331
 envelope,envelope.wall_ag,Sloped Roof,ph_windows,PH Windows,Sloped Roof,hr-ft2-F/Btu,51.7,331
@@ -84,11 +84,11 @@ envelope,envelope.wall_ag,Sloped Roof,shading,+ Shading,Sloped Roof,hr-ft2-F/Btu
 envelope,envelope.wall_ag,Sloped Roof,phius_core,Phius CORE,Sloped Roof,hr-ft2-F/Btu,51.7,331
 envelope,envelope.wall_ag,Sloped Roof,phius_zero,Phius ZERO,Sloped Roof,hr-ft2-F/Btu,51.7,331
 envelope,envelope.roof,Flat Roof,code_min,Code Min,Flat Roof,hr-ft2-F/Btu,42,332
-envelope,envelope.roof,Flat Roof,insulation_airtightness_erv,Insulation + Airtightness + ERV,Flat Roof,hr-ft2-F/Btu,75.7,332
-envelope,envelope.roof,Flat Roof,ph_windows,PH Windows,Flat Roof,hr-ft2-F/Btu,75.7,332
-envelope,envelope.roof,Flat Roof,shading,+ Shading,Flat Roof,hr-ft2-F/Btu,75.7,332
-envelope,envelope.roof,Flat Roof,phius_core,Phius CORE,Flat Roof,hr-ft2-F/Btu,75.7,332
-envelope,envelope.roof,Flat Roof,phius_zero,Phius ZERO,Flat Roof,hr-ft2-F/Btu,75.7,332
+envelope,envelope.roof,Flat Roof,insulation_airtightness_erv,Insulation + Airtightness + ERV,Flat Roof,hr-ft2-F/Btu,64.9,332
+envelope,envelope.roof,Flat Roof,ph_windows,PH Windows,Flat Roof,hr-ft2-F/Btu,64.9,332
+envelope,envelope.roof,Flat Roof,shading,+ Shading,Flat Roof,hr-ft2-F/Btu,64.9,332
+envelope,envelope.roof,Flat Roof,phius_core,Phius CORE,Flat Roof,hr-ft2-F/Btu,64.9,332
+envelope,envelope.roof,Flat Roof,phius_zero,Phius ZERO,Flat Roof,hr-ft2-F/Btu,64.9,332
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),code_min,Code Min,Thermal Bridge Allowance (% increase),% Increase,0.2,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),insulation_airtightness_erv,Insulation + Airtightness + ERV,Thermal Bridge Allowance (% increase),% Increase,0.1,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),ph_windows,PH Windows,Thermal Bridge Allowance (% increase),% Increase,0.1,343
@@ -125,24 +125,24 @@ systems,systems.ventilation_system,Ventilation System,ph_windows,PH Windows,Vent
 systems,systems.ventilation_system,Ventilation System,shading,+ Shading,Ventilation System,,1-Balanced PH ventilation with HR,350
 systems,systems.ventilation_system,Ventilation System,phius_core,Phius CORE,Ventilation System,,1-Balanced PH ventilation with HR,350
 systems,systems.ventilation_system,Ventilation System,phius_zero,Phius ZERO,Ventilation System,,1-Balanced PH ventilation with HR,350
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,code_min,Code Min,Ventilation Unit HR Efficiency,%,0.605705490732,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,insulation_airtightness_erv,Insulation + Airtightness + ERV,Ventilation Unit HR Efficiency,%,0.688462805346,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,ph_windows,PH Windows,Ventilation Unit HR Efficiency,%,0.688462805346,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,shading,+ Shading,Ventilation Unit HR Efficiency,%,0.688462805346,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,phius_core,Phius CORE,Ventilation Unit HR Efficiency,%,0.688462805346,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,phius_zero,Phius ZERO,Ventilation Unit HR Efficiency,%,0.688462805346,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,code_min,Code Min,Ventilation Unit HR Efficiency,%,0.611801279874,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,insulation_airtightness_erv,Insulation + Airtightness + ERV,Ventilation Unit HR Efficiency,%,0.695563487147,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,ph_windows,PH Windows,Ventilation Unit HR Efficiency,%,0.695563487147,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,shading,+ Shading,Ventilation Unit HR Efficiency,%,0.695563487147,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,phius_core,Phius CORE,Ventilation Unit HR Efficiency,%,0.695563487147,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,phius_zero,Phius ZERO,Ventilation Unit HR Efficiency,%,0.695563487147,351
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,code_min,Code Min,Ventilation Unit ER Efficiency,%,0.5,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,insulation_airtightness_erv,Insulation + Airtightness + ERV,Ventilation Unit ER Efficiency,%,0.65,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,ph_windows,PH Windows,Ventilation Unit ER Efficiency,%,0.65,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,shading,+ Shading,Ventilation Unit ER Efficiency,%,0.65,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,phius_core,Phius CORE,Ventilation Unit ER Efficiency,%,0.65,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,phius_zero,Phius ZERO,Ventilation Unit ER Efficiency,%,0.65,352
-systems,systems.system_hr_efficiency,System HR Efficiency,code_min,Code Min,System HR Efficiency,%,0.605705490732,353
-systems,systems.system_hr_efficiency,System HR Efficiency,insulation_airtightness_erv,Insulation + Airtightness + ERV,System HR Efficiency,%,0.688462805346,353
-systems,systems.system_hr_efficiency,System HR Efficiency,ph_windows,PH Windows,System HR Efficiency,%,0.688462805346,353
-systems,systems.system_hr_efficiency,System HR Efficiency,shading,+ Shading,System HR Efficiency,%,0.688462805346,353
-systems,systems.system_hr_efficiency,System HR Efficiency,phius_core,Phius CORE,System HR Efficiency,%,0.688462805346,353
-systems,systems.system_hr_efficiency,System HR Efficiency,phius_zero,Phius ZERO,System HR Efficiency,%,0.688462805346,353
+systems,systems.system_hr_efficiency,System HR Efficiency,code_min,Code Min,System HR Efficiency,%,0.611801279874,353
+systems,systems.system_hr_efficiency,System HR Efficiency,insulation_airtightness_erv,Insulation + Airtightness + ERV,System HR Efficiency,%,0.695563487147,353
+systems,systems.system_hr_efficiency,System HR Efficiency,ph_windows,PH Windows,System HR Efficiency,%,0.695563487147,353
+systems,systems.system_hr_efficiency,System HR Efficiency,shading,+ Shading,System HR Efficiency,%,0.695563487147,353
+systems,systems.system_hr_efficiency,System HR Efficiency,phius_core,Phius CORE,System HR Efficiency,%,0.695563487147,353
+systems,systems.system_hr_efficiency,System HR Efficiency,phius_zero,Phius ZERO,System HR Efficiency,%,0.695563487147,353
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),code_min,Code Min,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),insulation_airtightness_erv,Insulation + Airtightness + ERV,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),ph_windows,PH Windows,Cold Air Duct Length (ea),m,5,354
@@ -173,42 +173,42 @@ systems,systems.dhw_system,DHW System,ph_windows,PH Windows,DHW System,,Heat pum
 systems,systems.dhw_system,DHW System,shading,+ Shading,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,phius_core,Phius CORE,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,phius_zero,Phius ZERO,DHW System,,Heat pump(s),358
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,code_min,Code Min,Heat Demand Limit,kWh/m2,34,363
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heat Demand Limit,kWh/m2,34.3850439274,363
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,ph_windows,PH Windows,Heat Demand Limit,kWh/m2,34.3850439274,363
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,shading,+ Shading,Heat Demand Limit,kWh/m2,34.3850439274,363
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,phius_core,Phius CORE,Heat Demand Limit,kWh/m2,34.3850439274,363
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,phius_zero,Phius ZERO,Heat Demand Limit,kWh/m2,34.3850439274,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,code_min,Code Min,Heat Demand Limit,kWh/m2,33.123207453,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heat Demand Limit,kWh/m2,33.123207453,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,ph_windows,PH Windows,Heat Demand Limit,kWh/m2,33.123207453,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,shading,+ Shading,Heat Demand Limit,kWh/m2,33.123207453,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,phius_core,Phius CORE,Heat Demand Limit,kWh/m2,33.123207453,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,phius_zero,Phius ZERO,Heat Demand Limit,kWh/m2,33.123207453,363
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,code_min,Code Min,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,ph_windows,PH Windows,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,shading,+ Shading,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,phius_core,Phius CORE,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,phius_zero,Phius ZERO,Sensible Cooling Demand Limit,kWh/m2,15,364
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,code_min,Code Min,Latent Cooling Demand Limit,kWh/m2,9.2903521322,365
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Latent Cooling Demand Limit,kWh/m2,9.2903521322,365
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,ph_windows,PH Windows,Latent Cooling Demand Limit,kWh/m2,9.2903521322,365
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,shading,+ Shading,Latent Cooling Demand Limit,kWh/m2,9.2903521322,365
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,phius_core,Phius CORE,Latent Cooling Demand Limit,kWh/m2,9.2903521322,365
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,phius_zero,Phius ZERO,Latent Cooling Demand Limit,kWh/m2,9.2903521322,365
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,code_min,Code Min,Total Cooling Demand Limit,kWh/m2,24.2903521322,366
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Total Cooling Demand Limit,kWh/m2,24.2903521322,366
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,ph_windows,PH Windows,Total Cooling Demand Limit,kWh/m2,24.2903521322,366
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,shading,+ Shading,Total Cooling Demand Limit,kWh/m2,24.2903521322,366
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,phius_core,Phius CORE,Total Cooling Demand Limit,kWh/m2,24.2903521322,366
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,phius_zero,Phius ZERO,Total Cooling Demand Limit,kWh/m2,24.2903521322,366
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,code_min,Code Min,Peak Heat Load Limit,W/m2,30,367
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Heat Load Limit,W/m2,29.6531571484,367
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,ph_windows,PH Windows,Peak Heat Load Limit,W/m2,29.6531571484,367
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,shading,+ Shading,Peak Heat Load Limit,W/m2,29.6531571484,367
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,phius_core,Phius CORE,Peak Heat Load Limit,W/m2,29.6531571484,367
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,phius_zero,Phius ZERO,Peak Heat Load Limit,W/m2,29.6531571484,367
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,code_min,Code Min,Peak Cooling Load Limit,W/m2,11.041069151,368
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Cooling Load Limit,W/m2,11.041069151,368
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,ph_windows,PH Windows,Peak Cooling Load Limit,W/m2,11.041069151,368
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,shading,+ Shading,Peak Cooling Load Limit,W/m2,11.041069151,368
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,phius_core,Phius CORE,Peak Cooling Load Limit,W/m2,11.041069151,368
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,phius_zero,Phius ZERO,Peak Cooling Load Limit,W/m2,11.041069151,368
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,code_min,Code Min,Latent Cooling Demand Limit,kWh/m2,9.6058112508,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Latent Cooling Demand Limit,kWh/m2,9.6058112508,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,ph_windows,PH Windows,Latent Cooling Demand Limit,kWh/m2,9.6058112508,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,shading,+ Shading,Latent Cooling Demand Limit,kWh/m2,9.6058112508,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,phius_core,Phius CORE,Latent Cooling Demand Limit,kWh/m2,9.6058112508,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,phius_zero,Phius ZERO,Latent Cooling Demand Limit,kWh/m2,9.6058112508,365
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,code_min,Code Min,Total Cooling Demand Limit,kWh/m2,24.6058112508,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Total Cooling Demand Limit,kWh/m2,24.6058112508,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,ph_windows,PH Windows,Total Cooling Demand Limit,kWh/m2,24.6058112508,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,shading,+ Shading,Total Cooling Demand Limit,kWh/m2,24.6058112508,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,phius_core,Phius CORE,Total Cooling Demand Limit,kWh/m2,24.6058112508,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,phius_zero,Phius ZERO,Total Cooling Demand Limit,kWh/m2,24.6058112508,366
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,code_min,Code Min,Peak Heat Load Limit,W/m2,24.2903521322,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Heat Load Limit,W/m2,24.2903521322,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,ph_windows,PH Windows,Peak Heat Load Limit,W/m2,24.2903521322,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,shading,+ Shading,Peak Heat Load Limit,W/m2,24.2903521322,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,phius_core,Phius CORE,Peak Heat Load Limit,W/m2,24.2903521322,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,phius_zero,Phius ZERO,Peak Heat Load Limit,W/m2,24.2903521322,367
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,code_min,Code Min,Peak Cooling Load Limit,W/m2,9.463773558,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Cooling Load Limit,W/m2,9.463773558,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,ph_windows,PH Windows,Peak Cooling Load Limit,W/m2,9.463773558,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,shading,+ Shading,Peak Cooling Load Limit,W/m2,9.463773558,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,phius_core,Phius CORE,Peak Cooling Load Limit,W/m2,9.463773558,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,phius_zero,Phius ZERO,Peak Cooling Load Limit,W/m2,9.463773558,368
 certification_limits,certification_limits.pe_limit,PE Limit,code_min,Code Min,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,ph_windows,PH Windows,PE Limit,kWh/m2,0,369
@@ -227,48 +227,48 @@ certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Ne
 certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,shading,+ Shading,PHIUS Net Source Energy Limit,kWh/m2,70.5185716849,371
 certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,phius_core,Phius CORE,PHIUS Net Source Energy Limit,kWh/m2,70.5185716849,371
 certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,phius_zero,Phius ZERO,PHIUS Net Source Energy Limit,kWh/m2,70.5185716849,371
-heating_demand,heating_demand.walls_ag,Walls (AG),code_min,Code Min,Walls (AG),kWh,9449.93129402,376
-heating_demand,heating_demand.walls_ag,Walls (AG),insulation_airtightness_erv,Insulation + Airtightness + ERV,Walls (AG),kWh,6382.74865258,376
-heating_demand,heating_demand.walls_ag,Walls (AG),ph_windows,PH Windows,Walls (AG),kWh,6277.39970434,376
-heating_demand,heating_demand.walls_ag,Walls (AG),shading,+ Shading,Walls (AG),kWh,6271.32820221,376
-heating_demand,heating_demand.walls_ag,Walls (AG),phius_core,Phius CORE,Walls (AG),kWh,6271.32820221,376
-heating_demand,heating_demand.walls_ag,Walls (AG),phius_zero,Phius ZERO,Walls (AG),kWh,6271.32820221,376
-heating_demand,heating_demand.walls_bg,Walls (BG),code_min,Code Min,Walls (BG),kWh,2484.67220646,377
-heating_demand,heating_demand.walls_bg,Walls (BG),insulation_airtightness_erv,Insulation + Airtightness + ERV,Walls (BG),kWh,3672.29184829,377
-heating_demand,heating_demand.walls_bg,Walls (BG),ph_windows,PH Windows,Walls (BG),kWh,3473.06670424,377
-heating_demand,heating_demand.walls_bg,Walls (BG),shading,+ Shading,Walls (BG),kWh,3457.47912926,377
-heating_demand,heating_demand.walls_bg,Walls (BG),phius_core,Phius CORE,Walls (BG),kWh,3457.47912926,377
-heating_demand,heating_demand.walls_bg,Walls (BG),phius_zero,Phius ZERO,Walls (BG),kWh,3457.47912926,377
-heating_demand,heating_demand.roofs,Roofs,code_min,Code Min,Roofs,kWh,5463.89337729,378
-heating_demand,heating_demand.roofs,Roofs,insulation_airtightness_erv,Insulation + Airtightness + ERV,Roofs,kWh,4121.9746679,378
-heating_demand,heating_demand.roofs,Roofs,ph_windows,PH Windows,Roofs,kWh,4053.94038995,378
-heating_demand,heating_demand.roofs,Roofs,shading,+ Shading,Roofs,kWh,4050.01941807,378
-heating_demand,heating_demand.roofs,Roofs,phius_core,Phius CORE,Roofs,kWh,4050.01941807,378
-heating_demand,heating_demand.roofs,Roofs,phius_zero,Phius ZERO,Roofs,kWh,4050.01941807,378
-heating_demand,heating_demand.floor_slabs,Floor Slabs,code_min,Code Min,Floor Slabs,kWh,11044.0424373,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,insulation_airtightness_erv,Insulation + Airtightness + ERV,Floor Slabs,kWh,3096.38844765,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,ph_windows,PH Windows,Floor Slabs,kWh,2928.40658238,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,shading,+ Shading,Floor Slabs,kWh,2915.26351284,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,phius_core,Phius CORE,Floor Slabs,kWh,2915.26351284,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,phius_zero,Phius ZERO,Floor Slabs,kWh,2915.26351284,379
-heating_demand,heating_demand.windows,Windows,code_min,Code Min,Windows,kWh,34726.7485542,383
-heating_demand,heating_demand.windows,Windows,insulation_airtightness_erv,Insulation + Airtightness + ERV,Windows,kWh,33841.6099965,383
-heating_demand,heating_demand.windows,Windows,ph_windows,PH Windows,Windows,kWh,16622.2156396,383
-heating_demand,heating_demand.windows,Windows,shading,+ Shading,Windows,kWh,16606.1386296,383
-heating_demand,heating_demand.windows,Windows,phius_core,Phius CORE,Windows,kWh,16606.1386296,383
-heating_demand,heating_demand.windows,Windows,phius_zero,Phius ZERO,Windows,kWh,16606.1386296,383
+heating_demand,heating_demand.walls_ag,Walls (AG),code_min,Code Min,Walls (AG),kWh,9443.36859338,376
+heating_demand,heating_demand.walls_ag,Walls (AG),insulation_airtightness_erv,Insulation + Airtightness + ERV,Walls (AG),kWh,5302.80887443,376
+heating_demand,heating_demand.walls_ag,Walls (AG),ph_windows,PH Windows,Walls (AG),kWh,5213.34569254,376
+heating_demand,heating_demand.walls_ag,Walls (AG),shading,+ Shading,Walls (AG),kWh,5208.20443948,376
+heating_demand,heating_demand.walls_ag,Walls (AG),phius_core,Phius CORE,Walls (AG),kWh,5208.20443948,376
+heating_demand,heating_demand.walls_ag,Walls (AG),phius_zero,Phius ZERO,Walls (AG),kWh,5208.20443948,376
+heating_demand,heating_demand.walls_bg,Walls (BG),code_min,Code Min,Walls (BG),kWh,2485.00911633,377
+heating_demand,heating_demand.walls_bg,Walls (BG),insulation_airtightness_erv,Insulation + Airtightness + ERV,Walls (BG),kWh,3677.48545483,377
+heating_demand,heating_demand.walls_bg,Walls (BG),ph_windows,PH Windows,Walls (BG),kWh,3478.32155938,377
+heating_demand,heating_demand.walls_bg,Walls (BG),shading,+ Shading,Walls (BG),kWh,3462.47813051,377
+heating_demand,heating_demand.walls_bg,Walls (BG),phius_core,Phius CORE,Walls (BG),kWh,3462.47813051,377
+heating_demand,heating_demand.walls_bg,Walls (BG),phius_zero,Phius ZERO,Walls (BG),kWh,3462.47813051,377
+heating_demand,heating_demand.roofs,Roofs,code_min,Code Min,Roofs,kWh,5460.0988633,378
+heating_demand,heating_demand.roofs,Roofs,insulation_airtightness_erv,Insulation + Airtightness + ERV,Roofs,kWh,4189.87704969,378
+heating_demand,heating_demand.roofs,Roofs,ph_windows,PH Windows,Roofs,kWh,4119.19003429,378
+heating_demand,heating_demand.roofs,Roofs,shading,+ Shading,Roofs,kWh,4115.12780639,378
+heating_demand,heating_demand.roofs,Roofs,phius_core,Phius CORE,Roofs,kWh,4115.12780639,378
+heating_demand,heating_demand.roofs,Roofs,phius_zero,Phius ZERO,Roofs,kWh,4115.12780639,378
+heating_demand,heating_demand.floor_slabs,Floor Slabs,code_min,Code Min,Floor Slabs,kWh,11045.5399575,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,insulation_airtightness_erv,Insulation + Airtightness + ERV,Floor Slabs,kWh,3100.76757218,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,ph_windows,PH Windows,Floor Slabs,kWh,2932.83735025,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,shading,+ Shading,Floor Slabs,kWh,2919.47855086,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,phius_core,Phius CORE,Floor Slabs,kWh,2919.47855086,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,phius_zero,Phius ZERO,Floor Slabs,kWh,2919.47855086,379
+heating_demand,heating_demand.windows,Windows,code_min,Code Min,Windows,kWh,34702.6318439,383
+heating_demand,heating_demand.windows,Windows,insulation_airtightness_erv,Insulation + Airtightness + ERV,Windows,kWh,33801.1608899,383
+heating_demand,heating_demand.windows,Windows,ph_windows,PH Windows,Windows,kWh,16596.1755991,383
+heating_demand,heating_demand.windows,Windows,shading,+ Shading,Windows,kWh,16579.8089233,383
+heating_demand,heating_demand.windows,Windows,phius_core,Phius CORE,Windows,kWh,16579.8089233,383
+heating_demand,heating_demand.windows,Windows,phius_zero,Phius ZERO,Windows,kWh,16579.8089233,383
 heating_demand,heating_demand.exterior_door,Exterior door,code_min,Code Min,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,insulation_airtightness_erv,Insulation + Airtightness + ERV,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,ph_windows,PH Windows,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,shading,+ Shading,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,phius_core,Phius CORE,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,phius_zero,Phius ZERO,Exterior door,kWh,,384
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,code_min,Code Min,Thermal Bridges,kWh,14348.7292999,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,insulation_airtightness_erv,Insulation + Airtightness + ERV,Thermal Bridges,kWh,5102.43730919,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,ph_windows,PH Windows,Thermal Bridges,kWh,3352.13727028,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,shading,+ Shading,Thermal Bridges,kWh,3348.8950825,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,phius_core,Phius CORE,Thermal Bridges,kWh,3348.8950825,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,phius_zero,Phius ZERO,Thermal Bridges,kWh,3348.8950825,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,code_min,Code Min,Thermal Bridges,kWh,14338.7645275,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,insulation_airtightness_erv,Insulation + Airtightness + ERV,Thermal Bridges,kWh,4980.69126866,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,ph_windows,PH Windows,Thermal Bridges,kWh,3233.18958864,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,shading,+ Shading,Thermal Bridges,kWh,3230.00110914,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,phius_core,Phius CORE,Thermal Bridges,kWh,3230.00110914,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,phius_zero,Phius ZERO,Thermal Bridges,kWh,3230.00110914,385
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),code_min,Code Min,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),insulation_airtightness_erv,Insulation + Airtightness + ERV,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),ph_windows,PH Windows,TB (Perimeter),kWh,,386
@@ -281,18 +281,18 @@ heating_demand,heating_demand.tb_bg,TB (BG),ph_windows,PH Windows,TB (BG),kWh,,3
 heating_demand,heating_demand.tb_bg,TB (BG),shading,+ Shading,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),phius_core,Phius CORE,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),phius_zero,Phius ZERO,TB (BG),kWh,,387
-heating_demand,heating_demand.ventilation,Ventilation,code_min,Code Min,Ventilation,kWh,17395.1052462,388
-heating_demand,heating_demand.ventilation,Ventilation,insulation_airtightness_erv,Insulation + Airtightness + ERV,Ventilation,kWh,7975.56852229,388
-heating_demand,heating_demand.ventilation,Ventilation,ph_windows,PH Windows,Ventilation,kWh,7843.92966242,388
-heating_demand,heating_demand.ventilation,Ventilation,shading,+ Shading,Ventilation,kWh,7836.34301223,388
-heating_demand,heating_demand.ventilation,Ventilation,phius_core,Phius CORE,Ventilation,kWh,7836.34301223,388
-heating_demand,heating_demand.ventilation,Ventilation,phius_zero,Phius ZERO,Ventilation,kWh,7836.34301223,388
-heating_demand,heating_demand.heating_demand,Heating Demand,code_min,Code Min,Heating Demand,kWh,58379.5703405,389
-heating_demand,heating_demand.heating_demand,Heating Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating Demand,kWh,33438.3256156,389
-heating_demand,heating_demand.heating_demand,Heating Demand,ph_windows,PH Windows,Heating Demand,kWh,17495.1070212,389
-heating_demand,heating_demand.heating_demand,Heating Demand,shading,+ Shading,Heating Demand,kWh,17450.9840929,389
-heating_demand,heating_demand.heating_demand,Heating Demand,phius_core,Phius CORE,Heating Demand,kWh,17450.9840929,389
-heating_demand,heating_demand.heating_demand,Heating Demand,phius_zero,Phius ZERO,Heating Demand,kWh,17450.9840929,389
+heating_demand,heating_demand.ventilation,Ventilation,code_min,Code Min,Ventilation,kWh,18166.0287671,388
+heating_demand,heating_demand.ventilation,Ventilation,insulation_airtightness_erv,Insulation + Airtightness + ERV,Ventilation,kWh,8536.2650652,388
+heating_demand,heating_demand.ventilation,Ventilation,ph_windows,PH Windows,Ventilation,kWh,8392.25055285,388
+heating_demand,heating_demand.ventilation,Ventilation,shading,+ Shading,Ventilation,kWh,8383.97435435,388
+heating_demand,heating_demand.ventilation,Ventilation,phius_core,Phius CORE,Ventilation,kWh,8383.97435435,388
+heating_demand,heating_demand.ventilation,Ventilation,phius_zero,Phius ZERO,Ventilation,kWh,8383.97435435,388
+heating_demand,heating_demand.heating_demand,Heating Demand,code_min,Code Min,Heating Demand,kWh,58806.1704516,389
+heating_demand,heating_demand.heating_demand,Heating Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating Demand,kWh,32621.4291325,389
+heating_demand,heating_demand.heating_demand,Heating Demand,ph_windows,PH Windows,Heating Demand,kWh,16745.2271785,389
+heating_demand,heating_demand.heating_demand,Heating Demand,shading,+ Shading,Heating Demand,kWh,16701.6732373,389
+heating_demand,heating_demand.heating_demand,Heating Demand,phius_core,Phius CORE,Heating Demand,kWh,16701.6732373,389
+heating_demand,heating_demand.heating_demand,Heating Demand,phius_zero,Phius ZERO,Heating Demand,kWh,16701.6732373,389
 heating_demand,heating_demand.north,North,code_min,Code Min,North,kWh,2760.33785605,390
 heating_demand,heating_demand.north,North,insulation_airtightness_erv,Insulation + Airtightness + ERV,North,kWh,2315.61675702,390
 heating_demand,heating_demand.north,North,ph_windows,PH Windows,North,kWh,2071.35434342,390
@@ -324,53 +324,53 @@ heating_demand,heating_demand.horizontal,Horizontal,shading,+ Shading,Horizontal
 heating_demand,heating_demand.horizontal,Horizontal,phius_core,Phius CORE,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,phius_zero,Phius ZERO,Horizontal,kWh,0,394
 heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,code_min,Code Min,Sum opaque areas,kWh,9117.94956735,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,insulation_airtightness_erv,Insulation + Airtightness + ERV,Sum opaque areas,kWh,4575.16401708,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,ph_windows,PH Windows,Sum opaque areas,kWh,3487.85353814,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,shading,+ Shading,Sum opaque areas,kWh,3487.85353814,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,phius_core,Phius CORE,Sum opaque areas,kWh,3487.85353814,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,phius_zero,Phius ZERO,Sum opaque areas,kWh,3487.85353814,395
-heating_demand,heating_demand.internal_gains,Internal Gains,code_min,Code Min,Internal Gains,kWh,7049.59851911,396
-heating_demand,heating_demand.internal_gains,Internal Gains,insulation_airtightness_erv,Insulation + Airtightness + ERV,Internal Gains,kWh,6351.61846771,396
-heating_demand,heating_demand.internal_gains,Internal Gains,ph_windows,PH Windows,Internal Gains,kWh,5653.63841631,396
-heating_demand,heating_demand.internal_gains,Internal Gains,shading,+ Shading,Internal Gains,kWh,5653.63841631,396
-heating_demand,heating_demand.internal_gains,Internal Gains,phius_core,Phius CORE,Internal Gains,kWh,5653.63841631,396
-heating_demand,heating_demand.internal_gains,Internal Gains,phius_zero,Phius ZERO,Internal Gains,kWh,5653.63841631,396
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,code_min,Code Min,Cooling Demand,kWh,5866.04347109,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling Demand,kWh,6339.34333292,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,ph_windows,PH Windows,Cooling Demand,kWh,7636.20733433,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,shading,+ Shading,Cooling Demand,kWh,5771.78578658,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,phius_core,Phius CORE,Cooling Demand,kWh,5771.78578658,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,phius_zero,Phius ZERO,Cooling Demand,kWh,5771.78578658,399
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,insulation_airtightness_erv,Insulation + Airtightness + ERV,Sum opaque areas,kWh,4362.9982999,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,ph_windows,PH Windows,Sum opaque areas,kWh,3292.84767444,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,shading,+ Shading,Sum opaque areas,kWh,3292.84767444,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,phius_core,Phius CORE,Sum opaque areas,kWh,3292.84767444,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,phius_zero,Phius ZERO,Sum opaque areas,kWh,3292.84767444,395
+heating_demand,heating_demand.internal_gains,Internal Gains,code_min,Code Min,Internal Gains,kWh,7458.08951973,396
+heating_demand,heating_demand.internal_gains,Internal Gains,insulation_airtightness_erv,Insulation + Airtightness + ERV,Internal Gains,kWh,6719.66481481,396
+heating_demand,heating_demand.internal_gains,Internal Gains,ph_windows,PH Windows,Internal Gains,kWh,5981.24010988,396
+heating_demand,heating_demand.internal_gains,Internal Gains,shading,+ Shading,Internal Gains,kWh,5981.24010988,396
+heating_demand,heating_demand.internal_gains,Internal Gains,phius_core,Phius CORE,Internal Gains,kWh,5981.24010988,396
+heating_demand,heating_demand.internal_gains,Internal Gains,phius_zero,Phius ZERO,Internal Gains,kWh,5981.24010988,396
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,code_min,Code Min,Cooling Demand,kWh,5954.26967114,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling Demand,kWh,6444.11292637,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,ph_windows,PH Windows,Cooling Demand,kWh,7800.41290811,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,shading,+ Shading,Cooling Demand,kWh,5904.92713752,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,phius_core,Phius CORE,Cooling Demand,kWh,5904.92713752,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,phius_zero,Phius ZERO,Cooling Demand,kWh,5904.92713752,399
 cooling_demand,cooling_demand.walls_ag,Walls (AG),code_min,Code Min,Walls (AG),kWh,13782.5345776,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),insulation_airtightness_erv,Insulation + Airtightness + ERV,Walls (AG),kWh,9383.11529612,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),ph_windows,PH Windows,Walls (AG),kWh,9601.21245881,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),shading,+ Shading,Walls (AG),kWh,8161.08487041,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),phius_core,Phius CORE,Walls (AG),kWh,8161.08487041,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),phius_zero,Phius ZERO,Walls (AG),kWh,8161.08487041,400
-cooling_demand,cooling_demand.walls_bg,Walls (BG),code_min,Code Min,Walls (BG),kWh,2859.61435915,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),insulation_airtightness_erv,Insulation + Airtightness + ERV,Walls (BG),kWh,4820.89846773,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),ph_windows,PH Windows,Walls (BG),kWh,4974.97330749,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),shading,+ Shading,Walls (BG),kWh,4587.39542688,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),phius_core,Phius CORE,Walls (BG),kWh,4587.39542688,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),phius_zero,Phius ZERO,Walls (BG),kWh,4587.39542688,401
+cooling_demand,cooling_demand.walls_ag,Walls (AG),insulation_airtightness_erv,Insulation + Airtightness + ERV,Walls (AG),kWh,7801.35915987,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),ph_windows,PH Windows,Walls (AG),kWh,7985.88259945,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),shading,+ Shading,Walls (AG),kWh,6787.69193219,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),phius_core,Phius CORE,Walls (AG),kWh,6787.69193219,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),phius_zero,Phius ZERO,Walls (AG),kWh,6787.69193219,400
+cooling_demand,cooling_demand.walls_bg,Walls (BG),code_min,Code Min,Walls (BG),kWh,2860.2196555,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),insulation_airtightness_erv,Insulation + Airtightness + ERV,Walls (BG),kWh,4831.36797538,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),ph_windows,PH Windows,Walls (BG),kWh,4984.05526367,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),shading,+ Shading,Walls (BG),kWh,4596.58600877,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),phius_core,Phius CORE,Walls (BG),kWh,4596.58600877,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),phius_zero,Phius ZERO,Walls (BG),kWh,4596.58600877,401
 cooling_demand,cooling_demand.roofs,Roofs,code_min,Code Min,Roofs,kWh,7968.97850978,402
-cooling_demand,cooling_demand.roofs,Roofs,insulation_airtightness_erv,Insulation + Airtightness + ERV,Roofs,kWh,6059.60937236,402
-cooling_demand,cooling_demand.roofs,Roofs,ph_windows,PH Windows,Roofs,kWh,6200.45636927,402
-cooling_demand,cooling_demand.roofs,Roofs,shading,+ Shading,Roofs,kWh,5270.42296814,402
-cooling_demand,cooling_demand.roofs,Roofs,phius_core,Phius CORE,Roofs,kWh,5270.42296814,402
-cooling_demand,cooling_demand.roofs,Roofs,phius_zero,Phius ZERO,Roofs,kWh,5270.42296814,402
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,code_min,Code Min,Floor Slabs,kWh,12710.6111843,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,insulation_airtightness_erv,Insulation + Airtightness + ERV,Floor Slabs,kWh,4064.86601269,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,ph_windows,PH Windows,Floor Slabs,kWh,4194.77822381,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,shading,+ Shading,Floor Slabs,kWh,3867.9818466,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,phius_core,Phius CORE,Floor Slabs,kWh,3867.9818466,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,phius_zero,Phius ZERO,Floor Slabs,kWh,3867.9818466,403
+cooling_demand,cooling_demand.roofs,Roofs,insulation_airtightness_erv,Insulation + Airtightness + ERV,Roofs,kWh,6164.04182658,402
+cooling_demand,cooling_demand.roofs,Roofs,ph_windows,PH Windows,Roofs,kWh,6309.83824183,402
+cooling_demand,cooling_demand.roofs,Roofs,shading,+ Shading,Roofs,kWh,5363.1189282,402
+cooling_demand,cooling_demand.roofs,Roofs,phius_core,Phius CORE,Roofs,kWh,5363.1189282,402
+cooling_demand,cooling_demand.roofs,Roofs,phius_zero,Phius ZERO,Roofs,kWh,5363.1189282,402
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,code_min,Code Min,Floor Slabs,kWh,12713.3016473,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,insulation_airtightness_erv,Insulation + Airtightness + ERV,Floor Slabs,kWh,4073.69365055,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,ph_windows,PH Windows,Floor Slabs,kWh,4202.43591153,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,shading,+ Shading,Floor Slabs,kWh,3875.73112492,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,phius_core,Phius CORE,Floor Slabs,kWh,3875.73112492,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,phius_zero,Phius ZERO,Floor Slabs,kWh,3875.73112492,403
 cooling_demand,cooling_demand.windows,Windows,code_min,Code Min,Windows,kWh,50648.2637625,407
-cooling_demand,cooling_demand.windows,Windows,insulation_airtightness_erv,Insulation + Airtightness + ERV,Windows,kWh,49749.6839821,407
-cooling_demand,cooling_demand.windows,Windows,ph_windows,PH Windows,Windows,kWh,25423.4924345,407
-cooling_demand,cooling_demand.windows,Windows,shading,+ Shading,Windows,kWh,21610.1123009,407
-cooling_demand,cooling_demand.windows,Windows,phius_core,Phius CORE,Windows,kWh,21610.1123009,407
-cooling_demand,cooling_demand.windows,Windows,phius_zero,Phius ZERO,Windows,kWh,21610.1123009,407
+cooling_demand,cooling_demand.windows,Windows,insulation_airtightness_erv,Insulation + Airtightness + ERV,Windows,kWh,49727.4184996,407
+cooling_demand,cooling_demand.windows,Windows,ph_windows,PH Windows,Windows,kWh,25422.2753967,407
+cooling_demand,cooling_demand.windows,Windows,shading,+ Shading,Windows,kWh,21607.9527165,407
+cooling_demand,cooling_demand.windows,Windows,phius_core,Phius CORE,Windows,kWh,21607.9527165,407
+cooling_demand,cooling_demand.windows,Windows,phius_zero,Phius ZERO,Windows,kWh,21607.9527165,407
 cooling_demand,cooling_demand.exterior_door,Exterior door,code_min,Code Min,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,insulation_airtightness_erv,Insulation + Airtightness + ERV,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,ph_windows,PH Windows,Exterior door,kWh,,408
@@ -378,11 +378,11 @@ cooling_demand,cooling_demand.exterior_door,Exterior door,shading,+ Shading,Exte
 cooling_demand,cooling_demand.exterior_door,Exterior door,phius_core,Phius CORE,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,phius_zero,Phius ZERO,Exterior door,kWh,,408
 cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,code_min,Code Min,Thermal Bridges,kWh,20927.3328628,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,insulation_airtightness_erv,Insulation + Airtightness + ERV,Thermal Bridges,kWh,7500.96238616,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,ph_windows,PH Windows,Thermal Bridges,kWh,5127.05636711,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,shading,+ Shading,Thermal Bridges,kWh,4358.02689783,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,phius_core,Phius CORE,Thermal Bridges,kWh,4358.02689783,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,phius_zero,Phius ZERO,Thermal Bridges,kWh,4358.02689783,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,insulation_airtightness_erv,Insulation + Airtightness + ERV,Thermal Bridges,kWh,7327.46783286,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,ph_windows,PH Windows,Thermal Bridges,kWh,4952.64921978,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,shading,+ Shading,Thermal Bridges,kWh,4209.56065074,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,phius_core,Phius CORE,Thermal Bridges,kWh,4209.56065074,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,phius_zero,Phius ZERO,Thermal Bridges,kWh,4209.56065074,409
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),code_min,Code Min,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),insulation_airtightness_erv,Insulation + Airtightness + ERV,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),ph_windows,PH Windows,TB (Perimeter),kWh,,410
@@ -395,12 +395,12 @@ cooling_demand,cooling_demand.tb_bg,TB (BG),ph_windows,PH Windows,TB (BG),kWh,,4
 cooling_demand,cooling_demand.tb_bg,TB (BG),shading,+ Shading,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),phius_core,Phius CORE,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),phius_zero,Phius ZERO,TB (BG),kWh,,411
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),code_min,Code Min,Ventilation (Basic),kWh,7716.12705619,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),insulation_airtightness_erv,Insulation + Airtightness + ERV,Ventilation (Basic),kWh,4569.60078,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),ph_windows,PH Windows,Ventilation (Basic),kWh,5962.76041833,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),shading,+ Shading,Ventilation (Basic),kWh,4896.17665954,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),phius_core,Phius CORE,Ventilation (Basic),kWh,4896.17665954,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),phius_zero,Phius ZERO,Ventilation (Basic),kWh,4896.17665954,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),code_min,Code Min,Ventilation (Basic),kWh,8062.22994138,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),insulation_airtightness_erv,Insulation + Airtightness + ERV,Ventilation (Basic),kWh,4958.54277756,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),ph_windows,PH Windows,Ventilation (Basic),kWh,6488.21638521,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),shading,+ Shading,Ventilation (Basic),kWh,5328.58705876,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),phius_core,Phius CORE,Ventilation (Basic),kWh,5328.58705876,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),phius_zero,Phius ZERO,Ventilation (Basic),kWh,5328.58705876,412
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),code_min,Code Min,Ventilation (Addn'l),kWh,0,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),insulation_airtightness_erv,Insulation + Airtightness + ERV,Ventilation (Addn'l),kWh,0,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),ph_windows,PH Windows,Ventilation (Addn'l),kWh,0,413
@@ -438,35 +438,35 @@ cooling_demand,cooling_demand.horizontal,Horizontal,shading,+ Shading,Horizontal
 cooling_demand,cooling_demand.horizontal,Horizontal,phius_core,Phius CORE,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,phius_zero,Phius ZERO,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,code_min,Code Min,Sum opaque areas,kWh,11438.6642814,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,insulation_airtightness_erv,Insulation + Airtightness + ERV,Sum opaque areas,kWh,6625.94790236,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,ph_windows,PH Windows,Sum opaque areas,kWh,5807.08338307,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,shading,+ Shading,Sum opaque areas,kWh,5408.41435926,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,phius_core,Phius CORE,Sum opaque areas,kWh,5408.41435926,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,phius_zero,Phius ZERO,Sum opaque areas,kWh,5408.41435926,419
-cooling_demand,cooling_demand.internal_gains,Internal Gains,code_min,Code Min,Internal Gains,kWh,9056.39045747,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,insulation_airtightness_erv,Insulation + Airtightness + ERV,Internal Gains,kWh,9056.39045747,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,ph_windows,PH Windows,Internal Gains,kWh,9056.39045747,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,shading,+ Shading,Internal Gains,kWh,8287.2175693,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,phius_core,Phius CORE,Internal Gains,kWh,8287.2175693,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,phius_zero,Phius ZERO,Internal Gains,kWh,8287.2175693,420
-site_energy,site_energy.heating,Heating,code_min,Code Min,Heating,kWh,21651.4710566,423
-site_energy,site_energy.heating,Heating,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating,kWh,12548.698713,423
-site_energy,site_energy.heating,Heating,ph_windows,PH Windows,Heating,kWh,6901.25542051,423
-site_energy,site_energy.heating,Heating,shading,+ Shading,Heating,kWh,6884.5096886,423
-site_energy,site_energy.heating,Heating,phius_core,Phius CORE,Heating,kWh,6884.5096886,423
-site_energy,site_energy.heating,Heating,phius_zero,Phius ZERO,Heating,kWh,6884.5096886,423
-site_energy,site_energy.cooling,Cooling,code_min,Code Min,Cooling,kWh,4601.37258496,424
-site_energy,site_energy.cooling,Cooling,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling,kWh,3830.14261372,424
-site_energy,site_energy.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,4304.07432681,424
-site_energy,site_energy.cooling,Cooling,shading,+ Shading,Cooling,kWh,3644.42795508,424
-site_energy,site_energy.cooling,Cooling,phius_core,Phius CORE,Cooling,kWh,3644.42795508,424
-site_energy,site_energy.cooling,Cooling,phius_zero,Phius ZERO,Cooling,kWh,3644.42795508,424
-site_energy,site_energy.dhw,DHW,code_min,Code Min,DHW,kWh,1444.283976,425
-site_energy,site_energy.dhw,DHW,insulation_airtightness_erv,Insulation + Airtightness + ERV,DHW,kWh,1444.283976,425
-site_energy,site_energy.dhw,DHW,ph_windows,PH Windows,DHW,kWh,1444.283976,425
-site_energy,site_energy.dhw,DHW,shading,+ Shading,DHW,kWh,1444.283976,425
-site_energy,site_energy.dhw,DHW,phius_core,Phius CORE,DHW,kWh,1444.283976,425
-site_energy,site_energy.dhw,DHW,phius_zero,Phius ZERO,DHW,kWh,1444.283976,425
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,insulation_airtightness_erv,Insulation + Airtightness + ERV,Sum opaque areas,kWh,6333.84704066,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,ph_windows,PH Windows,Sum opaque areas,kWh,5499.13902503,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,shading,+ Shading,Sum opaque areas,kWh,5122.65646634,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,phius_core,Phius CORE,Sum opaque areas,kWh,5122.65646634,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,phius_zero,Phius ZERO,Sum opaque areas,kWh,5122.65646634,419
+cooling_demand,cooling_demand.internal_gains,Internal Gains,code_min,Code Min,Internal Gains,kWh,9485.18090094,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,insulation_airtightness_erv,Insulation + Airtightness + ERV,Internal Gains,kWh,9485.18090094,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,ph_windows,PH Windows,Internal Gains,kWh,9485.18090094,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,shading,+ Shading,Internal Gains,kWh,8679.59019429,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,phius_core,Phius CORE,Internal Gains,kWh,8679.59019429,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,phius_zero,Phius ZERO,Internal Gains,kWh,8679.59019429,420
+site_energy,site_energy.heating,Heating,code_min,Code Min,Heating,kWh,41289.2590521,423
+site_energy,site_energy.heating,Heating,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating,kWh,23008.9361084,423
+site_energy,site_energy.heating,Heating,ph_windows,PH Windows,Heating,kWh,12217.3905193,423
+site_energy,site_energy.heating,Heating,shading,+ Shading,Heating,kWh,12187.1305942,423
+site_energy,site_energy.heating,Heating,phius_core,Phius CORE,Heating,kWh,12187.1305942,423
+site_energy,site_energy.heating,Heating,phius_zero,Phius ZERO,Heating,kWh,12187.1305942,423
+site_energy,site_energy.cooling,Cooling,code_min,Code Min,Cooling,kWh,4755.16848011,424
+site_energy,site_energy.cooling,Cooling,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling,kWh,3936.51281963,424
+site_energy,site_energy.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,4432.41623944,424
+site_energy,site_energy.cooling,Cooling,shading,+ Shading,Cooling,kWh,3761.60086474,424
+site_energy,site_energy.cooling,Cooling,phius_core,Phius CORE,Cooling,kWh,3761.60086474,424
+site_energy,site_energy.cooling,Cooling,phius_zero,Phius ZERO,Cooling,kWh,3761.60086474,424
+site_energy,site_energy.dhw,DHW,code_min,Code Min,DHW,kWh,1653.68667378,425
+site_energy,site_energy.dhw,DHW,insulation_airtightness_erv,Insulation + Airtightness + ERV,DHW,kWh,1653.68667378,425
+site_energy,site_energy.dhw,DHW,ph_windows,PH Windows,DHW,kWh,1653.68667378,425
+site_energy,site_energy.dhw,DHW,shading,+ Shading,DHW,kWh,1653.68667378,425
+site_energy,site_energy.dhw,DHW,phius_core,Phius CORE,DHW,kWh,1653.68667378,425
+site_energy,site_energy.dhw,DHW,phius_zero,Phius ZERO,DHW,kWh,1653.68667378,425
 site_energy,site_energy.dishwashing,Dishwashing,code_min,Code Min,Dishwashing,kWh,249.6925,426
 site_energy,site_energy.dishwashing,Dishwashing,insulation_airtightness_erv,Insulation + Airtightness + ERV,Dishwashing,kWh,249.6925,426
 site_energy,site_energy.dishwashing,Dishwashing,ph_windows,PH Windows,Dishwashing,kWh,249.6925,426
@@ -545,24 +545,24 @@ site_energy,site_energy.solar_pv,Solar PV,ph_windows,PH Windows,Solar PV,kWh,0,4
 site_energy,site_energy.solar_pv,Solar PV,shading,+ Shading,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,phius_core,Phius CORE,Solar PV,kWh,3687.75382488,438
 site_energy,site_energy.solar_pv,Solar PV,phius_zero,Phius ZERO,Solar PV,kWh,23277.1438415,438
-primary_energy,primary_energy.heating,Heating,code_min,Code Min,Heating,kWh,43606.0627079,441
-primary_energy,primary_energy.heating,Heating,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating,kWh,25273.0792079,441
-primary_energy,primary_energy.heating,Heating,ph_windows,PH Windows,Heating,kWh,13899.1284169,441
-primary_energy,primary_energy.heating,Heating,shading,+ Shading,Heating,kWh,13865.4025128,441
-primary_energy,primary_energy.heating,Heating,phius_core,Phius CORE,Heating,kWh,13865.4025128,441
-primary_energy,primary_energy.heating,Heating,phius_zero,Phius ZERO,Heating,kWh,13865.4025128,441
-primary_energy,primary_energy.cooling,Cooling,code_min,Code Min,Cooling,kWh,9267.1643861,442
-primary_energy,primary_energy.cooling,Cooling,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling,kWh,7713.90722403,442
-primary_energy,primary_energy.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,8668.40569419,442
-primary_energy,primary_energy.cooling,Cooling,shading,+ Shading,Cooling,kWh,7339.87790153,442
-primary_energy,primary_energy.cooling,Cooling,phius_core,Phius CORE,Cooling,kWh,7339.87790153,442
-primary_energy,primary_energy.cooling,Cooling,phius_zero,Phius ZERO,Cooling,kWh,7339.87790153,442
-primary_energy,primary_energy.dhw,DHW,code_min,Code Min,DHW,kWh,2908.78792766,443
-primary_energy,primary_energy.dhw,DHW,insulation_airtightness_erv,Insulation + Airtightness + ERV,DHW,kWh,2908.78792766,443
-primary_energy,primary_energy.dhw,DHW,ph_windows,PH Windows,DHW,kWh,2908.78792766,443
-primary_energy,primary_energy.dhw,DHW,shading,+ Shading,DHW,kWh,2908.78792766,443
-primary_energy,primary_energy.dhw,DHW,phius_core,Phius CORE,DHW,kWh,2908.78792766,443
-primary_energy,primary_energy.dhw,DHW,phius_zero,Phius ZERO,DHW,kWh,2908.78792766,443
+primary_energy,primary_energy.heating,Heating,code_min,Code Min,Heating,kWh,38708.9038979,441
+primary_energy,primary_energy.heating,Heating,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating,kWh,21683.6338031,441
+primary_energy,primary_energy.heating,Heating,ph_windows,PH Windows,Heating,kWh,11949.2236301,441
+primary_energy,primary_energy.heating,Heating,shading,+ Shading,Heating,kWh,11921.1996616,441
+primary_energy,primary_energy.heating,Heating,phius_core,Phius CORE,Heating,kWh,11921.1996616,441
+primary_energy,primary_energy.heating,Heating,phius_zero,Phius ZERO,Heating,kWh,11921.1996616,441
+primary_energy,primary_energy.cooling,Cooling,code_min,Code Min,Cooling,kWh,9576.90931895,442
+primary_energy,primary_energy.cooling,Cooling,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling,kWh,7928.13681874,442
+primary_energy,primary_energy.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,8926.88630623,442
+primary_energy,primary_energy.cooling,Cooling,shading,+ Shading,Cooling,kWh,7575.8641416,442
+primary_energy,primary_energy.cooling,Cooling,phius_core,Phius CORE,Cooling,kWh,7575.8641416,442
+primary_energy,primary_energy.cooling,Cooling,phius_zero,Phius ZERO,Cooling,kWh,7575.8641416,442
+primary_energy,primary_energy.dhw,DHW,code_min,Code Min,DHW,kWh,3330.52496099,443
+primary_energy,primary_energy.dhw,DHW,insulation_airtightness_erv,Insulation + Airtightness + ERV,DHW,kWh,3330.52496099,443
+primary_energy,primary_energy.dhw,DHW,ph_windows,PH Windows,DHW,kWh,3330.52496099,443
+primary_energy,primary_energy.dhw,DHW,shading,+ Shading,DHW,kWh,3330.52496099,443
+primary_energy,primary_energy.dhw,DHW,phius_core,Phius CORE,DHW,kWh,3330.52496099,443
+primary_energy,primary_energy.dhw,DHW,phius_zero,Phius ZERO,DHW,kWh,3330.52496099,443
 primary_energy,primary_energy.dishwashing,Dishwashing,code_min,Code Min,Dishwashing,kWh,502.880695,444
 primary_energy,primary_energy.dishwashing,Dishwashing,insulation_airtightness_erv,Insulation + Airtightness + ERV,Dishwashing,kWh,502.880695,444
 primary_energy,primary_energy.dishwashing,Dishwashing,ph_windows,PH Windows,Dishwashing,kWh,502.880695,444
@@ -639,68 +639,68 @@ primary_energy,primary_energy.solar_pv,Solar PV,code_min,Code Min,Solar PV,kWh,0
 primary_energy,primary_energy.solar_pv,Solar PV,insulation_airtightness_erv,Insulation + Airtightness + ERV,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,ph_windows,PH Windows,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,shading,+ Shading,Solar PV,kWh,0,456
-primary_energy,primary_energy.solar_pv,Solar PV,phius_core,Phius CORE,Solar PV,kWh,-6792.14435613,456
+primary_energy,primary_energy.solar_pv,Solar PV,phius_core,Phius CORE,Solar PV,kWh,-7139.77589937,456
 primary_energy,primary_energy.solar_pv,Solar PV,phius_zero,Phius ZERO,Solar PV,kWh,-46880.1676967,456
-certification_results,certification_results.heat_demand,Heat Demand,code_min,Code Min,Heat Demand,kWh/m2,104.754298117,459
-certification_results,certification_results.heat_demand,Heat Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heat Demand,kWh/m2,60.0005842734,459
-certification_results,certification_results.heat_demand,Heat Demand,ph_windows,PH Windows,Heat Demand,kWh/m2,31.392619812,459
-certification_results,certification_results.heat_demand,Heat Demand,shading,+ Shading,Heat Demand,kWh/m2,31.3134471432,459
-certification_results,certification_results.heat_demand,Heat Demand,phius_core,Phius CORE,Heat Demand,kWh/m2,31.3134471432,459
-certification_results,certification_results.heat_demand,Heat Demand,phius_zero,Phius ZERO,Heat Demand,kWh/m2,31.3134471432,459
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,code_min,Code Min,Sensible Cooling Demand,kWh/m2,10.5258271507,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Sensible Cooling Demand,kWh/m2,11.3751001847,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,ph_windows,PH Windows,Sensible Cooling Demand,kWh/m2,13.7021484556,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,shading,+ Shading,Sensible Cooling Demand,kWh/m2,10.3566943954,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,phius_core,Phius CORE,Sensible Cooling Demand,kWh/m2,10.3566943954,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,phius_zero,Phius ZERO,Sensible Cooling Demand,kWh/m2,10.3566943954,460
+certification_results,certification_results.heat_demand,Heat Demand,code_min,Code Min,Heat Demand,kWh/m2,105.51977472,459
+certification_results,certification_results.heat_demand,Heat Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heat Demand,kWh/m2,58.5347732505,459
+certification_results,certification_results.heat_demand,Heat Demand,ph_windows,PH Windows,Heat Demand,kWh/m2,30.0470611492,459
+certification_results,certification_results.heat_demand,Heat Demand,shading,+ Shading,Heat Demand,kWh/m2,29.9689094515,459
+certification_results,certification_results.heat_demand,Heat Demand,phius_core,Phius CORE,Heat Demand,kWh/m2,29.9689094515,459
+certification_results,certification_results.heat_demand,Heat Demand,phius_zero,Phius ZERO,Heat Demand,kWh/m2,29.9689094515,459
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,code_min,Code Min,Sensible Cooling Demand,kWh/m2,10.6841372172,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Sensible Cooling Demand,kWh/m2,11.5630951487,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,ph_windows,PH Windows,Sensible Cooling Demand,kWh/m2,13.9967933036,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,shading,+ Shading,Sensible Cooling Demand,kWh/m2,10.5955986677,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,phius_core,Phius CORE,Sensible Cooling Demand,kWh/m2,10.5955986677,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,phius_zero,Phius ZERO,Sensible Cooling Demand,kWh/m2,10.5955986677,460
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,code_min,Code Min,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,ph_windows,PH Windows,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,shading,+ Shading,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,phius_core,Phius CORE,Latent Cooling Demand,kWh/m2,0,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,phius_zero,Phius ZERO,Latent Cooling Demand,kWh/m2,0,461
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,code_min,Code Min,Total Cooling Demand,kWh/m2,10.5258271507,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Total Cooling Demand,kWh/m2,11.3751001847,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,ph_windows,PH Windows,Total Cooling Demand,kWh/m2,13.7021484556,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,shading,+ Shading,Total Cooling Demand,kWh/m2,10.3566943954,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,phius_core,Phius CORE,Total Cooling Demand,kWh/m2,10.3566943954,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,phius_zero,Phius ZERO,Total Cooling Demand,kWh/m2,10.3566943954,462
-certification_results,certification_results.peak_heat_load,Peak Heat Load,code_min,Code Min,Peak Heat Load,W/m2,57.5479867508,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Heat Load,W/m2,34.4480687656,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,ph_windows,PH Windows,Peak Heat Load,W/m2,22.6268968172,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,shading,+ Shading,Peak Heat Load,W/m2,22.6345917721,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,phius_core,Phius CORE,Peak Heat Load,W/m2,22.6345917721,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,phius_zero,Phius ZERO,Peak Heat Load,W/m2,22.6345917721,463
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,code_min,Code Min,Peak Cooling Load,W/m2,8.3648285405,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Cooling Load,W/m2,8.57042167309,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,ph_windows,PH Windows,Peak Cooling Load,W/m2,8.54311964293,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,shading,+ Shading,Peak Cooling Load,W/m2,7.31660487815,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,phius_core,Phius CORE,Peak Cooling Load,W/m2,7.31660487815,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,phius_zero,Phius ZERO,Peak Cooling Load,W/m2,7.31660487815,464
-certification_results,certification_results.pe_demand,PE Demand,code_min,Code Min,PE Demand,kWh/m2,133.523146683,465
-certification_results,certification_results.pe_demand,PE Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,PE Demand,kWh/m2,97.8399587012,465
-certification_results,certification_results.pe_demand,PE Demand,ph_windows,PH Windows,PE Demand,kWh/m2,79.14365093,465
-certification_results,certification_results.pe_demand,PE Demand,shading,+ Shading,PE Demand,kWh/m2,76.6992696331,465
-certification_results,certification_results.pe_demand,PE Demand,phius_core,Phius CORE,PE Demand,kWh/m2,76.6992696331,465
-certification_results,certification_results.pe_demand,PE Demand,phius_zero,Phius ZERO,PE Demand,kWh/m2,76.6992696331,465
-certification_results,certification_results.per_demand,PER Demand,code_min,Code Min,PER Demand,kWh/m2,98.2448603433,466
-certification_results,certification_results.per_demand,PER Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,PER Demand,kWh/m2,64.8598254408,466
-certification_results,certification_results.per_demand,PER Demand,ph_windows,PH Windows,PER Demand,kWh/m2,50.1063165904,466
-certification_results,certification_results.per_demand,PER Demand,shading,+ Shading,PER Demand,kWh/m2,48.6329671138,466
-certification_results,certification_results.per_demand,PER Demand,phius_core,Phius CORE,PER Demand,kWh/m2,48.6329671138,466
-certification_results,certification_results.per_demand,PER Demand,phius_zero,Phius ZERO,PER Demand,kWh/m2,48.6329671138,466
-airtightness,airtightness.nv_system,"nV,system",code_min,Code Min,nV system,%,0.281085223874,470
-airtightness,airtightness.nv_system,"nV,system",insulation_airtightness_erv,Insulation + Airtightness + ERV,nV system,%,0.281085223874,470
-airtightness,airtightness.nv_system,"nV,system",ph_windows,PH Windows,nV system,%,0.281085223874,470
-airtightness,airtightness.nv_system,"nV,system",shading,+ Shading,nV system,%,0.281085223874,470
-airtightness,airtightness.nv_system,"nV,system",phius_core,Phius CORE,nV system,%,0.281085223874,470
-airtightness,airtightness.nv_system,"nV,system",phius_zero,Phius ZERO,nV system,%,0.281085223874,470
-airtightness,airtightness.hhr,hHR,code_min,Code Min,hHR,%,0.605705490732,471
-airtightness,airtightness.hhr,hHR,insulation_airtightness_erv,Insulation + Airtightness + ERV,hHR,%,0.688462805346,471
-airtightness,airtightness.hhr,hHR,ph_windows,PH Windows,hHR,%,0.688462805346,471
-airtightness,airtightness.hhr,hHR,shading,+ Shading,hHR,%,0.688462805346,471
-airtightness,airtightness.hhr,hHR,phius_core,Phius CORE,hHR,%,0.688462805346,471
-airtightness,airtightness.hhr,hHR,phius_zero,Phius ZERO,hHR,%,0.688462805346,471
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,code_min,Code Min,Total Cooling Demand,kWh/m2,10.6841372172,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Total Cooling Demand,kWh/m2,11.5630951487,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,ph_windows,PH Windows,Total Cooling Demand,kWh/m2,13.9967933036,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,shading,+ Shading,Total Cooling Demand,kWh/m2,10.5955986677,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,phius_core,Phius CORE,Total Cooling Demand,kWh/m2,10.5955986677,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,phius_zero,Phius ZERO,Total Cooling Demand,kWh/m2,10.5955986677,462
+certification_results,certification_results.peak_heat_load,Peak Heat Load,code_min,Code Min,Peak Heat Load,W/m2,57.9310007728,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Heat Load,W/m2,33.9015096702,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,ph_windows,PH Windows,Peak Heat Load,W/m2,22.0777612053,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,shading,+ Shading,Peak Heat Load,W/m2,22.0855783795,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,phius_core,Phius CORE,Peak Heat Load,W/m2,22.0855783795,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,phius_zero,Phius ZERO,Peak Heat Load,W/m2,22.0855783795,463
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,code_min,Code Min,Peak Cooling Load,W/m2,8.43898276432,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Cooling Load,W/m2,8.6019021381,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,ph_windows,PH Windows,Peak Cooling Load,W/m2,8.57098504714,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,shading,+ Shading,Peak Cooling Load,W/m2,7.34479171774,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,phius_core,Phius CORE,Peak Cooling Load,W/m2,7.34479171774,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,phius_zero,Phius ZERO,Peak Cooling Load,W/m2,7.34479171774,464
+certification_results,certification_results.pe_demand,PE Demand,code_min,Code Min,PE Demand,kWh/m2,126.048399071,465
+certification_results,certification_results.pe_demand,PE Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,PE Demand,kWh/m2,92.5403377128,465
+certification_results,certification_results.pe_demand,PE Demand,ph_windows,PH Windows,PE Demand,kWh/m2,76.8653678841,465
+certification_results,certification_results.pe_demand,PE Demand,shading,+ Shading,PE Demand,kWh/m2,74.3908548155,465
+certification_results,certification_results.pe_demand,PE Demand,phius_core,Phius CORE,PE Demand,kWh/m2,74.3908548155,465
+certification_results,certification_results.pe_demand,PE Demand,phius_zero,Phius ZERO,PE Demand,kWh/m2,74.3908548155,465
+certification_results,certification_results.per_demand,PER Demand,code_min,Code Min,PER Demand,kWh/m2,159.006658688,466
+certification_results,certification_results.per_demand,PER Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,PER Demand,kWh/m2,96.9758797448,466
+certification_results,certification_results.per_demand,PER Demand,ph_windows,PH Windows,PER Demand,kWh/m2,62.7913696916,466
+certification_results,certification_results.per_demand,PER Demand,shading,+ Shading,PER Demand,kWh/m2,61.0670235324,466
+certification_results,certification_results.per_demand,PER Demand,phius_core,Phius CORE,PER Demand,kWh/m2,61.0670235324,466
+certification_results,certification_results.per_demand,PER Demand,phius_zero,Phius ZERO,PER Demand,kWh/m2,61.0670235324,466
+airtightness,airtightness.nv_system,"nV,system",code_min,Code Min,nV system,%,0.331466523001,470
+airtightness,airtightness.nv_system,"nV,system",insulation_airtightness_erv,Insulation + Airtightness + ERV,nV system,%,0.331466523001,470
+airtightness,airtightness.nv_system,"nV,system",ph_windows,PH Windows,nV system,%,0.331466523001,470
+airtightness,airtightness.nv_system,"nV,system",shading,+ Shading,nV system,%,0.331466523001,470
+airtightness,airtightness.nv_system,"nV,system",phius_core,Phius CORE,nV system,%,0.331466523001,470
+airtightness,airtightness.nv_system,"nV,system",phius_zero,Phius ZERO,nV system,%,0.331466523001,470
+airtightness,airtightness.hhr,hHR,code_min,Code Min,hHR,%,0.611801279874,471
+airtightness,airtightness.hhr,hHR,insulation_airtightness_erv,Insulation + Airtightness + ERV,hHR,%,0.695563487147,471
+airtightness,airtightness.hhr,hHR,ph_windows,PH Windows,hHR,%,0.695563487147,471
+airtightness,airtightness.hhr,hHR,shading,+ Shading,hHR,%,0.695563487147,471
+airtightness,airtightness.hhr,hHR,phius_core,Phius CORE,hHR,%,0.695563487147,471
+airtightness,airtightness.hhr,hHR,phius_zero,Phius ZERO,hHR,%,0.695563487147,471
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",code_min,Code Min,Wind protection coefficient  e,,0.07,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",insulation_airtightness_erv,Insulation + Airtightness + ERV,Wind protection coefficient  e,,0.07,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",ph_windows,PH Windows,Wind protection coefficient  e,,0.07,472
@@ -725,12 +725,12 @@ airtightness,airtightness.vv,VV,ph_windows,PH Windows,VV,m3,1393.25,475
 airtightness,airtightness.vv,VV,shading,+ Shading,VV,m3,1393.25,475
 airtightness,airtightness.vv,VV,phius_core,Phius CORE,VV,m3,1393.25,475
 airtightness,airtightness.vv,VV,phius_zero,Phius ZERO,VV,m3,1393.25,475
-airtightness,airtightness.gt,Gt,code_min,Code Min,Gt,kFh/a,95.5031705625,476
-airtightness,airtightness.gt,Gt,insulation_airtightness_erv,Insulation + Airtightness + ERV,Gt,kFh/a,93.0689219741,476
-airtightness,airtightness.gt,Gt,ph_windows,PH Windows,Gt,kFh/a,91.5327948951,476
-airtightness,airtightness.gt,Gt,shading,+ Shading,Gt,kFh/a,91.4442643592,476
-airtightness,airtightness.gt,Gt,phius_core,Phius CORE,Gt,kFh/a,91.4442643592,476
-airtightness,airtightness.gt,Gt,phius_zero,Phius ZERO,Gt,kFh/a,91.4442643592,476
+airtightness,airtightness.gt,Gt,code_min,Code Min,Gt,kFh/a,95.4368464064,476
+airtightness,airtightness.gt,Gt,insulation_airtightness_erv,Insulation + Airtightness + ERV,Gt,kFh/a,92.9576815589,476
+airtightness,airtightness.gt,Gt,ph_windows,PH Windows,Gt,kFh/a,91.3894013945,476
+airtightness,airtightness.gt,Gt,shading,+ Shading,Gt,kFh/a,91.2992757694,476
+airtightness,airtightness.gt,Gt,phius_core,Phius CORE,Gt,kFh/a,91.2992757694,476
+airtightness,airtightness.gt,Gt,phius_zero,Phius ZERO,Gt,kFh/a,91.2992757694,476
 r_values,r_values.assembly_01,01ud-C1,code_min,Code Min,01ud-C1,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-C1,insulation_airtightness_erv,Insulation + Airtightness + ERV,01ud-C1,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-C1,ph_windows,PH Windows,01ud-C1,m2,#DIV/0!,480
@@ -761,60 +761,60 @@ r_values,r_values.assembly_05,05ud-R2,ph_windows,PH Windows,05ud-R2,m2,#DIV/0!,4
 r_values,r_values.assembly_05,05ud-R2,shading,+ Shading,05ud-R2,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-R2,phius_core,Phius CORE,05ud-R2,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-R2,phius_zero,Phius ZERO,05ud-R2,m2,#DIV/0!,484
-r_values,r_values.gt_a,Gt-A,code_min,Code Min,Gt-A,kFh/y,95.5031705625,490
-r_values,r_values.gt_a,Gt-A,insulation_airtightness_erv,Insulation + Airtightness + ERV,Gt-A,kFh/y,93.0689219741,490
-r_values,r_values.gt_a,Gt-A,ph_windows,PH Windows,Gt-A,kFh/y,91.5327948951,490
-r_values,r_values.gt_a,Gt-A,shading,+ Shading,Gt-A,kFh/y,91.4442643592,490
-r_values,r_values.gt_a,Gt-A,phius_core,Phius CORE,Gt-A,kFh/y,91.4442643592,490
-r_values,r_values.gt_a,Gt-A,phius_zero,Phius ZERO,Gt-A,kFh/y,91.4442643592,490
-r_values,r_values.gt_b,Gt-B,code_min,Code Min,Gt-B,kFh/y,31.1449953226,491
-r_values,r_values.gt_b,Gt-B,insulation_airtightness_erv,Insulation + Airtightness + ERV,Gt-B,kFh/y,54.6625609878,491
-r_values,r_values.gt_b,Gt-B,ph_windows,PH Windows,Gt-B,kFh/y,51.6970677654,491
-r_values,r_values.gt_b,Gt-B,shading,+ Shading,Gt-B,kFh/y,51.4650446029,491
-r_values,r_values.gt_b,Gt-B,phius_core,Phius CORE,Gt-B,kFh/y,51.4650446029,491
-r_values,r_values.gt_b,Gt-B,phius_zero,Phius ZERO,Gt-B,kFh/y,51.4650446029,491
+r_values,r_values.gt_a,Gt-A,code_min,Code Min,Gt-A,kFh/y,95.4368464064,490
+r_values,r_values.gt_a,Gt-A,insulation_airtightness_erv,Insulation + Airtightness + ERV,Gt-A,kFh/y,92.9576815589,490
+r_values,r_values.gt_a,Gt-A,ph_windows,PH Windows,Gt-A,kFh/y,91.3894013945,490
+r_values,r_values.gt_a,Gt-A,shading,+ Shading,Gt-A,kFh/y,91.2992757694,490
+r_values,r_values.gt_a,Gt-A,phius_core,Phius CORE,Gt-A,kFh/y,91.2992757694,490
+r_values,r_values.gt_a,Gt-A,phius_zero,Phius ZERO,Gt-A,kFh/y,91.2992757694,490
+r_values,r_values.gt_b,Gt-B,code_min,Code Min,Gt-B,kFh/y,31.1492184375,491
+r_values,r_values.gt_b,Gt-B,insulation_airtightness_erv,Insulation + Airtightness + ERV,Gt-B,kFh/y,54.7398685239,491
+r_values,r_values.gt_b,Gt-B,ph_windows,PH Windows,Gt-B,kFh/y,51.7752869951,491
+r_values,r_values.gt_b,Gt-B,shading,+ Shading,Gt-B,kFh/y,51.539455413,491
+r_values,r_values.gt_b,Gt-B,phius_core,Phius CORE,Gt-B,kFh/y,51.539455413,491
+r_values,r_values.gt_b,Gt-B,phius_zero,Phius ZERO,Gt-B,kFh/y,51.539455413,491
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,code_min,Code Min,Certification Compliant?,,-,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,insulation_airtightness_erv,Insulation + Airtightness + ERV,Certification Compliant?,,-,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,ph_windows,PH Windows,Certification Compliant?,,-,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,shading,+ Shading,Certification Compliant?,,-,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,phius_core,Phius CORE,Certification Compliant?,,-,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,phius_zero,Phius ZERO,Certification Compliant?,,-,493
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,code_min,Code Min,Peak Heat Load,Btuh,109432.488323,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Heat Load,Btuh,65505.9906662,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,ph_windows,PH Windows,Peak Heat Load,Btuh,43027.006878,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,shading,+ Shading,Peak Heat Load,Btuh,43041.6395022,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,phius_core,Phius CORE,Peak Heat Load,Btuh,43041.6395022,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,phius_zero,Phius ZERO,Peak Heat Load,Btuh,43041.6395022,497
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,code_min,Code Min,Peak Sensible Cooling Load,Btuh,15906.4470065,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Sensible Cooling Load,Btuh,16297.4001806,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,ph_windows,PH Windows,Peak Sensible Cooling Load,Btuh,16245.4830022,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,shading,+ Shading,Peak Sensible Cooling Load,Btuh,13913.1587932,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,phius_core,Phius CORE,Peak Sensible Cooling Load,Btuh,13913.1587932,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,phius_zero,Phius ZERO,Peak Sensible Cooling Load,Btuh,13913.1587932,498
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,code_min,Code Min,Peak Heat Load,Btuh,110160.822707,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Heat Load,Btuh,64466.6611396,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,ph_windows,PH Windows,Peak Heat Load,Btuh,41982.7778819,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,shading,+ Shading,Peak Heat Load,Btuh,41997.6429166,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,phius_core,Phius CORE,Peak Heat Load,Btuh,41997.6429166,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,phius_zero,Phius ZERO,Peak Heat Load,Btuh,41997.6429166,497
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,code_min,Code Min,Peak Sensible Cooling Load,Btuh,16047.457695,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Sensible Cooling Load,Btuh,16357.2630153,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,ph_windows,PH Windows,Peak Sensible Cooling Load,Btuh,16298.4714852,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,shading,+ Shading,Peak Sensible Cooling Load,Btuh,13966.7585135,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,phius_core,Phius CORE,Peak Sensible Cooling Load,Btuh,13966.7585135,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,phius_zero,Phius ZERO,Peak Sensible Cooling Load,Btuh,13966.7585135,498
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,code_min,Code Min,Peak Latent Cooling Load,Btuh,0,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,insulation_airtightness_erv,Insulation + Airtightness + ERV,Peak Latent Cooling Load,Btuh,0,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,ph_windows,PH Windows,Peak Latent Cooling Load,Btuh,0,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,shading,+ Shading,Peak Latent Cooling Load,Btuh,0,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,phius_core,Phius CORE,Peak Latent Cooling Load,Btuh,0,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,phius_zero,Phius ZERO,Peak Latent Cooling Load,Btuh,0,499
-co2e,co2e.heating,Heating,code_min,Code Min,Heating,tonsCO2e,11.2432036041,502
-co2e,co2e.heating,Heating,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating,tonsCO2e,6.51630433001,502
-co2e,co2e.heating,Heating,ph_windows,PH Windows,Heating,tonsCO2e,3.58369274837,502
-co2e,co2e.heating,Heating,shading,+ Shading,Heating,tonsCO2e,3.57499700327,502
-co2e,co2e.heating,Heating,phius_core,Phius CORE,Heating,tonsCO2e,3.57499700327,502
-co2e,co2e.heating,Heating,phius_zero,Phius ZERO,Heating,tonsCO2e,3.57499700327,502
-co2e,co2e.cooling,Cooling,code_min,Code Min,Cooling,tonsCO2e,2.38940664567,503
-co2e,co2e.cooling,Cooling,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling,tonsCO2e,1.98892135904,503
-co2e,co2e.cooling,Cooling,ph_windows,PH Windows,Cooling,tonsCO2e,2.23502522564,503
-co2e,co2e.cooling,Cooling,shading,+ Shading,Cooling,tonsCO2e,1.89248321338,503
-co2e,co2e.cooling,Cooling,phius_core,Phius CORE,Cooling,tonsCO2e,1.89248321338,503
-co2e,co2e.cooling,Cooling,phius_zero,Phius ZERO,Cooling,tonsCO2e,1.89248321338,503
-co2e,co2e.dhw,DHW,code_min,Code Min,DHW,tonsCO2e,0.749989631741,504
-co2e,co2e.dhw,DHW,insulation_airtightness_erv,Insulation + Airtightness + ERV,DHW,tonsCO2e,0.749989631741,504
-co2e,co2e.dhw,DHW,ph_windows,PH Windows,DHW,tonsCO2e,0.749989631741,504
-co2e,co2e.dhw,DHW,shading,+ Shading,DHW,tonsCO2e,0.749989631741,504
-co2e,co2e.dhw,DHW,phius_core,Phius CORE,DHW,tonsCO2e,0.749989631741,504
-co2e,co2e.dhw,DHW,phius_zero,Phius ZERO,DHW,tonsCO2e,0.749989631741,504
+co2e,co2e.heating,Heating,code_min,Code Min,Heating,tonsCO2e,10.0274814032,502
+co2e,co2e.heating,Heating,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating,tonsCO2e,5.61685610916,502
+co2e,co2e.heating,Heating,ph_windows,PH Windows,Heating,tonsCO2e,3.09430398191,502
+co2e,co2e.heating,Heating,shading,+ Shading,Heating,tonsCO2e,3.08704363399,502
+co2e,co2e.heating,Heating,phius_core,Phius CORE,Heating,tonsCO2e,3.08704363399,502
+co2e,co2e.heating,Heating,phius_zero,Phius ZERO,Heating,tonsCO2e,3.08704363399,502
+co2e,co2e.cooling,Cooling,code_min,Code Min,Cooling,tonsCO2e,2.46926997497,503
+co2e,co2e.cooling,Cooling,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling,tonsCO2e,2.04415741571,503
+co2e,co2e.cooling,Cooling,ph_windows,PH Windows,Cooling,tonsCO2e,2.30167077831,503
+co2e,co2e.cooling,Cooling,shading,+ Shading,Cooling,tonsCO2e,1.95332891189,503
+co2e,co2e.cooling,Cooling,phius_core,Phius CORE,Cooling,tonsCO2e,1.95332891189,503
+co2e,co2e.cooling,Cooling,phius_zero,Phius ZERO,Cooling,tonsCO2e,1.95332891189,503
+co2e,co2e.dhw,DHW,code_min,Code Min,DHW,tonsCO2e,0.858728532678,504
+co2e,co2e.dhw,DHW,insulation_airtightness_erv,Insulation + Airtightness + ERV,DHW,tonsCO2e,0.858728532678,504
+co2e,co2e.dhw,DHW,ph_windows,PH Windows,DHW,tonsCO2e,0.858728532678,504
+co2e,co2e.dhw,DHW,shading,+ Shading,DHW,tonsCO2e,0.858728532678,504
+co2e,co2e.dhw,DHW,phius_core,Phius CORE,DHW,tonsCO2e,0.858728532678,504
+co2e,co2e.dhw,DHW,phius_zero,Phius ZERO,DHW,tonsCO2e,0.858728532678,504
 co2e,co2e.dishwashing,Dishwashing,code_min,Code Min,Dishwashing,tonsCO2e,0.129660641006,505
 co2e,co2e.dishwashing,Dishwashing,insulation_airtightness_erv,Insulation + Airtightness + ERV,Dishwashing,tonsCO2e,0.129660641006,505
 co2e,co2e.dishwashing,Dishwashing,ph_windows,PH Windows,Dishwashing,tonsCO2e,0.129660641006,505
@@ -881,36 +881,36 @@ co2e,co2e.phius_mel,Phius MEL,ph_windows,PH Windows,Phius MEL,tonsCO2e,2.5818078
 co2e,co2e.phius_mel,Phius MEL,shading,+ Shading,Phius MEL,tonsCO2e,2.5818078163,515
 co2e,co2e.phius_mel,Phius MEL,phius_core,Phius CORE,Phius MEL,tonsCO2e,2.5818078163,515
 co2e,co2e.phius_mel,Phius MEL,phius_zero,Phius ZERO,Phius MEL,tonsCO2e,2.5818078163,515
-co2e,co2e.aux_elec,Aux Elec,code_min,Code Min,Aux Elec,tonsCO2e,0.407843517312,516
-co2e,co2e.aux_elec,Aux Elec,insulation_airtightness_erv,Insulation + Airtightness + ERV,Aux Elec,tonsCO2e,0.407843517312,516
-co2e,co2e.aux_elec,Aux Elec,ph_windows,PH Windows,Aux Elec,tonsCO2e,0.407843517312,516
-co2e,co2e.aux_elec,Aux Elec,shading,+ Shading,Aux Elec,tonsCO2e,0.407843517312,516
-co2e,co2e.aux_elec,Aux Elec,phius_core,Phius CORE,Aux Elec,tonsCO2e,0.407843517312,516
-co2e,co2e.aux_elec,Aux Elec,phius_zero,Phius ZERO,Aux Elec,tonsCO2e,0.407843517312,516
+co2e,co2e.aux_elec,Aux Elec,code_min,Code Min,Aux Elec,tonsCO2e,0.203921758656,516
+co2e,co2e.aux_elec,Aux Elec,insulation_airtightness_erv,Insulation + Airtightness + ERV,Aux Elec,tonsCO2e,0.203921758656,516
+co2e,co2e.aux_elec,Aux Elec,ph_windows,PH Windows,Aux Elec,tonsCO2e,0.203921758656,516
+co2e,co2e.aux_elec,Aux Elec,shading,+ Shading,Aux Elec,tonsCO2e,0.203921758656,516
+co2e,co2e.aux_elec,Aux Elec,phius_core,Phius CORE,Aux Elec,tonsCO2e,0.203921758656,516
+co2e,co2e.aux_elec,Aux Elec,phius_zero,Phius ZERO,Aux Elec,tonsCO2e,0.203921758656,516
 co2e,co2e.ipcc_limit,IPCC Limit,code_min,Code Min,IPCC Limit,tonsCO2e,6,517
 co2e,co2e.ipcc_limit,IPCC Limit,insulation_airtightness_erv,Insulation + Airtightness + ERV,IPCC Limit,tonsCO2e,6,517
 co2e,co2e.ipcc_limit,IPCC Limit,ph_windows,PH Windows,IPCC Limit,tonsCO2e,6,517
 co2e,co2e.ipcc_limit,IPCC Limit,shading,+ Shading,IPCC Limit,tonsCO2e,6,517
 co2e,co2e.ipcc_limit,IPCC Limit,phius_core,Phius CORE,IPCC Limit,tonsCO2e,6,517
 co2e,co2e.ipcc_limit,IPCC Limit,phius_zero,Phius ZERO,IPCC Limit,tonsCO2e,6,517
-primary_energy_renewable,primary_energy_renewable.heating,Heating,code_min,Code Min,Heating,kWh,42220.3685603,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating,kWh,24469.9624903,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,ph_windows,PH Windows,Heating,kWh,13457.44807,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,shading,+ Shading,Heating,kWh,13424.7938928,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,phius_core,Phius CORE,Heating,kWh,13424.7938928,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,phius_zero,Phius ZERO,Heating,kWh,13424.7938928,520
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,code_min,Code Min,Cooling,kWh,6211.85298969,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling,kWh,5170.69252852,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,5810.50034119,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,shading,+ Shading,Cooling,kWh,4919.97773936,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,phius_core,Phius CORE,Cooling,kWh,4919.97773936,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,phius_zero,Phius ZERO,Cooling,kWh,4919.97773936,521
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,code_min,Code Min,DHW,kWh,1805.35497,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,insulation_airtightness_erv,Insulation + Airtightness + ERV,DHW,kWh,1805.35497,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,ph_windows,PH Windows,DHW,kWh,1805.35497,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,shading,+ Shading,DHW,kWh,1805.35497,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,phius_core,Phius CORE,DHW,kWh,1805.35497,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,phius_zero,Phius ZERO,DHW,kWh,1805.35497,522
+primary_energy_renewable,primary_energy_renewable.heating,Heating,code_min,Code Min,Heating,kWh,75613.5409472,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heating,kWh,42148.9729837,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,ph_windows,PH Windows,Heating,kWh,22428.4759144,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,shading,+ Shading,Heating,kWh,22373.0985557,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,phius_core,Phius CORE,Heating,kWh,22373.0985557,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,phius_zero,Phius ZERO,Heating,kWh,22373.0985557,520
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,code_min,Code Min,Cooling,kWh,6419.47744815,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling,kWh,5314.2923065,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,ph_windows,PH Windows,Cooling,kWh,5983.76192324,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,shading,+ Shading,Cooling,kWh,5078.16116741,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,phius_core,Phius CORE,Cooling,kWh,5078.16116741,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,phius_zero,Phius ZERO,Cooling,kWh,5078.16116741,521
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,code_min,Code Min,DHW,kWh,2067.10834222,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,insulation_airtightness_erv,Insulation + Airtightness + ERV,DHW,kWh,2067.10834222,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,ph_windows,PH Windows,DHW,kWh,2067.10834222,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,shading,+ Shading,DHW,kWh,2067.10834222,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,phius_core,Phius CORE,DHW,kWh,2067.10834222,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,phius_zero,Phius ZERO,DHW,kWh,2067.10834222,522
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,code_min,Code Min,Dishwashing,kWh,299.631,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,insulation_airtightness_erv,Insulation + Airtightness + ERV,Dishwashing,kWh,299.631,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,ph_windows,PH Windows,Dishwashing,kWh,299.631,523
@@ -992,42 +992,42 @@ primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,phius_zero,P
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),code_min,Code Min,Envelope Air Leakage Rate (q50),cfm/ft2,0.173203674402,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),code_min,Code Min,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,code_min,Code Min,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,code_min,Code Min,Heat Demand,kWh/yr,58379.5703406,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,code_min,Code Min,Cooling Demand,kWh/yr,5866.04347109,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,code_min,Code Min,Total Primary Energy,kWh/yr,74372.1696462,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,code_min,Code Min,Total Site Energy,kWh/yr,36927.5916814,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,code_min,Code Min,Heat Demand,kWh/yr,58806.1704515,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,code_min,Code Min,Cooling Demand,kWh/yr,5954.26967115,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,code_min,Code Min,Total Primary Energy,kWh/yr,70206.4928023,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,code_min,Code Min,Total Site Energy,kWh/yr,56928.5782698,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),insulation_airtightness_erv,Insulation + Airtightness + ERV,Envelope Air Leakage Rate (q50),cfm/ft2,0.059986205901,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),insulation_airtightness_erv,Insulation + Airtightness + ERV,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heat Demand,kWh/yr,33438.3256156,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling Demand,kWh/yr,6339.34333293,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,insulation_airtightness_erv,Insulation + Airtightness + ERV,Total Primary Energy,kWh/yr,54485.9289841,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,insulation_airtightness_erv,Insulation + Airtightness + ERV,Total Site Energy,kWh/yr,27053.5893665,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Heat Demand,kWh/yr,32621.4291325,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,insulation_airtightness_erv,Insulation + Airtightness + ERV,Cooling Demand,kWh/yr,6444.11292637,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,insulation_airtightness_erv,Insulation + Airtightness + ERV,Total Primary Energy,kWh/yr,51532.4502073,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,insulation_airtightness_erv,Insulation + Airtightness + ERV,Total Site Energy,kWh/yr,37829.5996656,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),ph_windows,PH Windows,Envelope Air Leakage Rate (q50),cfm/ft2,0.059986205901,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),ph_windows,PH Windows,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,ph_windows,PH Windows,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,ph_windows,PH Windows,Heat Demand,kWh/yr,17495.1070212,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,ph_windows,PH Windows,Cooling Demand,kWh/yr,7636.20733431,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,ph_windows,PH Windows,Total Primary Energy,kWh/yr,44066.4766632,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,ph_windows,PH Windows,Total Site Energy,kWh/yr,21880.0777871,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,ph_windows,PH Windows,Heat Demand,kWh/yr,16745.2271784,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,ph_windows,PH Windows,Cooling Demand,kWh/yr,7800.4129081,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,ph_windows,PH Windows,Total Primary Energy,kWh/yr,42796.7895218,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,ph_windows,PH Windows,Total Site Energy,kWh/yr,27533.9574963,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),shading,+ Shading,Envelope Air Leakage Rate (q50),cfm/ft2,0.059986205901,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),shading,+ Shading,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,shading,+ Shading,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,shading,+ Shading,Heat Demand,kWh/yr,17450.9840929,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,shading,+ Shading,Cooling Demand,kWh/yr,5771.78578656,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,shading,+ Shading,Total Primary Energy,kWh/yr,42704.2229665,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,shading,+ Shading,Total Site Energy,kWh/yr,21203.6856835,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,shading,+ Shading,Heat Demand,kWh/yr,16701.6732373,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,shading,+ Shading,Cooling Demand,kWh/yr,5904.92713751,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,shading,+ Shading,Total Primary Energy,kWh/yr,41417.7433887,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,shading,+ Shading,Total Site Energy,kWh/yr,26832.8821965,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),phius_core,Phius CORE,Envelope Air Leakage Rate (q50),cfm/ft2,0.059986205901,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),phius_core,Phius CORE,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,phius_core,Phius CORE,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,phius_core,Phius CORE,Heat Demand,kWh/yr,17450.9840929,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,phius_core,Phius CORE,Cooling Demand,kWh/yr,5771.78578656,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,phius_core,Phius CORE,Total Primary Energy,kWh/yr,35912.0786104,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,phius_core,Phius CORE,Total Site Energy,kWh/yr,21203.6856835,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,phius_core,Phius CORE,Heat Demand,kWh/yr,16701.6732373,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,phius_core,Phius CORE,Cooling Demand,kWh/yr,5904.92713751,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,phius_core,Phius CORE,Total Primary Energy,kWh/yr,34277.9674893,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,phius_core,Phius CORE,Total Site Energy,kWh/yr,26832.8821965,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),phius_zero,Phius ZERO,Envelope Air Leakage Rate (q50),cfm/ft2,0.059986205901,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),phius_zero,Phius ZERO,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,phius_zero,Phius ZERO,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,phius_zero,Phius ZERO,Heat Demand,kWh/yr,17450.9840929,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,phius_zero,Phius ZERO,Cooling Demand,kWh/yr,5771.78578656,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,phius_zero,Phius ZERO,Total Primary Energy,kWh/yr,-4175.94473021,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,phius_zero,Phius ZERO,Total Site Energy,kWh/yr,21203.6856835,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,phius_zero,Phius ZERO,Heat Demand,kWh/yr,16701.6732373,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,phius_zero,Phius ZERO,Cooling Demand,kWh/yr,5904.92713751,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,phius_zero,Phius ZERO,Total Primary Energy,kWh/yr,-5462.42430801,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,phius_zero,Phius ZERO,Total Site Energy,kWh/yr,26832.8821965,

@@ -41,6 +41,10 @@ Phius sets the following conditions for fireplaces in a certified building:
   natural gas and propane.
 - **Airtight firebox with outdoor combustion air.** A wood stove or other biomass fireplace must have an airtight
   firebox, with all of its combustion air brought from outdoors through a dedicated, sealed duct.
+- **Counted in the energy model.** Phius treats a wood stove as a heat source. By default it is modeled as supplying
+  25% of the home's heating at 60% efficiency, and we read this as applying to a sealed wood-burning fireplace or
+  insert as well. Every variant in this report includes it. If an electric fireplace is chosen, we will take it out
+  of the model.
 - **Carbon monoxide detectors** placed so that they can be heard throughout the house. Phius also recommends
   depressurization sensors, since a failed ventilation fan can pull the house negative and draw combustion gases
   into the home even with a sealed stove.
@@ -106,8 +110,9 @@ If a woodstove is used, the ventilation controls should be designed so that:
 #### Commissioning and testing
 
 Whether or not certification is pursued, the ventilation system must be commissioned and tested to ensure safe operation. 
-At the blower-door test, have the technician also measure the pressure in the stove room with the range hood, ERVs and
-all other exhaust devices at their highest settings and the fire lit. This follows the German "4 Pa test" (DVGW G 625)
+Plan a stove-room pressure test for the same site visit as the final blower-door test. It is a separate test, done
+with the blower door off: the technician measures the pressure in the stove room relative to outdoors with the fire
+lit and the range hood, ERVs and all other exhaust devices at their highest settings. This follows the German "4 Pa test" (DVGW G 625)
 that chimney inspectors use. The room should stay within 4 Pa of outdoors with the pressure switch (and any makeup
 air) working as designed. The 4 Pa limit is conservative, and does not rely on the stove's own airtightness.
 Also confirm that the pressure switch shuts down the fans at its trip point, including when the sensor is

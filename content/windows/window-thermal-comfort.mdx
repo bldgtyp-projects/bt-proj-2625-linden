@@ -19,23 +19,27 @@ beneath the window.
 Phius sets a maximum difference between the indoor air temperature and the inside surface of the window on a design
 winter day. The taller the window, the stronger the cold downdraft it creates, so the allowed difference shrinks as
 the height from the floor to the head of the window increases. For this site's design conditions [ an ASHRAE 99%
-design temperature of 5.5°F (-14.7°C) ], the Phius criterion gives a maximum whole-window U-value of about
+design temperature of 9.4°F (-12.6°C) for Boulder ], the Phius criterion gives a maximum whole-window U-value of about
 <Var k="narrative.windows.comfort_target_u_value" /> Btu/hr-ft2-F [ R-<Var k="narrative.windows.comfort_target_r_value" /> ]
-for a window with its head 8 ft above the floor, about 0.16 for a 10 ft head, and about 0.13 for a window whose head
+for a window with its head 8 ft above the floor, about 0.17 for a 10 ft head, and about 0.14 for a window whose head
 is about 12 ft or more above the floor, as in a double-height space. Phius checks each individual pane separately,
 using the floor-to-head height of that pane, so the upper panes of tall window assemblies set the requirement.
 Phius also requires a check that the glass and frames will not have condensation on them in winter.
 
-The code-minimum windows in the first two variants (installed U-value of approximately 0.29 Btu/hr-ft2-F) do not meet
-this criterion. The best-in-class windows in the PH Windows and later variants (installed U-value of approximately
-<Var k="narrative.windows.ph_window_u_value" /> Btu/hr-ft2-F) meet it for windows with heads up to about 11 ft above
-the floor.
+Phius makes this check with each window's whole-window U-value: either the product's rated value at the standard NFRC
+size, or a value calculated for the actual window size. This is not quite the same number as the installed U-values
+used in the energy model, which also include the heat lost where the frame meets the wall. A window's whole-window
+U-value is therefore slightly lower than its installed U-value.
 
-The clerestory windows, with heads about 13.5 ft above the finished floor, fall under the strictest part of the criterion and
-need a whole-window U-value of about 0.13 Btu/hr-ft2-F or lower, slightly better than the 0.14 assumed for the windows
-overall. We recommend specifying the clerestory units to meet this, either with a higher-performance glass package or
-by confirming that the selected product's rated whole-window U-value (at the standard NFRC size, which Phius accepts)
-is 0.13 or lower. Phius also allows perimeter heating within 3 ft of the window as an alternative, but this is not
+The code-minimum windows in the first two variants (installed U-value of approximately 0.29 Btu/hr-ft2-F) do not meet
+this criterion for any full-height window. The best-in-class windows in the PH Windows and later variants (installed
+U-value of approximately <Var k="narrative.windows.ph_window_u_value" /> Btu/hr-ft2-F) meet it at every window height
+in the house.
+
+The clerestory windows, with heads about 13.5 ft above the finished floor, fall under the strictest part of the
+criterion and need a whole-window U-value of about 0.14 Btu/hr-ft2-F or lower. The windows assumed in the model meet
+this, but with no room to spare, so we recommend confirming the selected product's rated whole-window U-value for
+the clerestory units before ordering. Phius also allows perimeter heating within 3 ft of the window as an alternative, but this is not
 practical for windows this high. Windows in spaces that are not regularly occupied, such as a stair or hallway used
 only in passing, are exempt from the criterion, so the requirement applies only to clerestories in rooms where people
 spend time.

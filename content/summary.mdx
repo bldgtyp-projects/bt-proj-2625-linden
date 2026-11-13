@@ -5,10 +5,10 @@ dek: "Design-phase energy assessment for the new home."
 callout_label: "The headline recommendation"
 callout_body: >-
   Build to the Phius ZERO variant and pursue Phius ZERO 2024 certification: best-in-class triple-pane windows,
-  approximately R-30 basement walls and slab, approximately R-76 at the flat roof, exterior shading on the upper west
+  approximately R-44 walls, approximately R-30 basement walls and slab, approximately R-65 at the flat roof, exterior shading on the upper west
   and south windows, two high-efficiency ERVs, airtightness of 0.06 cfm50/ft² of envelope (about 1.0 ACH50), and solar
-  panels producing about 23,300 kWh/yr. The design meets every Phius heating and cooling limit; the tightest is
-  the heating demand, at about a 9% margin, so check design changes against the energy model as the design develops.
+  panels producing about 23,300 kWh/yr, which includes some margin. The design meets every Phius heating and cooling limit; the tightest is
+  the heating demand, at about a 6% margin, so check design changes against the energy model as the design develops.
 hero_image: "/assets/cover/hero.optimized.png"
 hero_image_full: "/assets/cover/hero.full.png"
 hero_alt: "Isometric line rendering of the proposed building massing."
@@ -21,15 +21,16 @@ model was built from the drawings and models received on
 inside about 19,300 ft² of thermal envelope.
 
 We tested six _variants_, from a Boulder energy code baseline up to a Phius ZERO building. **We recommend the Phius
-ZERO variant**; the others show what each step contributes. The Phius CORE and Phius ZERO variants are the same
+ZERO variant**; the others show what each step contributes. Every variant includes a room-sealed wood stove,
+modeled as Phius requires (see [Fireplaces](/mechanical/#fireplaces)). The Phius CORE and Phius ZERO variants are the same
 building and differ only in the size of the solar array. The findings below drive the recommendations in the pages
 that follow.
 
 #### What the results show
 
 1. **Insulation, airtightness, and the ERV are the foundation.** Together, the added insulation, tightening the
-   building from 3.0 to about 1.0 ACH50, and a high-efficiency ERV cut the heating demand by about 25,000 kWh/yr and
-   total energy use by about a quarter compared with the code baseline (from about 36,900 to 27,100 kWh/yr). The
+   building from 3.0 to about 1.0 ACH50, and a high-efficiency ERV cut the heating demand by about 26,200 kWh/yr and
+   total energy use by about a third compared with the code baseline (from about 56,900 to 37,800 kWh/yr). The
    airtightness and ERV steps have low material costs, but both need careful detailing and must be written into the
    construction documents.
 
@@ -43,15 +44,17 @@ that follow.
    [Summer Radiation](/windows/#summer-radiation).
 
 4. **The Phius heating and cooling limits are met with margin.** The recommended building reaches a heating demand
-   of about 9.9 kBtu/ft² per year against a Phius limit of 10.9, and a peak heating load of about 43 kBtu/h (about
-   3.6 tons) against a limit of about 56 kBtu/h, a size a small residential heat pump system can handle easily.
-   Cooling demand and peak cooling load are well within their limits. Compared with the code baseline, it uses about
-   43% less energy (about 21,200 kWh/yr).
+   of about 9.5 kBtu/ft² per year against a Phius limit of 10.5 (9.9 in the WUFI Passive certification model), and a
+   peak heating load of about 42 kBtu/h (about 3.5 tons) against a limit of about 46 kBtu/h. The 42 kBtu/h figure gives a sense of the heating equipment
+   required; the mechanical designer's load calculation will set the final sizes. Cooling demand and peak cooling
+   load are within their limits. The building's total energy use is about 26,800 kWh/yr, about 53% less than
+   the code baseline.
 
 5. **Solar is needed to meet the Phius source energy limit.** Without solar panels, the building's source energy is
-   about 7,100 kWh per person per year, about 9% over the Phius CORE limit of 6,550. Solar panels producing about
-   3,700 kWh/yr bring it to about 6,000 and meet Phius CORE. Panels producing about 23,300 kWh/yr offset all of the
-   building's modeled source energy and meet Phius ZERO.
+   about 6,900 kWh per person per year, about 5% over the Phius CORE limit of 6,550. Solar panels producing about
+   3,700 kWh/yr bring it to about 5,700 and meet Phius CORE. Panels producing about 23,300 kWh/yr offset all of the
+   building's modeled source energy and meet Phius ZERO. Both solar figures include margin: the calculated minimums
+   are about 1,100 kWh/yr for Phius CORE and about 20,600 kWh/yr for Phius ZERO.
 
    These are certification targets, not a forecast of the home's actual energy use. The Phius calculation uses
    standard assumptions for occupancy and typical household energy use, such as appliances, lighting, and
@@ -67,18 +70,19 @@ that follow.
 - Specify **best-in-class triple-pane windows** at an installed U-value of about 0.14 Btu/hr·ft²·°F, with
   non-metallic flashings and carefully developed installation details. See
   [Window Installation](/windows/#window-installation).
-- Specify the **clerestory windows** at a whole-window U-value of about 0.13 Btu/hr·ft²·°F or lower to meet the Phius
-  window comfort requirement for their height. See [Window Thermal Comfort](/windows/#window-thermal-comfort).
-- Increase the **basement wall and slab insulation** to about R-30 and the **flat roof** to about R-76, as shown in
+- Confirm that the **clerestory windows** have a rated whole-window U-value of about 0.14 Btu/hr·ft²·°F or lower, to
+  meet the Phius window comfort requirement for their height. See [Window Thermal Comfort](/windows/#window-thermal-comfort).
+- Increase the **wall insulation** to about R-44 with 3" of exterior mineral wool and an insulated 3-1/2" service
+  cavity, increase the **basement wall and slab insulation** to about R-30, and rebuild the **flat roof** at about R-65 with 4" of polyiso above the roof deck, as shown in
   the [Recommended Assemblies](/building_envelope/#recommended-assemblies).
 - Meet the Phius airtightness limit of **0.06 cfm50/ft² of envelope** (about 1.0 ACH50 for this building), and aim
   tighter for margin. Test mid-construction while the air barrier is still accessible. See
   [Building Airtightness](/building_envelope/#building-airtightness).
-- Plan **two dedicated ERVs** with their own ducting (about 230 cfm normal, 300 cfm boost in total), each with an
+- Plan **two dedicated ERVs** with their own ducting (about 270 cfm normal, 355 cfm boost in total), each with an
   added frost-protection preheater. See [Mechanical](/mechanical/).
 - Add **exterior shading** to the upper west and south windows.
-- Plan for **solar panels producing at least about 23,300 kWh/yr** for Phius ZERO (about 3,700 kWh/yr for Phius
-  CORE). A solar contractor should size the system for the panels they would install, taking into account the
+- Plan for **solar panels producing about 23,300 kWh/yr** for Phius ZERO (about 3,700 kWh/yr for Phius CORE). Both
+  figures include margin over the calculated minimums of about 20,600 and 1,100 kWh/yr. A solar contractor should size the system for the panels they would install, taking into account the
   roof orientations, shading, and any loads beyond the certification calculation. Final equipment selections, such
   as the heat pumps, water heater, ERVs, and appliances, will change the calculated requirement, so the solar system
   should not be finalized until the energy model is finalized.

@@ -50,21 +50,21 @@ narrative:
     enph_ag_ext_limit: null
     enph_ag_int_limit: null
     enph_uw_limit: null
-    phius_hd_limit: '10.9'
-    phius_cd_limit: '7.7'
-    phius_hl_limit: '9.4'
-    phius_cl_limit: '3.5'
+    phius_hd_limit: '10.5'
+    phius_cd_limit: '7.8'
+    phius_hl_limit: '7.7'
+    phius_cl_limit: '3.0'
     phius_nse_limit: '6550'
     phius_cfm50_limit: '0.06'
   climate:
-    weather_station_name: 'Fort Collins (AWOS) :: 724769 :: Phius climate data (WUFI Passive)'
-    weather_station_url: https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/CO/USA_CO_Fort.Collins.AWOS.724769_TMY3/USA_CO_Fort.Collins.AWOS.724769_TMY3.zip
+    weather_station_name: 'Broomfield/Jeffco [Boulder - SURFRAD] :: 724699 :: Phius climate data (WUFI Passive)'
+    weather_station_url: https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/CO/USA_CO_Boulder-Broomfield-Jefferson.County.AP.724699_TMY3/USA_CO_Boulder-Broomfield-Jefferson.County.AP.724699_TMY3.zip
     state_name: Colorado
     state_name_abbreviation: CO
     ashrae_location_name: Zone 5(B)
-    ashrae_design_temps: "-2.4\xB0F (-19.1\xB0C)"
-    ashrae_winter_design_temp_F: '-2.4'
-    ashrae_winter_design_temp_C: '-19.1'
+    ashrae_design_temps: "3.3\xB0F (-15.9\xB0C)"
+    ashrae_winter_design_temp_F: '3.3'
+    ashrae_winter_design_temp_C: '-15.9'
   energy_code:
     name: 2024 City of Boulder Energy Conservation Code
     zone: Zone 5(B)
@@ -84,8 +84,8 @@ narrative:
   windows:
     ph_window_u_value: '0.14'
     ph_window_r_value: '7.4'
-    comfort_target_r_value: '5.3'
-    comfort_target_u_value: '0.19'
+    comfort_target_r_value: '5.0'
+    comfort_target_u_value: '0.20'
   mechanical:
     erv:
       manufacturer_name: Brink Climate Systems

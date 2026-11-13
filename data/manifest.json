@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "phpp_version": "10.6",
-  "generated_at": "2026-11-12T22:46:01.014376Z",
+  "generated_at": "2026-11-13T15:36:43.665129Z",
   "generator": "btwr@0.0.1",
   "status": "ok",
   "variants": [
@@ -57,7 +57,7 @@
   "recommended_variant_id": "phius_zero",
   "source_workbook": {
     "path": "/Users/johnmitchell/Dropbox/bldgtyp/2625 2500 Linden/07_PHPP/2625 2500 Linden_Phius.xlsx",
-    "sha256": "c02a1fef312be7900db6a50db32a91c9c2f133cf3b382e1ffb1f5b5e18723070",
-    "size_bytes": 13026204
+    "sha256": "ae73f3a8c49767d5a0a13fc71d80df455a2e886c415d9e98ec7415f61308754b",
+    "size_bytes": 13032297
   }
 }
